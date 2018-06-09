@@ -8,7 +8,6 @@ client.channels.get('451866194559893504').send('لا إله الا الله, س�
   
 	      var interval1 = setInterval (function () {
   client.channels.get('451866194559893504').send('#daily');
-client.channels.get('451866194559893504').send('t!rep <@215251553538408458>');
   client.channels.get('451866194559893504').send('#rep <@215251553538408458>');  
 		  }, 86800000);
   
