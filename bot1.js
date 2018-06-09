@@ -2,15 +2,14 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 client.on("ready", () => {
-client.channels.get('451866194559893504').send('t!rep <@448675703018487819>');
 	      var interval = setInterval (function () {
 client.channels.get('451866194559893504').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
 		  }, 120000);
-  	      var interval1 = setInterval (function () {
-client.channels.get('451866194559893504').send('t!daily <@448675703018487819>');
+	      var interval1 = setInterval (function () {
+client.channels.get('451866194559893504').send('t!daily <@215251553538408458>');
   client.channels.get('451866194559893504').send('#daily');
-client.channels.get('451866194559893504').send('t!rep <@448675703018487819>');
-  client.channels.get('451866194559893504').send('#rep <@448675703018487819>');  
+client.channels.get('451866194559893504').send('t!rep <@215251553538408458>');
+  client.channels.get('451866194559893504').send('#rep <@215251553538408458>');  
 		  }, 86800000);
 });
 client.login(process.env.BOT_TOKENN);
