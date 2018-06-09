@@ -5,12 +5,12 @@
   "main": [
     "bot.js",
     "bot1.js"
-    ],
+    ]
   "scripts": {
     "start": [
       "node bot.js",
       "node bot1.js"
-      ],
+      ]
   },
   "dependencies": {
     "discord.js": "11.1.0",
