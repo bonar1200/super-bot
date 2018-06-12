@@ -27,7 +27,7 @@ message.reply(`**سوف يتم ارسال قائمة المساعدة في رس�
                 .addField("**تكلم**", "**الاستخدام** ``لفك الميوت الكتابي``")
               .setColor('RANDOM')
 .setColor('RANDOM')
-  message.author.send(embed);
+  message.author.sendEmbed(embed);
 }
     }
 });
