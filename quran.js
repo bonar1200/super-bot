@@ -1,18 +1,5 @@
-const { Client, Util } = require('discord.js');
-const moment = require('moment');
-const ytdl = require('ytdl-core');
-const prefix = '!';
-const YouTube = require('simple-youtube-api');
-const ms = require("ms");
 const Discord = require("discord.js");
-
-
-const client = new Client({ disableEveryone: true });
-
-
-const youtube = new YouTube('AIzaSyCv1YSWJqWbBIvAd2fFOzBl72uwDuNizhg');
-
-const queue = new Map();
+const client = new Discord.Client();
 client.on('message', message => {
 if (message.content.startsWith(prefix + 'help')) {
 message.reply(`**سوف يتم ارسال قائمة المساعدة في رسالة خاصة **`); {
@@ -39,9 +26,9 @@ message.reply(`**سوف يتم ارسال قائمة المساعدة في رس�
                 .addField("**تكلم**", "**الاستخدام** ``لفك الميوت الكتابي``")
               .setColor('RANDOM')
 .setColor('RANDOM')
-  message.author.sendEmbed(embed);
+  message.author.send(embed);
 }
     }
 });
 
-client.login('NDU1NTkzNjE2MzY3Mjg4MzQw.Df-QNw.D3hadPBOR0zr6oaHCLlcEbQGCC8');
+client.login(process.env.BOT_QURAN);
