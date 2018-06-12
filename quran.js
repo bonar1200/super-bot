@@ -1,4 +1,5 @@
 const Discord = require("discord.js");
+const prefix = '!';
 const client = new Discord.Client();
 client.on('message', message => {
 if (message.content.startsWith(prefix + 'help')) {
