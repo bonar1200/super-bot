@@ -9,8 +9,8 @@
   "scripts": {
     "start": [
       "node bot.js",
-      "node bot1.js",
-      "node quran.js"
+      "node quran.js",
+      "node bot1.js"
       ]
   },
   "dependencies": {
