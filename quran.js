@@ -31,4 +31,4 @@ client.on('message', message => {
 });
 
 });
-client.login('NDU1NTkzNjE2MzY3Mjg4MzQw.Df-QNw.D3hadPBOR0zr6oaHCLlcEbQGCC8');
+client.login(process.env.BOT_QURAN);
