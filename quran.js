@@ -13,6 +13,7 @@ const client = new Client({ disableEveryone: true });
 const youtube = new YouTube('AIzaSyCv1YSWJqWbBIvAd2fFOzBl72uwDuNizhg');
 
 const queue = new Map();
+client.on('message', message => {
 
 if(message.content === "!قران")
   return message.reply("**أوامر بوت القرآن:\nقران1: القرآن الكريم كامل بوت الشيخ عبدالباسط عبدالصمد\nقران2: القرآن الكريم كامل بصوت الشيخ ماهر المعيقلي**")
@@ -40,5 +41,6 @@ client.on('message', message => {
             }
 });
 
+});
 
 client.login(process.env.BOT_QURAN);
