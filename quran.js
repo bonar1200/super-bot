@@ -1,18 +1,12 @@
-const { Client, Util } = require('discord.js');
-const moment = require('moment');
+const Discord = require("discord.js");
+const client = new Discord.Client();const moment = require('moment');
 const ytdl = require('ytdl-core');
 const prefix = 'r!';
 const YouTube = require('simple-youtube-api');
 const ms = require("ms");
-const Discord = require("discord.js");
 
 
-const client = new Client({ disableEveryone: true });
 
-
-const youtube = new YouTube('AIzaSyCv1YSWJqWbBIvAd2fFOzBl72uwDuNizhg');
-
-const queue = new Map();
 client.on('message', message => {
 
 if(message.content === "!قران")
@@ -20,11 +14,11 @@ if(message.content === "!قران")
 
 client.on('message', message => {
   if (message.content.startsWith('قران1')) {
-    const voiceChannel = message.member.voiceChannel;
+    let voiceChannel = message.member.voiceChannel;
     voiceChannel.join()
       .then(connnection => {
-        const stream = ytdl("https://www.youtube.com/watch?v=vqXLGtZcUm8", { filter: 'audioonly' });
-        const dispatcher = connnection.playStream(stream);
+        let stream = ytdl("https://www.youtube.com/watch?v=vqXLGtZcUm8", { filter: 'audioonly' });
+        let dispatcher = connnection.playStream(stream);
                 dispatcher.on('end', () => voiceChannel.leave());
 
       });
@@ -34,8 +28,8 @@ client.on('message', message => {
     const voiceChannel = message.member.voiceChannel;
     voiceChannel.join()
       .then(connnection => {
-        const stream = ytdl("https://www.youtube.com/watch?v=wwMyn8a_puQ", { filter: 'audioonly' });
-        const dispatcher = connnection.playStream(stream);
+        let stream = ytdl("https://www.youtube.com/watch?v=wwMyn8a_puQ", { filter: 'audioonly' });
+        let dispatcher = connnection.playStream(stream);
                 dispatcher.on('end', () => voiceChannel.leave());
     });
             }
