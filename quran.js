@@ -10,7 +10,6 @@ if(message.content === "!قران") {
   return message.reply("**أوامر بوت القرآن:\nقران1: القرآن الكريم كامل بوت الشيخ عبدالباسط عبدالصمد\nقران2: القرآن الكريم كامل بصوت الشيخ ماهر المعيقلي**")
 }
   if (message.content.startsWith('قران1')) {
-        message.react('??')}  return;
     const stram0ptions = { seek: 0, volume: 100};  
     const broadcast = 
 clien.createVoiceBroadcast();
