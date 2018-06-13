@@ -1,3 +1,6 @@
+const { Client, Util } = require('discord.js');
+const moment = require('moment');
+const ytdl = require('ytdl-core');
 const prefix = '!';
 const YouTube = require('simple-youtube-api');
 const ms = require("ms");
