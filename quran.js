@@ -5,7 +5,7 @@ const prefix = '!';
 const YouTube = require('simple-youtube-api');
 const ms = require("ms");
 const Discord = require("discord.js");
-
+var opus = require('opusscript');
 
 const client = new Client({ disableEveryone: true });
 
