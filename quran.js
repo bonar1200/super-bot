@@ -32,7 +32,7 @@ message.gulid.member(message.author).voiceChannel.join()
                 dispatcher.on('end', () => voiceChannel.leave());
     });
             }
-});
+}
 });
 
 client.login(process.env.BOT_QURAN);
