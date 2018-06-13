@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "main": [
     "bot.js",
-    "bot1.js"
+    "bot1.js",
+    "quran.js"
     ],
   "scripts": {
     "start": [
