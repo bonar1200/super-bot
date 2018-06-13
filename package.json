@@ -18,7 +18,8 @@
     "request": "2.81.0",
     "ytdl-core": "0.20.4",
     "simple-youtube-api": "5.0.2",
-    "ms": "2.1.1"
+    "ms": "2.1.1",
+    "moment": "2.22.2"
   }
 }
 
