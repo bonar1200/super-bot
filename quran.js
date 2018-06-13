@@ -12,7 +12,7 @@ if(message.content === "!قران") {
   if (message.content.startsWith('قران1')) {
     const stram0ptions = { seek: 0, volume: 100};  
     const broadcast = 
-clien.createVoiceBroadcast();
+client.createVoiceBroadcast();
 
 
 
