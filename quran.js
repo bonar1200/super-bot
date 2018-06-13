@@ -33,6 +33,6 @@ message.gulid.member(message.author).voiceChannel.join()
     });
             }
 });
-
+});
 
 client.login(process.env.BOT_QURAN);
