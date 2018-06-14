@@ -9,7 +9,8 @@
     "bot2.js",
     "bot3.js",
     "bot4.js",
-    "bot5.js"
+    "bot5.js",
+    "help.js"
     ],
   "scripts": {
     "start": [
@@ -19,7 +20,8 @@
       "node bot2.js",
       "node bot3.js",
       "node bot4.js",
-      "node bot5.js"
+      "node bot5.js",
+      "node help.js"
       ]
   },
   "dependencies": {
