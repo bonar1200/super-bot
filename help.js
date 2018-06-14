@@ -12,9 +12,20 @@ const client = new Client({ disableEveryone: true });
 
 const youtube = new YouTube('AIzaSyCv1YSWJqWbBIvAd2fFOzBl72uwDuNizhg');
 
+client.on("ready", () => {
+  console.log("I am ready!");
+  var game = {name: "with code"};
+  client.user.setGame('Recrownd | !help admin');
+  client.user.setStatus('dnd');
+
+});
+
 const queue = new Map();
 client.on('message', message => {
-if (message.content.startsWith(prefix + 'help')) {
+if (message.content.startsWith(prefix + 'help admin')) {
+        if (!message.guild.member(message.author).hasPermission('MOVE_MEMBERS') || !message.guild.member(message.author).hasPermission('ADMINISTRATOR') || !message.guild.member(message.author).hasPermission('MANAGA_ROLES') || !message.guild.member(message.author).hasPermission('ADMINISTRATOR') || !message.guild.member(message.author).hasPermission('MANAGE_MESSAGES') || !message.guild.member(message.author).hasPermission('MANAGE_CHANNELS') || !message.guild.member(message.author).hasPermission('MANAGE_NICKNAMES') || !message.guild.member(message.author).hasPermission('BAN_MEMBERS') || !message.guild.member(message.author).hasPermission('KICK_MEMBERS') || !message.guild.member(message.author).hasPermission('DEAFEAN_MEMBERS') || !message.guild.member(message.author).hasPermission('MUTE_MEMBERS') || !message.guild.member(message.author).hasPermission('MANAGE_EMOJIS')) {
+            return message.reply("** عفوًا, لايمكنك أستخدام هذا البوت لإنك لست من إدارة السيرفر **");
+        }
 message.reply(`**سوف يتم ارسال قائمة المساعدة في رسالة خاصة **`); {
   
               var embed  = new Discord.RichEmbed()
