@@ -1,7 +1,7 @@
 const { Client, Util } = require('discord.js');
 const moment = require('moment');
 const ytdl = require('ytdl-core');
-const prefix = 'r!';
+const prefix = '!';
 const YouTube = require('simple-youtube-api');
 const ms = require("ms");
 const Discord = require("discord.js");
@@ -63,8 +63,8 @@ client.on('message', async message => {
     .addField('الأمر:', 'اسكت')
     .addField('على:', `${tomute.username}#${tomute.discriminator} (${tomute.id})`)
     .addField('من:', `${message.author.username}#${message.author.discriminator}`)
-    .addField('المدة:', `${ms(ms(mutetime))}`)
-    .addField('السبب:', mutereason);
+    .addField('السبب:', mutereason)
+    .addField('المدة:', `${ms(ms(mutetime))}`);
         message.guild.channels.find('name', 'log1').send(embed)  
     setTimeout(function(){
     tomute.removeRole(muterole.id);
