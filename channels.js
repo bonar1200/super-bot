@@ -81,7 +81,7 @@ client.on('message', message => {
            if (message.content.startsWith("!addvoice")) {
              if(!message.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
                        if (!message.member.hasPermission('MANAGE_CHANNELS')) return message.reply("**انت لا تمتلك صلاحيه `MANAGE_CHANNELS`**");
-                  let args = message.content.split(" ").slice(9).join(" ")
+                  let args = message.content.split(" ").slice(1).join(" ")
                  if (!args[1] || args[1 == " "]) return message.reply("**يرجى كتابته اسم الروم الصوتي**")
                message.guild.createChannel(args, 'voice');
                message.channel.sendMessage(`**✅ تـم إنـشـاء روم صـوتي بـأسـم {  ${args}  }**`)
