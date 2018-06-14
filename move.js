@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const moment = require('moment');
 const ytdl = require('ytdl-core');
-const prefix = '!!';
+const prefix = '!';
 const YouTube = require('simple-youtube-api');
 const ms = require("ms");
 
