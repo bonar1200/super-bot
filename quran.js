@@ -38,7 +38,7 @@ client.on('message', async msg => { // eslint-disable-line
 	command = command.slice(prefix.length)
 
 	if (command === 'play') {
-             if(!message.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
+             if(!msg.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
 		const voiceChannel = msg.member.voiceChannel;
 		if (!voiceChannel) return msg.channel.send('I\'m sorry but you need to be in a voice channel to play music!');
 		const permissions = voiceChannel.permissionsFor(msg.client.user);
@@ -90,14 +90,14 @@ Please provide a value to select one of the search results ranging from 1-10.
 			return handleVideo(video, msg, voiceChannel);
 		}
 	} else if (command === 'skip') {
-             if(!message.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
+             if(!msg.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
 
 		if (!msg.member.voiceChannel) return msg.channel.send('You are not in a voice channel!');
 		if (!serverQueue) return msg.channel.send('There is nothing playing that I could skip for you.');
 		serverQueue.connection.dispatcher.end('Skip command has been used!');
 		return undefined;
 	} else if (command === 'stop') {
-             if(!message.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
+             if(!msg.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
 
 		if (!msg.member.voiceChannel) return msg.channel.send('You are not in a voice channel!');
 		if (!serverQueue) return msg.channel.send('There is nothing playing that I could stop for you.');
@@ -105,7 +105,7 @@ Please provide a value to select one of the search results ranging from 1-10.
 		serverQueue.connection.dispatcher.end('Stop command has been used!');
 		return undefined;
 	} else if (command === 'volume') {
-             if(!message.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
+             if(!msg.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
 
 		if (!msg.member.voiceChannel) return msg.channel.send('You are not in a voice channel!');
 		if (!serverQueue) return msg.channel.send('There is nothing playing.');
@@ -118,7 +118,7 @@ Please provide a value to select one of the search results ranging from 1-10.
 		if (!serverQueue) return msg.channel.send('There is nothing playing.');
 		return msg.channel.send(` Now playing: **${serverQueue.songs[0].title}**`);
 	} else if (command === 'queue') {
-             if(!message.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
+             if(!msg.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
 
 		if (!serverQueue) return msg.channel.send('There is nothing playing.');
 		return msg.channel.send(`
@@ -127,6 +127,8 @@ ${serverQueue.songs.map(song => `**-** ${song.title}`).join('\n')}
 **Now playing:** ${serverQueue.songs[0].title}
 		`);
 	} else if (command === 'pause') {
+		             if(!msg.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
+
 		if (serverQueue && serverQueue.playing) {
 			serverQueue.playing = false;
 			serverQueue.connection.dispatcher.pause();
@@ -134,6 +136,8 @@ ${serverQueue.songs.map(song => `**-** ${song.title}`).join('\n')}
 		}
 		return msg.channel.send('There is nothing playing.');
 	} else if (command === 'resume') {
+		             if(!msg.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
+
 		if (serverQueue && !serverQueue.playing) {
 			serverQueue.playing = true;
 			serverQueue.connection.dispatcher.resume();
