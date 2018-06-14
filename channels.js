@@ -32,7 +32,7 @@ client.on('message', message => {
     if(message.member.hasPermission("MANAGE_MESSAGES")) {
     if (textxt === "") {
         message.delete().then
-    message.channel.send("ضع عدد الرسائل التي تريد مسحها ").then(m => m.delete(3000));
+    message.channel.send("**ضع عدد الرسائل التي تريد مسحها **").then(m => m.delete(3000));
 } else {
     message.delete().then
     message.delete().then
