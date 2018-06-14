@@ -21,7 +21,8 @@ client.on('message', async message => {
 	if (message.author.bot) return undefined;
 
   if (message.content.startsWith('اسكت')) {
-  
+               if(!message.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
+
   let tomute = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
   if(!tomute) return message.reply("**لايوجد شخص للميوت\nEX: اسكت @شخص سب 30**");
   if(tomute.hasPermission("MANAGE_MESSAGES")) return message.reply("**ما أقدر اسكته**");
@@ -77,7 +78,8 @@ client.on('message', async message => {
 
   
   if (message.content.startsWith('تكلم')) {
-    
+                 if(!message.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
+
   let user = message.mentions.users.first();
   let modlog = client.channels.find('name', 'log1');
   let muteRole = client.guilds.get(message.guild.id).roles.find('name', 'muted');
