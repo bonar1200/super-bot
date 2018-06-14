@@ -24,7 +24,7 @@ client.on('message', message => {
     let args = message.content.split(" ").slice(1);
   if (message.author.bot) return;
 
-    if(command === "تنظيف") {
+    if(message.content.startsWith("تنظيف")) {
              if(!message.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
 
         const emoji = client.emojis.find("name", "wastebasket")
