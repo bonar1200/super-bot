@@ -53,6 +53,33 @@ message.reply(`**سوف يتم ارسال قائمة المساعدة في رس�
   message.author.sendEmbed(embed);
 }
     }
+  
+const bannedwords = [
+    "كسمك",
+    "قحبة",
+    "انيكك",
+    "شرموط",
+    "شرموطة",
+    "منيوكة",
+	"منيوك",
+	"شرموط",
+	"منيوك"
+
+  ];
+
+
+
+  if(bannedwords.some(word => message.content.includes(word))) {
+    message.delete()
+    message.reply("** ممنوع السب !!**").then(m => {m.delete(5000)});
+  }
+    if(message.content.includes('discord.gg')){
+                                            if(!message.channel.guild) return message.reply('** نشر  في الخاص !!   **');
+        if (!message.member.hasPermissions(['ADMINISTRATOR'])){
+        message.delete()
+    return message.reply(`** ممنوع نشر الروابط :angry: ! **`)
+    }
+}
 });
 
 client.login(process.env.RECROWND_ADMIN);
