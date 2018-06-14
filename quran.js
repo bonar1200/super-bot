@@ -23,50 +23,6 @@ const youtube = new YouTube('AIzaSyCv1YSWJqWbBIvAd2fFOzBl72uwDuNizhg');
 
 const queue = new Map();
 
-client.on('message', async message => {
-    let args = message.content.split(" ").slice(1);
-
-	if (message.author.bot) return undefined;
-
-  if (message.content.startsWith('r!mute')) {
-  
-  let tomute = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
-  if(!tomute) return message.reply("Couldn't find user.");
-  if(tomute.hasPermission("MANAGE_MESSAGES")) return message.reply("Can't mute them!");
-  let muterole = message.guild.roles.find(`name`, "muted");
-  //start of create role
-  if(!muterole){
-    try{
-      muterole = await message.guild.createRole({
-        name: "muted",
-        color: "#000000",
-        permissions:[]
-      })
-      message.guild.channels.forEach(async (channel, id) => {
-        await channel.overwritePermissions(muterole, {
-          SEND_MESSAGES: false,
-          ADD_REACTIONS: false
-        });
-      });
-    }catch(e){
-      console.log(e.stack);
-    }
-
-  //end of create role
-  let mutetime = args[1];
-  if(!mutetime) return message.reply("You didn't specify a time!");
-
-  await(tomute.addRole(muterole.id));
-  message.reply(`<@${tomute.id}> has been muted for ${ms(ms(mutetime))}`);
-
-  setTimeout(function(){
-    tomute.removeRole(muterole.id);
-    message.channel.send(`<@${tomute.id}> has been unmuted!`);
-  }, ms(mutetime));
-  
-  }
-  }
-});
 
   
 client.on('message', async msg => { // eslint-disable-line
@@ -82,6 +38,7 @@ client.on('message', async msg => { // eslint-disable-line
 	command = command.slice(prefix.length)
 
 	if (command === 'play') {
+             if(!message.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
 		const voiceChannel = msg.member.voiceChannel;
 		if (!voiceChannel) return msg.channel.send('I\'m sorry but you need to be in a voice channel to play music!');
 		const permissions = voiceChannel.permissionsFor(msg.client.user);
@@ -133,17 +90,23 @@ Please provide a value to select one of the search results ranging from 1-10.
 			return handleVideo(video, msg, voiceChannel);
 		}
 	} else if (command === 'skip') {
+             if(!message.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
+
 		if (!msg.member.voiceChannel) return msg.channel.send('You are not in a voice channel!');
 		if (!serverQueue) return msg.channel.send('There is nothing playing that I could skip for you.');
 		serverQueue.connection.dispatcher.end('Skip command has been used!');
 		return undefined;
 	} else if (command === 'stop') {
+             if(!message.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
+
 		if (!msg.member.voiceChannel) return msg.channel.send('You are not in a voice channel!');
 		if (!serverQueue) return msg.channel.send('There is nothing playing that I could stop for you.');
 		serverQueue.songs = [];
 		serverQueue.connection.dispatcher.end('Stop command has been used!');
 		return undefined;
 	} else if (command === 'volume') {
+             if(!message.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
+
 		if (!msg.member.voiceChannel) return msg.channel.send('You are not in a voice channel!');
 		if (!serverQueue) return msg.channel.send('There is nothing playing.');
 		if (!args[1]) return msg.channel.send(`The current volume is: **${serverQueue.volume}**`);
@@ -151,9 +114,12 @@ Please provide a value to select one of the search results ranging from 1-10.
 		serverQueue.connection.dispatcher.setVolumeLogarithmic(args[1] / 5);
 		return msg.channel.send(`I set the volume to: **${args[1]}**`);
 	} else if (command === 'np') {
+		             if(!message.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
 		if (!serverQueue) return msg.channel.send('There is nothing playing.');
 		return msg.channel.send(` Now playing: **${serverQueue.songs[0].title}**`);
 	} else if (command === 'queue') {
+             if(!message.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
+
 		if (!serverQueue) return msg.channel.send('There is nothing playing.');
 		return msg.channel.send(`
 __**Song queue:**__
