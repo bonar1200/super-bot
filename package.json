@@ -5,13 +5,15 @@
   "main": [
     "bot.js",
     "bot1.js",
-    "quran.js"
+    "quran.js",
+    "bot2.js"
     ],
   "scripts": {
     "start": [
       "node bot.js",
       "node quran.js",
-      "node bot1.js"
+      "node bot1.js",
+      "node bot2.js"
       ]
   },
   "dependencies": {
