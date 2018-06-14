@@ -8,7 +8,8 @@
     "quran.js",
     "bot2.js",
     "bot3.js",
-    "bot4.js"
+    "bot4.js",
+    "bot5.js"
     ],
   "scripts": {
     "start": [
@@ -17,7 +18,8 @@
       "node bot1.js",
       "node bot2.js",
       "node bot3.js",
-      "node bot4.js"
+      "node bot4.js",
+      "node bot5.js"
       ]
   },
   "dependencies": {
