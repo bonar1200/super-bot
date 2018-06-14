@@ -7,8 +7,17 @@ const ms = require("ms");
 const Discord = require("discord.js");
 var opus = require('opusscript');
 
+
+
 const client = new Client({ disableEveryone: true });
 
+client.on("ready", () => {
+  console.log("I am ready!");
+  var game = {name: "with code"};
+  client.user.setGame('Recrownd | !play');
+  client.user.setStatus('dnd');
+
+});
 
 const youtube = new YouTube('AIzaSyCv1YSWJqWbBIvAd2fFOzBl72uwDuNizhg');
 
