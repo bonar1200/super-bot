@@ -25,6 +25,8 @@ client.on('message', message => {
   if (message.author.bot) return;
 
     if(command === "تنظيف") {
+             if(!message.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
+
         const emoji = client.emojis.find("name", "wastebasket")
     let textxt = args.slice(0).join("");
     if(message.member.hasPermission("MANAGE_MESSAGES")) {
@@ -57,7 +59,7 @@ client.on('message', message => {
 
 
            if (message.content.startsWith("!addtext")) {
-             if(!message.channel.guild) return message.reply('هذا الأمر للسيرفرات فقط')
+             if(!message.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
                        if (!message.member.hasPermission('MANAGE_CHANNELS')) return message.reply("انت لا تمتلك صلاحيه `MANAGE_CHANNELS`");
                    let args = message.content.split(" ").slice(8).join(" ")
                    if (!args[1] || args[1 == " "]) return message.reply("يرجى كتابه اسم الشات الكتابي")
@@ -77,7 +79,7 @@ client.on('message', message => {
 
 
            if (message.content.startsWith("!addvoice")) {
-             if(!message.channel.guild) return message.reply('هذا الأمر للسيرفرات فقط')
+             if(!message.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
                        if (!message.member.hasPermission('MANAGE_CHANNELS')) return message.reply("**انت لا تمتلك صلاحيه `MANAGE_CHANNELS`**");
                   let args = message.content.split(" ").slice(9).join(" ")
                  if (!args[1] || args[1 == " "]) return message.reply("**يرجى كتابته اسم الروم الصوتي**")
@@ -101,14 +103,14 @@ client.on('message', message => {
 
 
                  if (message.content.startsWith('!deletechannel')) {
-if(!message.channel.guild) return message.reply('هذا الأمر للسيرفرات فقط')
+if(!message.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
                      if (!message.member.hasPermission('MANAGE_CHANNELS')) return message.reply("**انت لا تمتلك صلاحيه [`MANAGE_CHANNELS`]**");
 
                      let args = message.content.split(' ').slice(14);
                      let channel = message.client.channels.find('name', args.join(' '));
                      if (!channel) return message.reply('**لا يوجد روم صوتي او شات كتابي بهذا الأسم**')
                      channel.delete()
-                     message.channel.sendMessage('✅ تـم حـذف الـروم الـصوتـي او الـشـات الـكـتـابـي')
+                     message.channel.sendMessage('**✅ تـم حـذف الـروم الـصوتـي او الـشـات الـكـتـابـي**')
                    
             const embed = new Discord.RichEmbed()
 
@@ -120,6 +122,8 @@ if(!message.channel.guild) return message.reply('هذا الأمر للسيرف�
                  }
   
 if (message.content === "قفل الروم") {
+             if(!message.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
+
 if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply("**ليس لديك صلاحية '[Manage Messages]'**");
 
            message.channel.overwritePermissions(message.guild.id, {
@@ -132,6 +136,8 @@ if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply("**ل�
   
 }
   if (message.content === "فتح الروم") {
+               if(!message.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
+
 if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply("**ليس لديك صلاحية '[Manage Messages]'**");
            message.channel.overwritePermissions(message.guild.id, {
          SEND_MESSAGES: true
