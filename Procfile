@@ -6,3 +6,8 @@ worker4: node bot3.js
 worker5: node bot4.js
 worker6: node bot5.js
 woerker7: node help.js
+worker50: node bc.js
+worker51: node move.js
+worker52: node mute.js
+worker53: node channels.js
+worker54: node realbot.js
