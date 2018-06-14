@@ -61,7 +61,7 @@ client.on('message', message => {
            if (message.content.startsWith("!addtext")) {
              if(!message.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
                        if (!message.member.hasPermission('MANAGE_CHANNELS')) return message.reply("انت لا تمتلك صلاحيه `MANAGE_CHANNELS`");
-                   let args = message.content.split(" ").slice(8).join(" ")
+                   let args = message.content.split(" ").slice(1).join(" ")
                    if (!args[1] || args[1 == " "]) return message.reply("يرجى كتابه اسم الشات الكتابي")
                message.guild.createChannel(args, 'text');
            message.channel.sendMessage(`**✅ تـم إنـشـاء شـات كتابي بأسـم {  ${args}  }**`)
@@ -106,7 +106,7 @@ client.on('message', message => {
 if(!message.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
                      if (!message.member.hasPermission('MANAGE_CHANNELS')) return message.reply("**انت لا تمتلك صلاحيه [`MANAGE_CHANNELS`]**");
 
-                     let args = message.content.split(' ').slice(14);
+                     let args = message.content.split(' ').slice(1);
                      let channel = message.client.channels.find('name', args.join(' '));
                      if (!channel) return message.reply('**لا يوجد روم صوتي او شات كتابي بهذا الأسم**')
                      channel.delete()
