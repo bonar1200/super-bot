@@ -23,7 +23,7 @@ client.on("ready", () => {
 const queue = new Map();
 client.on('message', message => {
 if (message.content.startsWith(prefix + 'help admin')) {
-        if (!message.guild.member(message.author).hasPermission('MOVE_MEMBERS') || !message.guild.member(message.author).hasPermission('ADMINISTRATOR') || !message.guild.member(message.author).hasPermission('MANAGA_ROLES') || !message.guild.member(message.author).hasPermission('ADMINISTRATOR') || !message.guild.member(message.author).hasPermission('MANAGE_MESSAGES') || !message.guild.member(message.author).hasPermission('MANAGE_CHANNELS') || !message.guild.member(message.author).hasPermission('MANAGE_NICKNAMES') || !message.guild.member(message.author).hasPermission('BAN_MEMBERS') || !message.guild.member(message.author).hasPermission('KICK_MEMBERS') || !message.guild.member(message.author).hasPermission('DEAFEAN_MEMBERS') || !message.guild.member(message.author).hasPermission('MUTE_MEMBERS') || !message.guild.member(message.author).hasPermission('MANAGE_EMOJIS')) {
+        if (!message.member.hasPermission('MOVE_MEMBERS') || !message.member.hasPermission('ADMINISTRATOR') || !message.member.hasPermission('MANAGA_ROLES') || !message.member.hasPermission('MANAGE_MESSAGES') || !message.member.hasPermission('MANAGE_CHANNELS') || !message.member.hasPermission('MANAGE_NICKNAMES') || !message.member.hasPermission('BAN_MEMBERS') || !message.member.hasPermission('KICK_MEMBERS') || !message.member.hasPermission('DEAFEAN_MEMBERS') || !message.member.hasPermission('MUTE_MEMBERS') || !message.member.hasPermission('MANAGE_EMOJIS')) {
             return message.reply("** عفوًا, لايمكنك أستخدام هذا البوت لإنك لست من إدارة السيرفر **");
         }
 message.reply(`**سوف يتم ارسال قائمة المساعدة في رسالة خاصة **`); {
