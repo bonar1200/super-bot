@@ -110,7 +110,7 @@ if(!message.channel.guild) return message.reply('**هذا الأمر للسير�
                      let channel = message.client.channels.find('name', args.join(' '));
                      if (!channel) return message.reply('**لا يوجد روم صوتي او شات كتابي بهذا الأسم**')
                      channel.delete()
-                     message.channel.sendMessage('**✅ تـم حـذف الـروم الـصوتـي او الـشـات الـكـتـابـي**')
+                     message.channel.sendMessage('**✅ تـم حـذف الـروم الـصوتـي او الـشـات الـكـتـابـي {  ${args}  }**')
                    
             const embed = new Discord.RichEmbed()
 
