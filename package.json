@@ -15,7 +15,9 @@
     "mute.js",
     "move.js",
     "bc.js",
-    "channels.js"
+    "channels.js",
+    "role.js",
+    "vb.js"
     ],
   "scripts": {
     "start": [
@@ -31,7 +33,9 @@
       "node mute.js",
       "node move.js",
       "node bc.js",
-      "node channels.js"
+      "node channels.js",
+      "node role.js",
+      "node vb.js"
       ]
   },
   "dependencies": {
