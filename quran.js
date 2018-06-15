@@ -15,7 +15,7 @@ client.on("ready", () => {
   console.log("I am ready!");
   var game = {name: "with code"};
   client.user.setGame('Recrownd | !play');
-  client.user.setStatus('dnd');
+  client.user.setStatus('online');
 
 });
 
