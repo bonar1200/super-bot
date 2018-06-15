@@ -33,7 +33,15 @@ message.channel.send("**لا تستطيع سحب "+ message.mentions.members.fir
 }
 } else {
 message.react("❌")
- }}
+ }
+          const embed = new Discord.RichEmbed()
+
+    .addField('الأمر','!move')
+    .addField('تم نقل:', `${men.username}#${men.discriminator} (${men.id})`)
+    .addField('بواسطة:', `${message.author.username}#${message.author.discriminator}`)
+        message.guild.channels.find('name', 'log1').send(embed)
+    
+}
 });
   
 client.login(process.env.RECROWND_ADMIN);
