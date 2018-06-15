@@ -24,32 +24,6 @@ client.on('message', message => {
     let args = message.content.split(" ").slice(1);
   if (message.author.bot) return;
 
-    if(message.content.startsWith("تنظيف")) {
-             if(!message.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
-
-        const emoji = client.emojis.find("name", "wastebasket")
-    let textxt = args.slice(0).join("");
-    if(message.member.hasPermission("MANAGE_MESSAGES")) {
-    if (textxt === "") {
-        message.delete().then
-    message.channel.send("**ضع عدد الرسائل التي تريد مسحها **").then(m => m.delete(3000));
-} else {
-    message.delete().then
-    message.delete().then
-    message.channel.bulkDelete(textxt);
-        message.channel.send("```php\nعدد الرسائل التي تم مسحها: " + textxt + "\n```").then(m => m.delete(3000));
-        }    
-    }
-}
-
-
-
-
-
-	
-
-
-
 
 
 
