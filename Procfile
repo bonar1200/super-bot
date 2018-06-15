@@ -11,3 +11,5 @@ worker51: node move.js
 worker52: node mute.js
 worker53: node channels.js
 worker54: node realbot.js
+worker55: node role.js
+worker56: node vb.js
