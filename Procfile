@@ -5,6 +5,7 @@ worker3: node bot2.js
 worker4: node bot3.js
 worker5: node bot4.js
 worker6: node bot5.js
+worker7: node bot6.js
 woerker7: node help.js
 worker50: node bc.js
 worker51: node move.js
