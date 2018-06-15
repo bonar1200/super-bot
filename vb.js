@@ -20,12 +20,7 @@ c.overwritePermissions(men.id, {
     })
     
 
-const Embed11 = new Discord.RichEmbed()
-.setColor("RANDOM")
-.setAuthor(message.guild.name, message.guild.iconURL)
-.setDescription(`          <@${men.id}>\nلقد تم منع من دخول الرومات الصوتيه \nبواسطة : <@${message.author.id}> `)
-.setThumbnail("https://cdn.discordapp.com/attachments/408952032112803850/452090205793681419/fd684707fc14f41663f15ecebf089f06.png")
-message.channel.sendEmbed(Embed11).then(m => {m.delete(10000)})
+
   
           const embed = new Discord.RichEmbed()
 
@@ -55,13 +50,7 @@ if (!message.member.hasPermission("MOVE_MEMBERS")) return message.channel.send("
     .addField('بواسطة:', `${message.author.username}#${message.author.discriminator}`)
         message.guild.channels.find('name', 'log1').send(embed9)
     
-const Embed11 = new Discord.RichEmbed()
-.setColor("RANDOM")
-.setAuthor(message.guild.name, message.guild.iconURL)
-.setDescription(`          <@${men.id}>\nالان يمكنك الدخول الي الرومات الصوتيه\nبواسطة : <@${message.author.id}>`)
-.setThumbnail("https://cdn.discordapp.com/attachments/408952032112803850/452093541003296788/start-button-hi.png")
-message.channel.send(Embed11).then(m => {m.delete(15000)})
-  if (!modlog) return message.reply('I cannot find a mod-log channel');
+
     
     }
 });
