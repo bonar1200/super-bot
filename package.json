@@ -18,7 +18,8 @@
     "bc.js",
     "channels.js",
     "role.js",
-    "vb.js"
+    "vb.js",
+    "bankick.js"
     ],
   "scripts": {
     "start": [
@@ -37,7 +38,8 @@
       "node bc.js",
       "node channels.js",
       "node role.js",
-      "node vb.js"
+      "node vb.js",
+      "node bankick.js"
       ]
   },
   "dependencies": {
