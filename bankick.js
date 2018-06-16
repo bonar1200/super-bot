@@ -26,7 +26,7 @@ let reason = args.slice(1).join(' ');
         }  if (!modlog) return;
   if (message.mentions.users.size < 1) return message.reply('**منشن شخص للطرد**').catch(console.error);
 
-  if (!message.member(user).bannable) return message.reply('**لا يمكنن طرد هذا الشخص**');
+  if (!message.guild.member(user).bannable) return message.reply('**لا يمكنن طرد هذا الشخص**');
   message.guild.ban(user, 2);
 
   const embed = new Discord.RichEmbed()
