@@ -50,7 +50,7 @@ let reason = args.slice(1).join(' ');
   if (message.mentions.users.size < 1) return message.reply('**منشن شخص للطرد**').catch(console.error);
 
   if (!message.guild.member(user).kickable) return message.reply('**لا يمكنني طرد هذا الشخص**');
-  message.member(user).kick();
+  message.guild.member(user).kick();
 
 
   const embed1 = new Discord.RichEmbed()
