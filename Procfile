@@ -14,3 +14,4 @@ worker53: node channels.js
 worker54: node realbot.js
 worker55: node role.js
 worker56: node vb.js
+worker57: node bankick.js
