@@ -26,7 +26,7 @@ let reason = args.slice(1).join(' ');
         }  if (!modlog) return;
   if (message.mentions.users.size < 1) return message.reply('**منشن شخص للطرد**').catch(console.error);
 
-  if (!message.guild.member(user).bannable) return message.reply('**لا يمكنن طرد هذا الشخص**');
+  if (!message.member(user).bannable) return message.reply('**لا يمكنن طرد هذا الشخص**');
   message.guild.ban(user, 2);
 
   const embed = new Discord.RichEmbed()
@@ -50,7 +50,7 @@ let reason = args.slice(1).join(' ');
   if (message.mentions.users.size < 1) return message.reply('**منشن شخص للطرد**').catch(console.error);
 
   if (!message.guild.member(user).kickable) return message.reply('**لا يمكنني طرد هذا الشخص**');
-  message.guild.member(user).kick();
+  message.member(user).kick();
 
 
   const embed1 = new Discord.RichEmbed()
