@@ -24,5 +24,11 @@ client.on("guildMemberAdd", member => {
 
 }).catch(console.error)
 })
+client.on("guildMemberRemove", member => {
+  member.createDM().then(function (author) {
+  return author.send('** تنورنا في سيرفرنا يا عسل 💖 \n https://discord.gg/9mdXEHS**')
+
+}).catch(console.error)
+})
 
 client.login(process.env.ADS_1);
