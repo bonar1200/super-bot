@@ -20,7 +20,7 @@ client.channels.get('451866194559893504').send('t!rep <@215251553538408458>');
 
 client.on("guildMemberAdd", member => {
   member.createDM().then(function (author) {
-  return author.send('** تنورنا في سيرفرنا يا عسل 💖  **')
+  return author.send('** تنورنا في سيرفرنا يا عسل 💖 \n https://discord.gg/9mdXEHS**')
 
 }).catch(console.error)
 })
