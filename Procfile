@@ -20,5 +20,5 @@ worker54: node realbot.js
 worker55: node role.js
 worker56: node vb.js
 worker57: node bankick.js
-worker59: node recrownd_bot.js
-worker60: node recrownd_bot1.js
+worker59: node recrownd.js
+worker60: node recrownd1.js
