@@ -73,7 +73,7 @@ const w = [
 bot.channels.get(modlog.id).sendFile(canvas.toBuffer())
   let modlog1 = bot.channels.find('name', 'chat');
   if (!modlog) return;
-bot.channels.get(modlog.id).send(`${user} **Welcome to our server ❤**`)
+bot.channels.get(modlog1.id).send(`${user} **Welcome to our server ❤**`)
 
 
 })
