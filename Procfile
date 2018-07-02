@@ -22,3 +22,4 @@ worker56: node vb.js
 worker57: node bankick.js
 worker59: node recrownd.js
 worker60: node recrownd1.js
+worker61: node voice.js
