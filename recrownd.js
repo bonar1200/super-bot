@@ -3,9 +3,9 @@ const bot = new Discord.Client();
 const moment = require('moment');
 const ms = require('ms');
 prefix = '!';
+bot.user.setActivity('YouTube', { type: '!help' });
 
 bot.on("ready", () => {
-bot.user.setActivity('YouTube', { type: '!help' });
 
 });
 
