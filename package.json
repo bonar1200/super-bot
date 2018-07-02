@@ -26,8 +26,8 @@
     "role.js",
     "vb.js",
     "bankick.js",
-    "recrownd_bot",
-    "recrownd_bot1"
+    "recrownd_bot.js",
+    "recrownd_bot1.js"
     ],
   "scripts": {
     "start": [
@@ -65,7 +65,8 @@
     "simple-youtube-api": "5.0.2",
     "ms": "2.1.1",
     "moment": "2.22.2",
-    "opusscript": "0.0.6"
+    "opusscript": "0.0.6",
+    "canvas": "1.6.11"
   }
 }
 
