@@ -177,6 +177,10 @@ if (message.content.startsWith('باك')) {
   if (message.content === '.') {
   return message.reply('**نقطة ولا جبر خاطر؟ ❤**');
 }
+	
+  if (message.content === '..') {
+  message.channel.send('`Welcome to Recrownd` 💛✨')
+}
   
   let modlog1 = bot.channels.find('name', 'chat');
   	      var interval1 = setInterval (function () {
