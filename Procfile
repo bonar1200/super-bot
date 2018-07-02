@@ -10,6 +10,7 @@ worker8: node bot7.js
 worker9: node bot8.js
 wroker10: node ads1.js
 worker11: node ads2.js
+worker12: node ads3.js
 worker49: node help.js
 worker50: node bc.js
 worker51: node move.js
