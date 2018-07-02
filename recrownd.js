@@ -3,9 +3,11 @@ const bot = new Discord.Client();
 const moment = require('moment');
 const ms = require('ms');
 prefix = '!';
-bot.user.setActivity('YouTube', { type: '!help' });
-
 bot.on("ready", () => {
+  console.log("I am ready!");
+  var game = {name: "with code"};
+  bot.user.setGame('Recrownd | !help admin');
+  bot.user.setStatus('online');
 
 });
 
