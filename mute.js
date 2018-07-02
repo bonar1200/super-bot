@@ -24,7 +24,7 @@ client.on('message', async message => {
                if(!message.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
 
   let tomute = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
-  if(!tomute) return message.reply("**لايوجد شخص للميوت\nEX: اسكت @شخص سب 30**");
+  if(!tomute) return message.reply("**EX: اسكت <@448675703018487819> 15m**");
   if(tomute.hasPermission("MANAGE_MESSAGES")) return message.reply("**ما أقدر اسكته**");
   let muterole = message.guild.roles.find(`name`, "muted");
   //start of create role
