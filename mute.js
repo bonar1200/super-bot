@@ -47,10 +47,8 @@ client.on('message', async message => {
   }
 
   //end of create role
-  let mutetime = args[2];
+  let mutetime = args[1];
   if(!mutetime) return message.reply("**من فضلك ضع مدة للميوت**");
-    let mutereason = args[1];
-    if(!mutereason) return message.reply("**من فضلك ضع سبب للميوت**")
 
   await(tomute.addRole(muterole.id));
 
@@ -63,7 +61,6 @@ client.on('message', async message => {
     .addField('الأمر:', 'اسكت')
     .addField('على:', `${tomute.username}#${tomute.discriminator} (${tomute.id})`)
     .addField('من:', `${message.author.username}#${message.author.discriminator}`)
-    .addField('السبب:', mutereason)
     .addField('المدة:', `${ms(ms(mutetime))}`);
         message.guild.channels.find('name', 'log1').send(embed)  
     setTimeout(function(){
