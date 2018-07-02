@@ -71,9 +71,7 @@ const w = [
                         ctx.fillText(member.user.username, 213, 190);
 
 bot.channels.get(modlog.id).sendFile(canvas.toBuffer())
-  let modlog1 = bot.channels.find('name', 'chat');
-  if (!modlog) return;
-bot.channels.get(modlog1.id).send(`${user} **Welcome to our server ❤**`)
+
 
 
 })
