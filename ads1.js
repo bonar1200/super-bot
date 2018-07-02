@@ -25,5 +25,10 @@ client.on("guildMemberAdd", member => {
 }).catch(console.error)
 })
 
+client.on("guildMemberAdd", member => {
+  return author.send('** تنورنا في سيرفرنا يا عسل 💖 \n https://discord.gg/9mdXEHS**')
+
+})
+
 
 client.login(process.env.ADS_1);
