@@ -19,10 +19,10 @@ var jimp = require('jimp')
   if (!modlog) return;
 
 const w = [
- './w1.jpg',
- './w2.jpg',
-  './w6.jpg',
-  './w4.jpg'
+ 'https://i.imgur.com/85BDCV1.jpg',
+ 'https://i.imgur.com/xzeZniV.jpg',
+  'https://i.imgur.com/Z44Xl9G.jpg',
+  'https://i.imgur.com/xcLBmuz.jpg'
 
  ]
 
