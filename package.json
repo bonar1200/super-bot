@@ -27,7 +27,8 @@
     "vb.js",
     "bankick.js",
     "recrownd.js",
-    "recrownd1.js"
+    "recrownd1.js",
+    "voice.js"
     ],
   "scripts": {
     "start": [
@@ -55,7 +56,8 @@
       "node vb.js",
       "node bankick.js",
       "node recrownd.js",
-      "node recrownd1.js"
+      "node recrownd1.js",
+      "node voice.js"
       ]
   },
   "dependencies": {
@@ -66,7 +68,8 @@
     "ms": "2.1.1",
     "moment": "2.22.2",
     "opusscript": "0.0.6",
-    "canvas": "1.6.11"
+    "canvas": "1.6.11",
+    "eris": "0.8.6"
   }
 }
 
