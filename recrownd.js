@@ -125,7 +125,7 @@ if(message.content == '!server') {
           .setDescription(" تم إرسال الرابط برسالة خاصة إذا لم يصلك تأكد من قبولك للرسائل الخاصة من قروب ركروند ")
            .setAuthor(bot.user.username, bot.user.avatarURL)
                  .setAuthor(bot.user.username, bot.user.avatarURL)
-                .setFooter('طلب بواسطة: ' + message.author)
+                .setFooter('طلب بواسطة: ' + message.author.tag)
 
       message.channel.sendEmbed(embed).then(message => {message.delete(10000)})
               const Embed11 = new Discord.RichEmbed()
