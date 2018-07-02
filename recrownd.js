@@ -4,6 +4,14 @@ const moment = require('moment');
 const ms = require('ms');
 prefix = '!';
 
+bot.on("ready", () => {
+  console.log("I am ready!");
+  var game = {name: "with code"};
+  client.user.setGame('Recrownd | !help admin');
+  client.user.setStatus('online');
+
+});
+
 bot.on('message', message => {
   
   if (message.author.bot) return;
