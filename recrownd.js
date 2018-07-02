@@ -58,20 +58,7 @@ if (message.author.bot) return;
       message.channel.sendEmbed(embed);
     }
 	
-const invites = {};
-bot.on('guildMemberAdd', member => {
-  // To compare, we need to load the current invite list.
-  member.guild.fetchInvites().then(guildInvites => {
-    // This is the *existing* invites for the guild.
-    const ei = invites[member.guild.id];
-    // Look through the invites, find the one for which the uses went up.
-    const invite = guildInvites.find(i => ei.get(i.code).uses < i.uses);
-    // This is just to simplify the message being sent below (inviter doesn't have a tag property)
-    const inviter = bot.users.get(invite.inviter.id);
-    const logChannel = member.guild.channels.find("name", "welcome");
-    bot.channels.get(logChannel.id).send(`**Welcome To Recrownd Groupd Have a great time <@${inviter.tag}>**`)
-  });
-});
+
               
           if(!message.channel.guild) return;
    if(message.author.bot) return;
