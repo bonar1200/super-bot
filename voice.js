@@ -1,6 +1,6 @@
 const Eris = require("eris");
 var kboosh = new Eris("NDU1NTkzNjA4MjAwODQ3Mzkx.DhuYgQ.r1bUuUCWnY5V-Y-WNUvaS0GwcLU");
-var kboosh_id = "448614200198299659";
+var kboosh_id = "463472352282411010";
                     var i = "0";
                     var x = "0";
 kboosh.on("voiceChannelJoin", (msg) => {
