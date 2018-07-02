@@ -2,7 +2,6 @@ const Discord = require("discord.js");
 const bot = new Discord.Client();
 
 const fs = require('fs');
-bot.on("message", message => {
 
 bot.on('ready', () => {
     console.log(`Logged in as ${bot.user.tag}!`);
@@ -72,7 +71,7 @@ const w = [
                         ctx.fillText(member.user.username, 213, 190);
 
 bot.channels.get(modlog.id).sendFile(canvas.toBuffer())
-bot.channels.get(modlog.id).send(message.author)
+bot.channels.get(modlog.id).send(${user} **Welcome To Our Server**)
 
 
 })
