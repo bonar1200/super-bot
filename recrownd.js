@@ -175,7 +175,7 @@ if (message.content.startsWith('باك')) {
 }
 	
   if (message.content === '.') {
-  return message.send('**نقطة ولا جبر خاطر؟ ❤**');
+  return message.reply('**نقطة ولا جبر خاطر؟ ❤**');
 }
   
   let modlog1 = bot.channels.find('name', 'chat');
