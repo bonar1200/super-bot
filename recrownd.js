@@ -157,17 +157,17 @@ if(message.content.startsWith(prefix + 'tempc')) {
     }
   
 if (message.content.startsWith('باك')) {
-  return message.reply('**Welcome To Recrownd Server**')
+  return message.reply('**Welcome To Recrownd Server**');
 }
   if (message.content.startsWith('السلام عليكم')) {
-  return message.reply('**وعليكم السلام ورحمة الله وبركاته**')
+  return message.reply('**وعليكم السلام ورحمة الله وبركاته**');
 }
   if (message.content.startsWith('سلام عليكم')) {
-  return message.reply('**وعليكم السلام ورحمة الله وبركاته**')
+  return message.reply('**وعليكم السلام ورحمة الله وبركاته**');
 }
   
   if (message.content.startsWith('برب')) {
-  return message.reply('**Take Your Time 👋**')
+  return message.reply('**Take Your Time 👋**');
 }
 	
   if (message.content === '!!') {
