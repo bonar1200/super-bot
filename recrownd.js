@@ -6,7 +6,7 @@ prefix = '!';
 bot.on("ready", () => {
   console.log("I am ready!");
   var game = {name: "with code"};
-  bot.user.setGame('Recrownd | !help admin');
+  bot.user.setGame('Recrownd | !help');
   bot.user.setStatus('online');
 
 });
