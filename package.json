@@ -25,7 +25,9 @@
     "channels.js",
     "role.js",
     "vb.js",
-    "bankick.js"
+    "bankick.js",
+    "recrownd_bot",
+    "recrownd_bot1"
     ],
   "scripts": {
     "start": [
@@ -51,7 +53,9 @@
       "node channels.js",
       "node role.js",
       "node vb.js",
-      "node bankick.js"
+      "node bankick.js",
+      "node recrownd_bot.js",
+      "node recrownd_bot1.js"
       ]
   },
   "dependencies": {
