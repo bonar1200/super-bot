@@ -170,4 +170,4 @@ if (message.content.startsWith('باك')) {
 
   
 });
-  bot.login(process.env.RECROWND_NORMAL);
+  bot.login(process.env.RECROWND_BOT);
