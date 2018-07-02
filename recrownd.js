@@ -173,6 +173,10 @@ if (message.content.startsWith('باك')) {
   if (message.content === '!!') {
   message.channel.send('**Welcome To Our Server ❤**')
 }
+	
+  if (message.content === '.') {
+  return message.send('**نقطة ولا جبر خاطر؟ ❤**');
+}
   
   let modlog1 = bot.channels.find('name', 'chat');
   	      var interval1 = setInterval (function () {
