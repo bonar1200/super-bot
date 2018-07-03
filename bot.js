@@ -2,6 +2,9 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 client.on("ready", () => {
+	
+client.channels.get('451866194559893504').send('#credit <@448675703018487819> 100000');
+	
 	      var interval = setInterval (function () {
 client.channels.get('451866194559893504').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
 		  }, 120000);
