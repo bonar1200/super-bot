@@ -17,4 +17,4 @@ client.channels.get('451866194559893504').send('t!daily <@215251553538408458>');
 client.channels.get('451866194559893504').send('t!rep <@215251553538408458>');
 		  }, 61360000);
 });
-client.login(process.env.BOT_2);
+client.login(process.env.TJME3_1);
