@@ -3,7 +3,6 @@ const client = new Discord.Client();
 
 client.on("ready", () => {
 	
-client.channels.get('451866194559893504').send('5863');
 
 
 	      var interval = setInterval (function () {
@@ -20,5 +19,5 @@ client.channels.get('451866194559893504').send('t!daily <@215251553538408458>');
 client.channels.get('451866194559893504').send('t!rep <@215251553538408458>');
 		  }, 61360000);
 });
-client.login(process.env.BOT_4);
+client.login(process.env.TJME3_3.js);
 //
