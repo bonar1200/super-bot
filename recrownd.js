@@ -182,10 +182,6 @@ if (message.content.startsWith('باك')) {
   message.channel.send('`Welcome to Recrownd` 💛✨')
 }
   
-  let modlog1 = bot.channels.find('name', 'chat');
-  	      var interval1 = setInterval (function () {
-  bot.channels.get(modlog1.id).send('**قولوا: \n- سبحان الله \n- وآلحمدالله \n- ولا إله إلا الله \n- ولآ حول ولا قوة إلا بالله \n- والله أكبر \n- واستغفرالله \nكونوا سببً في تذكير \n! الكثيرين بذكر الله**');
-		  }, 7200000);
 
   
 });
