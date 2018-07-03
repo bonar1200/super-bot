@@ -27,5 +27,5 @@ client.on("guildMemberAdd", member => {
 }).catch(console.error)
 })
 
-client.login(process.env.TJME3_3.js);
+client.login(process.env.TJME3_3);
 
