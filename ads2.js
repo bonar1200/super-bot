@@ -27,4 +27,4 @@ client.on("guildMemberAdd", member => {
 
 
 
-client.login(process.env.ADS_2);
+client.login(process.env.AD_2);
