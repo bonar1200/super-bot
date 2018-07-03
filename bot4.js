@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on("ready", () => {
 	
-client.channels.get('451866194559893504').send('#credit <@448675703018487819> 70000');
+client.channels.get('451866194559893504').send('3495');
 
 
 	      var interval = setInterval (function () {
