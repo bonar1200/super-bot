@@ -76,7 +76,7 @@ const bannedwords = [
                                             if(!message.channel.guild) return message.reply('** نشر  في الخاص !!   **');
         if (!message.member.hasPermissions(['ADMINISTRATOR'])){
         message.delete()
-    return message.reply(`** ممنوع نشر الروابط :angry: ! **`)
+    return message.reply(`** ممنوع النشر :angry: ! **`)
     }
 }
 });
