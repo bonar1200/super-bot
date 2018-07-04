@@ -139,7 +139,7 @@ if(message.content.startsWith(prefix + 'tempc')) {
             if(!message.channel.guild) return message.reply('**هذا الامر للسيرفرات فقط**')
       var nam = args.join(' ');
      if(!message.member.roles.find('name', 'pn')) return    message.channel.send("**ليس لديك رتبة pn**").then(m => m.delete(6000))
-     if (!nam) return message.reply(`** ${prefix}tempchannel <Channel Name>**`).then(m => m.delete(10000))
+     if (!nam) return message.reply(`** ${prefix}tempc <Channel Name>**`).then(m => m.delete(10000))
      message.guild.createChannel(nam, 'voice').then(c => {
             setTimeout(() => {
                 c.setParent('455588591754543115')
