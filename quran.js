@@ -211,4 +211,4 @@ function play(guild, song) {
 }
 });
 
-client.login(process.env.BOT_MUSIC3);
+client.login(process.env.BOT_MUSIC);
