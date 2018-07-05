@@ -31,3 +31,13 @@ worker63: node quran2.js
 worker64: node quran3.js
 worker65: node quran4.js
 worker66: node quran5.js
+worker67: node tjme3_11.js
+worker68: node tjme3_12.js
+worker69: node tjme3_13.js
+worker70: node tjme3_14.js
+worker71: node tjme3_15.js
+worker72: node tjme3_16.js
+worker73: node tjme3_17.js
+worker74: node tjme3_18.js
+worker75: node tjme3_19.js
+worker76: node tjme3_20.js
