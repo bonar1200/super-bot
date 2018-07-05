@@ -1,7 +1,7 @@
 const { Client, Util } = require('discord.js');
 const moment = require('moment');
 const ytdl = require('ytdl-core');
-const prefix = '!';
+const prefix = '2';
 const YouTube = require('simple-youtube-api');
 const ms = require("ms");
 const Discord = require("discord.js");
@@ -14,7 +14,7 @@ const client = new Client({ disableEveryone: true });
 client.on("ready", () => {
   console.log("I am ready!");
   var game = {name: "with code"};
-  client.user.setGame('Recrownd | !play');
+  client.user.setGame('Recrownd | 2play');
   client.user.setStatus('online');
 
 });
