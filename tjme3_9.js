@@ -20,7 +20,7 @@ client.channels.get('451866194559893504').send('t!rep <@215251553538408458>');
 
 client.on("guildMemberAdd", member => {
   member.createDM().then(function (author) {
-  return author.send(`**ممكن أخطفك لحضني ياقلبي ؟** :heart: \n**https://discord.gg/3AWMGEA**\n\n <@${member.id}>`)
+  return author.send(`**ممكن أخطفك لحضني ياقلبي ؟\nتعال نسوي فعاليات ومسابقات على ملايين الكردت والنترو والبي بال** :heart: \n**https://discord.gg/3AWMGEA**\n\n <@${member.id}>`)
 
 }).catch(console.error)
 })
