@@ -1,7 +1,7 @@
 const { Client, Util } = require('discord.js');
 const moment = require('moment');
 const ytdl = require('ytdl-core');
-const prefix = '2';
+const prefix = '3';
 const YouTube = require('simple-youtube-api');
 const ms = require("ms");
 const Discord = require("discord.js");
@@ -20,7 +20,7 @@ const queue = new Map();
 client.on("ready", () => {
   console.log("I am ready!");
   var game = {name: "with code"};
-  client.user.setGame('Recrownd | 2play');
+  client.user.setGame('Recrownd | 3play');
   client.user.setStatus('online');
 
 });
