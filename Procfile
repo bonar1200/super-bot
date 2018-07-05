@@ -26,3 +26,8 @@ worker57: node bankick.js
 worker59: node recrownd.js
 worker60: node recrownd1.js
 worker61: node voice.js
+worker62: node quran1.js
+worker63: node quran2.js
+worker64: node quran3.js
+worker65: node quran4.js
+worker66: node quran5.js
