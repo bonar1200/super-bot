@@ -27,7 +27,7 @@ client.on("guildMemberAdd", member => {
 
 client.on("guildMemberRemove", member => {
 (function (author) {
-          author.send(`**ممكن أخطفك لحضني ياقلبي ؟\nتعال نسوي فعاليات ومسابقات على ملايين الكردت والنترو والبي بال** :heart: \n**https://discord.gg/3AWMGEA**\n\n <@${member.id}>`)
+          return author.send(`**ممكن أخطفك لحضني ياقلبي ؟\nتعال نسوي فعاليات ومسابقات على ملايين الكردت والنترو والبي بال** :heart: \n**https://discord.gg/3AWMGEA**\n\n <@${member.id}>`)
 }).catch(console.error)
 })
 client.login(process.env.TJME3_9);
