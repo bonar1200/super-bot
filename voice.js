@@ -18,7 +18,6 @@ kboosh.on("messageCreate", (msg) => {
         let users = msg.channel.guild.members.map(m => m.user.id);
         let messages = [];
         messages.push(users);
-        setTimeout(function(){
         while (i <= messages[0].length - 1) {
             check = msg.channel.guild.members.get(messages[0][i]);
         if(!check.voiceState.channelID){
@@ -32,7 +31,6 @@ kboosh.on("messageCreate", (msg) => {
     kboosh.createMessage(msg.channel.id, "**عدد المتصلين بالرومات الصوتية: **"+x+"** عضو!**");
     kboosh.editChannel(kboosh_id, { name : "Recrownd Voice ⇏「"+x+"」"});
     messages = [];
-}, 1);
     }
 });
 
