@@ -67,7 +67,7 @@ client.on('message', async msg => { // eslint-disable-line
 					msg.channel.send(`
 __**نتائج البحث:**__`
 ${videos.map(video2 => `**${++index} -** ${video2.title}`).join('\n')}
-من فضلك, اختيار رقم الأغنية من 1-**10.**
+من فضلك, اختيار رقم الأغنية من 1-10.
 					`);
 					// eslint-disable-next-line max-depth
 					try {
