@@ -39,4 +39,4 @@ kboosh.on("messageCreate", (msg) => {
 
   
 
-kboosh.connect(process.env.RECROWND_BOT)
+kboosh.connect(process.env.RECROWND_BOT1)
