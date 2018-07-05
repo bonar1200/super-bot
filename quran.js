@@ -56,7 +56,7 @@ client.on('message', async msg => { // eslint-disable-line
 				const video2 = await youtube.getVideoByID(video.id); // eslint-disable-line no-await-in-loop
 				await handleVideo(video2, msg, voiceChannel, true); // eslint-disable-line no-await-in-loop
 			}
-			return msg.channel.send(` القائمة: **${playlist.title}** تم إضافتها`);
+			return msg.channel.send(`** القائمة: **${playlist.title}** تم إضافتها**`);
 		} else {
 			try {
 				var video = await youtube.getVideo(url);
@@ -65,9 +65,9 @@ client.on('message', async msg => { // eslint-disable-line
 					var videos = await youtube.searchVideos(searchString, 10);
 					let index = 0;
 					msg.channel.send(`
-__**نتائج البحث:**__
-${videos.map(video2 => `**${++index} -** ${video2.title}`).join('\n')}
-من فضلك, اختيار رقم الأغنية من 1-10.
+__**نتائج البحث:**__`
+${videos.map(video2 => `**${++index} -** ${video2.title}`).join('\n')}`
+من فضلك, اختيار رقم الأغنية من 1-**10.**
 					`);
 					// eslint-disable-next-line max-depth
 					try {
@@ -78,7 +78,7 @@ ${videos.map(video2 => `**${++index} -** ${video2.title}`).join('\n')}
 						});
 					} catch (err) {
 						console.error(err);
-						return msg.channel.send('لا يوجد رقم كُتب. الإختيار انتهى');
+						return msg.channel.send('`لا يوجد رقم كُتب. الإختيار انتهى`');
 					}
 					const videoIndex = parseInt(response.first().content);
 					var video = await youtube.getVideoByID(videos[videoIndex - 1].id);
@@ -92,35 +92,35 @@ ${videos.map(video2 => `**${++index} -** ${video2.title}`).join('\n')}
 	} else if (command === 'skip') {
              if(!msg.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
 
-		if (!msg.member.voiceChannel) return msg.channel.send('من فضلك الدخول الى روم صوتي');
-		if (!serverQueue) return msg.channel.send('لايوجد شئ حاليًا للتخطيه');
-		serverQueue.connection.dispatcher.end('تم تخطي الأغنية');
+		if (!msg.member.voiceChannel) return msg.channel.send('**من فضلك الدخول الى روم صوتي**');
+		if (!serverQueue) return msg.channel.send('**لايوجد شئ حاليًا للتخطيه**');
+		serverQueue.connection.dispatcher.end('**تم تخطي الأغنية**');
 		return undefined;
 	} else if (command === 'stop') {
              if(!msg.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
 
 		if (!msg.member.voiceChannel) return msg.channel.send('You are not in a voice channel!');
-		if (!serverQueue) return msg.channel.send('لايوجد شئ حاليًا لتوقفه');
+		if (!serverQueue) return msg.channel.send('**لايوجد شئ حاليًا لتوقفه**');
 		serverQueue.songs = [];
-		serverQueue.connection.dispatcher.end('تم الإيقاف');
+		serverQueue.connection.dispatcher.end('**تم الإيقاف**');
 		return undefined;
 	} else if (command === 'volume') {
              if(!msg.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
 
-		if (!msg.member.voiceChannel) return msg.channel.send('You are not in a voice channel!');
+		if (!msg.member.voiceChannel) return msg.channel.send('**من فضلك الدخول إلى روم صوتي**');
 		if (!serverQueue) return msg.channel.send('There is nothing playing.');
-		if (!args[1]) return msg.channel.send(`مستوى الصوت الحالي: **${serverQueue.volume}**`);
+		if (!args[1]) return msg.channel.send(`**مستوى الصوت الحالي: __${serverQueue.volume}__**`);
 		serverQueue.volume = args[1];
 		serverQueue.connection.dispatcher.setVolumeLogarithmic(args[1] / 5);
-		return msg.channel.send(`تم تغير مستوى الصوت إلى: **${args[1]}**`);
+		return msg.channel.send(`**تم تغير مستوى الصوت إلى: __${args[1]}__**`);
 	} else if (command === 'np') {
 		             if(!message.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
-		if (!serverQueue) return msg.channel.send('There is nothing playing.');
+		if (!serverQueue) return msg.channel.send('**لايوجد إغاني**');
 		return msg.channel.send(` الأن: **${serverQueue.songs[0].title}**`);
 	} else if (command === 'queue') {
              if(!msg.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
 
-		if (!serverQueue) return msg.channel.send('لايوجد إغاني');
+		if (!serverQueue) return msg.channel.send('**لايوجد إغاني**');
 		return msg.channel.send(`
 __**Song queue:**__
 ${serverQueue.songs.map(song => `**-** ${song.title}`).join('\n')}
@@ -132,18 +132,18 @@ ${serverQueue.songs.map(song => `**-** ${song.title}`).join('\n')}
 		if (serverQueue && serverQueue.playing) {
 			serverQueue.playing = false;
 			serverQueue.connection.dispatcher.pause();
-			return msg.channel.send(' تم وقوف الإغنية');
+			return msg.channel.send('** تم وقوف الإغنية**');
 		}
-		return msg.channel.send('لايوجد إغاني');
+		return msg.channel.send('**لايوجد إغاني**');
 	} else if (command === 'resume') {
 		             if(!msg.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
 
 		if (serverQueue && !serverQueue.playing) {
 			serverQueue.playing = true;
 			serverQueue.connection.dispatcher.resume();
-			return msg.channel.send(' تم إستثناف الإغنية');
+			return msg.channel.send('** تم إستثناف الإغنية**');
 		}
-		return msg.channel.send('لايوجد أغاني');
+		return msg.channel.send('**ل**ايوجد أغاني');
 	}
 
 	return undefined;
@@ -182,7 +182,7 @@ async function handleVideo(video, msg, voiceChannel, playlist = false) {
 		serverQueue.songs.push(song);
 		console.log(serverQueue.songs);
 		if (playlist) return undefined;
-		else return msg.channel.send(` **${song.title}** تم أضافتها`);
+		else return msg.channel.send(` **__${song.title}__ تم أضافتها**`);
 	}
 	return undefined;
 }
@@ -199,7 +199,7 @@ function play(guild, song) {
 
 	const dispatcher = serverQueue.connection.playStream(ytdl(song.url))
 		.on('end', reason => {
-			if (reason === 'Stream is not generating quickly enough.') console.log('الأغنية إنتهت');
+			if (reason === 'Stream is not generating quickly enough.') console.log('**الأغنية إنتهت**');
 			else console.log(reason);
 			serverQueue.songs.shift();
 			play(guild, serverQueue.songs[0]);
@@ -207,7 +207,7 @@ function play(guild, song) {
 		.on('error', error => console.error(error));
 	dispatcher.setVolumeLogarithmic(serverQueue.volume / 5);
 
-	serverQueue.textChannel.send(` Start playing: **${song.title}**`);
+	serverQueue.textChannel.send(`** تم تشغيل: __${song.title}__**`);
 }
 });
 
