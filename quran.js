@@ -143,7 +143,7 @@ ${serverQueue.songs.map(song => `**-** ${song.title}`).join('\n')}
 			serverQueue.connection.dispatcher.resume();
 			return msg.channel.send('** تم إستثناف الإغنية**');
 		}
-		return msg.channel.send('**ل**ايوجد أغاني');
+		return msg.channel.send('**لايوجد أغاني**');
 	}
 
 	return undefined;
