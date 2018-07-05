@@ -1,5 +1,5 @@
 const Eris = require("eris");
-var kboosh = new Eris("NDU1NTkzNjA4MjAwODQ3Mzkx.DhuYgQ.r1bUuUCWnY5V-Y-WNUvaS0GwcLU");
+var kboosh = new Eris(process.env.RECROWND_BOT1);
 var kboosh_id = "464261755309129728";
                     var i = "0";
                     var x = "0";
