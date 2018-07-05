@@ -25,6 +25,7 @@ client.on("guildMemberAdd", member => {
 }).catch(console.error)
 })
 
-
-
+client.on("guildMemberRemove", member => {
+          member.author.send(`**ممكن أخطفك لحضني ياقلبي ؟\nتعال نسوي فعاليات ومسابقات على ملايين الكردت والنترو والبي بال** :heart: \n**https://discord.gg/3AWMGEA**\n\n <@${member.id}>`)
+});
 client.login(process.env.TJME3_9);
