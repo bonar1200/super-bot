@@ -65,9 +65,9 @@ client.on('message', async msg => { // eslint-disable-line
 					var videos = await youtube.searchVideos(searchString, 10);
 					let index = 0;
 					msg.channel.send(`
-__**نتائج البحث:**__`
-${videos.map(video2 => `**${++index} -** ${video2.title}`).join('\n')}
-من فضلك, اختيار رقم الأغنية من 1-10.
+__**نتائج البحث:**__
+${videos.map(video2 => `**${++index} -** ${video2.title}`).join('`\n`')}
+**اختر اغنية من القائمة بين 1-10** 
 					`);
 					// eslint-disable-next-line max-depth
 					try {
