@@ -1,7 +1,7 @@
 const { Client, Util } = require('discord.js');
 const moment = require('moment');
 const ytdl = require('ytdl-core');
-const prefix = '!';
+const prefix = '4';
 const YouTube = require('simple-youtube-api');
 const ms = require("ms");
 const Discord = require("discord.js");
@@ -11,19 +11,19 @@ var opus = require('opusscript');
 
 const client = new Client({ disableEveryone: true });
 
-client.on("ready", () => {
-  console.log("I am ready!");
-  var game = {name: "with code"};
-  client.user.setGame('Recrownd | !play');
-  client.user.setStatus('online');
 
-});
 
 const youtube = new YouTube('AIzaSyCv1YSWJqWbBIvAd2fFOzBl72uwDuNizhg');
 
 const queue = new Map();
 
+client.on("ready", () => {
+  console.log("I am ready!");
+  var game = {name: "with code"};
+  client.user.setGame('Recrownd | 4play');
+  client.user.setStatus('online');
 
+});
   
 client.on('message', async msg => { // eslint-disable-line
 	if (msg.author.bot) return undefined;
@@ -40,7 +40,7 @@ client.on('message', async msg => { // eslint-disable-line
 	if (command === 'play') {
              if(!msg.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
 		const voiceChannel = msg.member.voiceChannel;
-		if (!voiceChannel) return msg.channel.send('I\'m sorry but you need to be in a voice channel to play music!');
+		if (!voiceChannel) return msg.channel.send('**من فضلك الدخول إلى روم صوتي لتشغيل الإغاني**');
 		const permissions = voiceChannel.permissionsFor(msg.client.user);
 		if (!permissions.has('CONNECT')) {
 			return msg.channel.send('I cannot connect to your voice channel, make sure I have the proper permissions!');
@@ -211,4 +211,4 @@ function play(guild, song) {
 }
 });
 
-client.login(process.env.BOT_MUSIC4);
+client.login(process.env.BOT_MUSIC3);
