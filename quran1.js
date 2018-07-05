@@ -10,7 +10,13 @@ var opus = require('opusscript');
 
 
 const client = new Client({ disableEveryone: true });
+client.on("ready", () => {
+  console.log("I am ready!");
+  var game = {name: "with code"};
+  client.user.setGame('Recrownd | 1play');
+  client.user.setStatus('online');
 
+});
 //
 const youtube = new YouTube('AIzaSyCv1YSWJqWbBIvAd2fFOzBl72uwDuNizhg');
 
