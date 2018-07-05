@@ -17,13 +17,7 @@ const youtube = new YouTube('AIzaSyCv1YSWJqWbBIvAd2fFOzBl72uwDuNizhg');
 
 const queue = new Map();
 
-client.on("ready", () => {
-  console.log("I am ready!");
-  var game = {name: "with code"};
-  client.user.setGame('Recrownd | 3play');
-  client.user.setStatus('online');
 
-});
   
 client.on('message', async msg => { // eslint-disable-line
 	if (msg.author.bot) return undefined;
