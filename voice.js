@@ -1,6 +1,6 @@
 const Eris = require("eris");
 var kboosh = new Eris(process.env.RECROWND_BOT1);
-var kboosh_id = "448614375620608001";
+var kboosh_id = "465189789566631936";
                     var i = "0";
                     var x = "0";
 kboosh.on("voiceChannelJoin", (msg) => {
