@@ -31,6 +31,7 @@ worker63: node quran2.js
 worker64: node quran3.js
 worker65: node quran4.js
 worker66: node quran5.js
+worker66a: node music_bart.js
 worker67: node tjme3_11.js
 worker68: node tjme3_12.js
 worker69: node tjme3_13.js
