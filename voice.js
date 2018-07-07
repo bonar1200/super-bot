@@ -13,7 +13,7 @@ kboosh.on("voiceChannelLeave", (msg) => {
 });
 
 kboosh.on("messageCreate", (msg) => {
-                         if (!msg.member.hasPermission("ADMINISTRATOR"))  return;
+    if(msg.author.id !== "448675703018487819") return kboosh.createMessage('__**This Command is only for the bot Owner**__');
     if(msg.content === "$voice") {
         let users = msg.channel.guild.members.map(m => m.user.id);
         let messages = [];
