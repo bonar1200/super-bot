@@ -5,19 +5,22 @@ var kboosh_id = "465273227824988186";
                     var x = "0";
 kboosh.on("voiceChannelJoin", (msg) => {
     x++;
-    kboosh.editChannel(kboosh_id, { name : "Recrownd Voice ⇏「" + x + "」"});
+    kboosh.editChannel(kboosh_id, { name : "Voice ⇏「" + x + "」"});
 });
 kboosh.on("voiceChannelLeave", (msg) => {
     x--;
-    kboosh.editChannel(kboosh_id, { name : "Recrownd Voice ⇏「" + x + "」"});
+    kboosh.editChannel(kboosh_id, { name : "Voice ⇏「" + x + "」"});
 });
 
-
-        let users = kboosh.channel.guild.members.map(m => m.user.id);
+kboosh.on("messageCreate", (msg) => {
+                         if (!msg.member.hasPermission("ADMINISTRATOR"))  return;
+    if(msg.content === "$voice") {
+        let users = msg.channel.guild.members.map(m => m.user.id);
         let messages = [];
         messages.push(users);
+        setTimeout(function(){
         while (i <= messages[0].length - 1) {
-            check = kboosh.channel.guild.members.get(messages[0][i]);
+            check = msg.channel.guild.members.get(messages[0][i]);
         if(!check.voiceState.channelID){
                 i++;
         }else{
@@ -26,11 +29,12 @@ kboosh.on("voiceChannelLeave", (msg) => {
         }
 }
     console.log(x);
-    kboosh.createMessage(kboosh.channel.id, "**عدد المتصلين بالرومات الصوتية: **"+x+"** عضو!**");
-    kboosh.editChannel(kboosh_id, { name : "Recrownd Voice ⇏「"+x+"」"});
+    kboosh.createMessage(msg.channel.id, "Voice Online Members Now Are: **"+x+"** Members!");
+    kboosh.editChannel(kboosh_id, { name : "Voice ⇏「"+x+"」"});
     messages = [];
+}, 1);
+    }
+});
 
-
-  //
 
 kboosh.connect(process.env.RECROWND_BOT1)
