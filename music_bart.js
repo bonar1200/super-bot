@@ -221,7 +221,6 @@ function play(guild, song) {
 
 	serverQueue.textChannel.send(`** تم تشغيل: __${song.title}__**`);
 }
-	  }
 });
 
 
