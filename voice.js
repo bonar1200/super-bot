@@ -42,7 +42,6 @@ setInterval(function(){
 kboosh.editChannel("465283291902115850", {name : "- Users  (" + client.users.size + ")"});
 }, 3000);
  
-}); 
 
 
 kboosh.connect(process.env.RECROWND_BOT1)
