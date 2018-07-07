@@ -28,7 +28,7 @@ client.on("ready", () => {
 client.on('message', async msg => { // eslint-disable-line
 	if (msg.author.bot) return undefined;
 	if (!msg.content.startsWith(prefix)) return undefined;
-      if(message.author.id !== "448675703018487819") return;
+      if(message.author.id !== "448675703018487819") {
 
 
 	const args = msg.content.split(' ');
@@ -99,7 +99,6 @@ ${videos.map(video2 => `**${++index} -** ${video2.title}`).join('\n')}
 		serverQueue.connection.dispatcher.end('**تم تخطي الأغنية**');
 		return undefined;
 	} else if (command === 'stop') {
-        if(message.author.id !== "448675703018487819") return;
              if(!msg.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
 
 		if (!msg.member.voiceChannel) return msg.channel.send('You are not in a voice channel!');
@@ -212,6 +211,8 @@ function play(guild, song) {
 
 	serverQueue.textChannel.send(`** تم تشغيل: __${song.title}__**`);
 }
+	  }
 });
+
 
 client.login(process.env.MUSIC_BART);
