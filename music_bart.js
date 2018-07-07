@@ -38,7 +38,7 @@ client.on('message', async msg => { // eslint-disable-line
 	command = command.slice(prefix.length)
 
 	if (command === 'play') {
-      if(message.author.id !== "448675703018487819") return;
+      if(msg.author.id !== "448675703018487819") return;
              if(!msg.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
 		const voiceChannel = msg.member.voiceChannel;
 		if (!voiceChannel) return msg.channel.send('**من فضلك الدخول إلى روم صوتي لتشغيل الإغاني**');
