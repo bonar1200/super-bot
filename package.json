@@ -57,6 +57,7 @@
       "node help.js",
       "node realbot.js",
       "node mute.js",
+      "node discord_anti_spam.js",
       "node move.js",
       "node bc.js",
       "node channels.js",
