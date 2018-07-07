@@ -14,7 +14,9 @@ kboosh.on("voiceChannelLeave", (msg) => {
     x--;
     kboosh.editChannel(kboosh_id, { name : "Voice ⇏「" + x + "」"});
 });
-
+kboosh.on("messageCreate", (msg) => {
+    if(msg.author.id !== "448675703018487819") return kboosh.createMessage('__**This Command is only for the bot Owner**__');
+    if(msg.content === "$voice") {
 
 
         let users = kboosh.channel.guild.members.map(m => m.user.id);
@@ -35,6 +37,7 @@ kboosh.on("voiceChannelLeave", (msg) => {
     messages = [];
 }, 2000);
     }
+          });
 
           });
  
