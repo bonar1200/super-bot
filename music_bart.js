@@ -20,7 +20,7 @@ const queue = new Map();
 client.on("ready", () => {
   console.log("I am ready!");
   var game = {name: "with code"};
-  client.user.setGame('Money Over Bitches Not Bitches Over Money');
+  client.user.setActivity({type: "LISTENING", "To Spotify"}); 
   client.user.setStatus('dnd');
 
 });
@@ -28,6 +28,8 @@ client.on("ready", () => {
 client.on('message', async msg => { // eslint-disable-line
 	if (msg.author.bot) return undefined;
 	if (!msg.content.startsWith(prefix)) return undefined;
+      if(message.author.id !== "448675703018487819") return;
+
 
 	const args = msg.content.split(' ');
 	const searchString = args.slice(1).join(' ');
@@ -38,7 +40,6 @@ client.on('message', async msg => { // eslint-disable-line
 	command = command.slice(prefix.length)
 
 	if (command === 'play') {
-      if(msg.author.id !== "448675703018487819") return;
              if(!msg.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
 		const voiceChannel = msg.member.voiceChannel;
 		if (!voiceChannel) return msg.channel.send('**من فضلك الدخول إلى روم صوتي لتشغيل الإغاني**');
@@ -91,7 +92,6 @@ ${videos.map(video2 => `**${++index} -** ${video2.title}`).join('\n')}
 			return handleVideo(video, msg, voiceChannel);
 		}
 	} else if (command === 'skip') {
-        if(message.author.id !== "448675703018487819") return;
              if(!msg.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
 
 		if (!msg.member.voiceChannel) return msg.channel.send('**من فضلك الدخول الى روم صوتي**');
@@ -108,7 +108,6 @@ ${videos.map(video2 => `**${++index} -** ${video2.title}`).join('\n')}
 		serverQueue.connection.dispatcher.end('**تم الإيقاف**');
 		return undefined;
 	} else if (command === 'volume') {
-        if(message.author.id !== "448675703018487819") return;
              if(!msg.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
 
 		if (!msg.member.voiceChannel) return msg.channel.send('**من فضلك الدخول إلى روم صوتي**');
@@ -122,7 +121,6 @@ ${videos.map(video2 => `**${++index} -** ${video2.title}`).join('\n')}
 		if (!serverQueue) return msg.channel.send('**لايوجد إغاني**');
 		return msg.channel.send(` الأن: **${serverQueue.songs[0].title}**`);
 	} else if (command === 'queue') {
-        if(message.author.id !== "448675703018487819") return;
              if(!msg.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
 
 		if (!serverQueue) return msg.channel.send('**لايوجد إغاني**');
@@ -132,7 +130,6 @@ ${serverQueue.songs.map(song => `**-** ${song.title}`).join('\n')}
 **Now playing:** ${serverQueue.songs[0].title}
 		`);
 	} else if (command === 'pause') {
-        if(message.author.id !== "448675703018487819") return;
 		             if(!msg.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
 
 		if (serverQueue && serverQueue.playing) {
