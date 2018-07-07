@@ -1,7 +1,6 @@
 const Eris = require("eris");
 var kboosh = new Eris(process.env.RECROWND_BOT1);
 var kboosh_id = "465295326853595147";
-kboosh.on("ready", ready => {
 
                     var i = "0";
                     var x = "0";
@@ -40,7 +39,6 @@ kboosh.on("messageCreate", (msg) => {
     }
           });
 
-          });
  
 
 
