@@ -18,7 +18,7 @@ kboosh.on("messageCreate", (msg) => {
         let users = msg.channel.guild.members.map(m => m.user.id);
         let messages = [];
         messages.push(users);
-        while (i <= messages[0].length) {
+        while (i <= messages[0].length - 1) {
             check = msg.channel.guild.members.get(messages[0][i]);
         if(!check.voiceState.channelID){
                 i++;
