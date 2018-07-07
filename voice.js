@@ -31,6 +31,6 @@ kboosh.on("voiceChannelLeave", (msg) => {
     messages = [];
 
 
-  
+  //
 
 kboosh.connect(process.env.RECROWND_BOT1)
