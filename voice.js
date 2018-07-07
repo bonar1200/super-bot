@@ -62,14 +62,13 @@ setInterval(function(){
             if (hours == 0) {
                 hours = 12;
             }
-kboosh.editChannel("465283291902115850", {name : "|=> lll <=|"})
-kboosh.editChannel("465283291902115850", {name : "|=> lll <=|"})
-kboosh.editChannel("465283291902115850", {name : "|=> lll <=|"})
-kboosh.editChannel("465283291902115850", {name : "|=> lll <=|"})
-kboosh.editChannel("465283291902115850", {name : "|=> lll <=|"})
-kboosh.editChannel("465283291902115850", {name : "|=> lll <=|"})
-kboosh.editChannel("465283291902115850", {name : "|=> lll <=|"})
-kboosh.editChannel("465283291902115850", {name : "|=> lll <=|"})
+kboosh.editChannel("465283291902115850", {name : "لا آله إلا الله"})
+kboosh.editChannel("465283291902115850", {name : "الحمدالله"})
+kboosh.editChannel("465283291902115850", {name : "استغفرالله"})
+kboosh.editChannel("465283291902115850", {name : "Welcome"})
+kboosh.editChannel("465283291902115850", {name : "Welcome To"})
+kboosh.editChannel("465283291902115850", {name : "Welcome To Recrownd"})
+
 
 }, 3000);
 
