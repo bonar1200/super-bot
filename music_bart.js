@@ -20,7 +20,7 @@ const queue = new Map();
 client.on("ready", () => {
   console.log("I am ready!");
   var game = {name: "with code"};
-  client.user.setActivity({type: "LISTENING", "To Spotify"}); 
+  client.user.setGame('Money Over BItches'); 
   client.user.setStatus('dnd');
 
 });
