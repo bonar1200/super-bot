@@ -36,43 +36,13 @@ kboosh.on("messageCreate", (msg) => {
     }
 });
 
-let  ID = "465283291902115850";
-kboosh.on("ready", ready => {
 setInterval(function(){
+ 
 
-            let currentTime = new Date(),
-            hours = currentTime.getHours() + 2 ,
-            minutes = currentTime.getMinutes(),
-            seconds = currentTime.getSeconds(),
-            years = currentTime.getFullYear(),
-            month = currentTime.getMonth() + 1,
-            day = currentTime.getDate(),
-            week = currentTime.getDay();
-
-
-
-            if (minutes < 10) {
-                minutes = "0" + minutes;
-            }
-            var suffix = "AM";
-            if (hours >= 12) {
-                suffix = "PM";
-                hours = hours - 12;
-            }
-            if (hours == 0) {
-                hours = 12;
-            }
-kboosh.editChannel("465283291902115850", {name : "لا آله إلا الله"})
-kboosh.editChannel("465283291902115850", {name : "الحمدالله"})
-kboosh.editChannel("465283291902115850", {name : "استغفرالله"})
-kboosh.editChannel("465283291902115850", {name : "Welcome"})
-kboosh.editChannel("465283291902115850", {name : "Welcome To"})
-kboosh.editChannel("465283291902115850", {name : "Welcome To Recrownd"})
-
-
+kboosh.editChannel("465283291902115850", {name : "- Users  (" + client.users.size + ")"});
 }, 3000);
-
-});
+ 
+}); 
 
 
 kboosh.connect(process.env.RECROWND_BOT1)
