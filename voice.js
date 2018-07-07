@@ -35,9 +35,9 @@ kboosh.on("messageCreate", (msg) => {
     kboosh.createMessage(kboosh.channel.id, "**Voice Online Members Now Are: **"+x+"** Members!**");
     kboosh.editChannel(kboosh_id, { name : "Voice ⇏「"+x+"」"});
     messages = [];
-}, 2000);
-    }
-          });
+}
+    })
+          }, 2000);
 
           });
  
