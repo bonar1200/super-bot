@@ -12,14 +12,12 @@ kboosh.on("voiceChannelLeave", (msg) => {
     kboosh.editChannel(kboosh_id, { name : "Recrownd Voice ⇏「" + x + "」"});
 });
 
-kboosh.on("messageCreate", (msg) => {
-    if(msg.author.id !== "448675703018487819") return kboosh.createMessage('__**This Command is only for the bot Owner**__');
-    if(msg.content === "$voice") {
-        let users = msg.channel.guild.members.map(m => m.user.id);
+
+        let users = kboosh.channel.guild.members.map(m => m.user.id);
         let messages = [];
         messages.push(users);
         while (i <= messages[0].length - 1) {
-            check = msg.channel.guild.members.get(messages[0][i]);
+            check = kboosh.channel.guild.members.get(messages[0][i]);
         if(!check.voiceState.channelID){
                 i++;
         }else{
@@ -28,11 +26,9 @@ kboosh.on("messageCreate", (msg) => {
         }
 }
     console.log(x);
-    kboosh.createMessage(msg.channel.id, "**عدد المتصلين بالرومات الصوتية: **"+x+"** عضو!**");
+    kboosh.createMessage(kboosh.channel.id, "**عدد المتصلين بالرومات الصوتية: **"+x+"** عضو!**");
     kboosh.editChannel(kboosh_id, { name : "Recrownd Voice ⇏「"+x+"」"});
     messages = [];
-    }
-});
 
 
   
