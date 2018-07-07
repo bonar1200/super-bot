@@ -89,7 +89,8 @@
     "moment": "2.22.2",
     "opusscript": "0.0.6",
     "canvas": "1.6.11",
-    "eris": "0.8.6"
+    "eris": "0.8.6",
+    "discord-anti-spam": "1.1.2"
   }
 }
 
