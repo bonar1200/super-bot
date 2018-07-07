@@ -11,7 +11,7 @@ kboosh.on("voiceChannelLeave", (msg) => {
     x--;
     kboosh.editChannel(kboosh_id, { name : "Recrownd Voice ⇏「" + x + "」"});
 });
-
+//
 
         let users = kboosh.channel.guild.members.map(m => m.user.id);
         let messages = [];
