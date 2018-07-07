@@ -39,7 +39,7 @@ kboosh.on("messageCreate", (msg) => {
 setInterval(function(){
  
 
-kboosh.editChannel("465283291902115850", {name : "- Users  (" + client.users.size + ")"});
+kboosh.editChannel("465283291902115850", {name : "- Users  (" + kboosh.users.size + ")"});
 }, 3000);
  
 
