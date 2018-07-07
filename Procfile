@@ -1,4 +1,5 @@
 worker: node bot.js
+worker1a: node discord_anti_spam.js
 worker1: node bot1.js
 worker2: node quran.js
 worker3: node tjme3_1.js
