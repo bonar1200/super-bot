@@ -24,24 +24,7 @@ client.on("ready", () => {
 
 
 
-client.on("guildMemberAdd", (member) => {
-  let guild = member.guild;
-  client.channels.get("463343089629790208").sendMessage("", {embed: {
-  color: 3447003,
-  author: {
-    name: member.user.username,
-    icon_url: member.user.avatarURL
-  },
-  title: 'Vectory Server',
-  url: 'https://discord.gg/3wqUeku',
-  description: '',
-}}).catch(console.error);
-    let channel = member.guild.channels.get("463343089629790208");
-    if (!channel) return;
-channel.send(`**${member}
-- Invited By: ${Invite.inviter}** \n`)
-}
-);
+
 
 
 const queue = new Map();
