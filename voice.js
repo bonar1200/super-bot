@@ -18,7 +18,6 @@ kboosh.on("messageCreate", (msg) => {
         let users = msg.channel.guild.members.map(m => m.user.id);
         let messages = [];
         messages.push(users);
-      setInterval(function() {
         setTimeout(function(){
         while (i <= messages[0].length - 1) {
             check = msg.channel.guild.members.get(messages[0][i]);
@@ -33,8 +32,7 @@ kboosh.on("messageCreate", (msg) => {
     kboosh.createMessage(msg.channel.id, "Voice Online Members Now Are: **"+x+"** Members!");
     kboosh.editChannel(kboosh_id, { name : "Voice ⇏「"+x+"」"});
     messages = [];
-}, 1);
-      }, 3000);
+}, 7776000000);
     }
 });
 
