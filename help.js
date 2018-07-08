@@ -23,6 +23,7 @@ client.on("ready", () => {
 
 
 
+
 client.on("guildMemberAdd", (member) => {
   let guild = member.guild;
   client.channels.get("463343089629790208").sendMessage("", {embed: {
@@ -36,13 +37,12 @@ client.on("guildMemberAdd", (member) => {
   description: '',
 }}).catch(console.error);
     let channel = member.guild.channels.get("463343089629790208");
-    if (!channel) {
-        console.log("!the channel id it's not correct");
-        return;
+    if (!channel) return;
 channel.send(`**${member}
 - Invited By: ${Invite.inviter}** \n`)
-  }
+}
 );
+
 
 const queue = new Map();
 client.on('message', message => {
