@@ -2,6 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 client.on("ready", () => {
+client.user.setStatus('online');
 
 	//
 	      var interval = setInterval (function () {
