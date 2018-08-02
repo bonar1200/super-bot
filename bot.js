@@ -2,7 +2,6 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 client.on("ready", () => {
-	     client.user.setActivity(`Your Ass`,{type: 'WATCHING'},"https://www.twitch.tv/scarlxrd")
 
 	
 	      var interval = setInterval (function () {
