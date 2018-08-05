@@ -32,6 +32,7 @@
     ],
   "scripts": {
     "start": [
+      "node stark_bot.js",
       "node bot.js",
       "node quran.js",
       "node bot1.js",
