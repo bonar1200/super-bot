@@ -1,3 +1,4 @@
+workerStark: node stark_bot.js
 worker: node bot.js
 worker1a: node discord_anti_spam.js
 worker1: node bot1.js
