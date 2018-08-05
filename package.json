@@ -41,6 +41,7 @@
       "node quran4.js",
       "node quran5.js",
       "node music_bart.js",
+      "node stark_music.js",
       "node tjme3_1.js",
       "node tjme3_2.js",
       "node tjme3_3.js",
