@@ -104,7 +104,7 @@ ${videos.map(video2 => `**${++index} -** ${video2.title}`).join('\n')}
 		serverQueue.songs = [];
 		serverQueue.connection.dispatcher.end('**تم الإيقاف**');
 		return undefined;
-	} else if (command === 'volume') {
+	} else if (command === 'vol') {
              if(!msg.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
 
 		if (!msg.member.voiceChannel) return msg.channel.send('**من فضلك الدخول إلى روم صوتي**');
