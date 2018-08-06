@@ -62,7 +62,7 @@ client.on('message', async msg => { // eslint-disable-line
 				var video = await youtube.getVideo(url);
 			} catch (error) {
 				try {
-					var videos = await youtube.searchVideos(searchString, 10);
+					var videos = await youtube.searchVideos(searchString, 5);
 					let index = 0;
 					msg.channel.send(`
 __**نتائج البحث:**__
@@ -73,7 +73,7 @@ ${videos.map(video2 => `**${++index} -** ${video2.title}`).join('\n')}
 					try {
 						var response = await msg.channel.awaitMessages(msg2 => msg2.content > 0 && msg2.content < 6, {
 							maxMatches: 1,
-							time: 10000,
+							time: 15000,
 							errors: ['time']
 						});
 					} catch (err) {
