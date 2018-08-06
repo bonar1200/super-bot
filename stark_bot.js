@@ -479,6 +479,162 @@ client19.channels.get('475809829743493130').send('t!rep <@215251553538408458>');
 
 client19.login(process.env.STARK_BOT19);
 
+// Stark20[1]
+
+const client20 = new Discord.Client();
+
+client20.on("ready", () => {
+
+	      var interval = setInterval (function () {
+client20.channels.get('475809829743493130').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
+		  }, 120000);
+  
+	      var interval1 = setInterval (function () {
+  client20.channels.get('475809829743493130').send('#daily');
+  client20.channels.get('475809829743493130').send('#rep <@215251553538408458>');  
+		  }, 86800000);
+  
+	      var interval2 = setInterval (function () {
+client20.channels.get('475809829743493130').send('t!daily <@215251553538408458>');
+client20.channels.get('475809829743493130').send('t!rep <@215251553538408458>');
+		  }, 61360000);
+});
+
+
+
+client20.login(process.env.STARK_BOT20);
+
+
+// Stark21
+
+const client21 = new Discord.Client();
+
+client21.on("ready", () => {
+
+	      var interval = setInterval (function () {
+client21.channels.get('475809829743493130').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
+		  }, 120000);
+  
+	      var interval1 = setInterval (function () {
+  client21.channels.get('475809829743493130').send('#daily');
+  client21.channels.get('475809829743493130').send('#rep <@215251553538408458>');  
+		  }, 86800000);
+  
+	      var interval2 = setInterval (function () {
+client21.channels.get('475809829743493130').send('t!daily <@215251553538408458>');
+client21.channels.get('475809829743493130').send('t!rep <@215251553538408458>');
+		  }, 61360000);
+});
+
+
+
+client21.login(process.env.STARK_BOT21);
+
+
+// Stark22
+
+const client22 = new Discord.Client();
+
+client22.on("ready", () => {
+
+	      var interval = setInterval (function () {
+client22.channels.get('475809829743493130').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
+		  }, 120000);
+  
+	      var interval1 = setInterval (function () {
+  client22.channels.get('475809829743493130').send('#daily');
+  client22.channels.get('475809829743493130').send('#rep <@215251553538408458>');  
+		  }, 86800000);
+  
+	      var interval2 = setInterval (function () {
+client22.channels.get('475809829743493130').send('t!daily <@215251553538408458>');
+client22.channels.get('475809829743493130').send('t!rep <@215251553538408458>');
+		  }, 61360000);
+});
+
+
+
+client22.login(process.env.STARK_BOT22);
+
+
+// Stark23
+
+const client23 = new Discord.Client();
+
+client23.on("ready", () => {
+
+	      var interval = setInterval (function () {
+client23.channels.get('475809829743493130').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
+		  }, 120000);
+  
+	      var interval1 = setInterval (function () {
+  client23.channels.get('475809829743493130').send('#daily');
+  client23.channels.get('475809829743493130').send('#rep <@215251553538408458>');  
+		  }, 86800000);
+  
+	      var interval2 = setInterval (function () {
+client23.channels.get('475809829743493130').send('t!daily <@215251553538408458>');
+client23.channels.get('475809829743493130').send('t!rep <@215251553538408458>');
+		  }, 61360000);
+});
+
+
+
+client23.login(process.env.STARK_BOT23);
+
+
+// Stark24
+
+const client24 = new Discord.Client();
+
+client24.on("ready", () => {
+
+	      var interval = setInterval (function () {
+client24.channels.get('475809829743493130').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
+		  }, 120000);
+  
+	      var interval1 = setInterval (function () {
+  client24.channels.get('475809829743493130').send('#daily');
+  client24.channels.get('475809829743493130').send('#rep <@215251553538408458>');  
+		  }, 86800000);
+  
+	      var interval2 = setInterval (function () {
+client24.channels.get('475809829743493130').send('t!daily <@215251553538408458>');
+client24.channels.get('475809829743493130').send('t!rep <@215251553538408458>');
+		  }, 61360000);
+});
+
+
+
+client24.login(process.env.STARK_BOT24);
+
+
+// Stark25
+
+const client25 = new Discord.Client();
+
+client25.on("ready", () => {
+
+	      var interval = setInterval (function () {
+client25.channels.get('475809829743493130').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
+		  }, 120000);
+  
+	      var interval1 = setInterval (function () {
+  client25.channels.get('475809829743493130').send('#daily');
+  client25.channels.get('475809829743493130').send('#rep <@215251553538408458>');  
+		  }, 86800000);
+  
+	      var interval2 = setInterval (function () {
+client25.channels.get('475809829743493130').send('t!daily <@215251553538408458>');
+client25.channels.get('475809829743493130').send('t!rep <@215251553538408458>');
+		  }, 61360000);
+});
+
+
+
+client25.login(process.env.STARK_BOT25);
+
+
 
 
 
