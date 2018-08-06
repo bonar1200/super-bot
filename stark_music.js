@@ -66,7 +66,7 @@ client.on('message', async msg => { // eslint-disable-line
 					let index = 0;
 					msg.channel.send(`
 __**نتائج البحث:**__
-${videos.map(video2 => "`${++index} - ${video2.title}`").join('\n')}
+${videos.map(video2 => ``${++index} - ${video2.title}``).join('\n')}
 **اختر اغنية من القائمة بين 1-10** 
 					`);
 					// eslint-disable-next-line max-depth
