@@ -224,7 +224,7 @@ client9.login(process.env.STARK_BOT9);
 
 const client10 = new Discord.Client();
 
-client.on("ready", () => {
+client10.on("ready", () => {
 
 	      var interval = setInterval (function () {
 client10.channels.get('475809829743493130').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
