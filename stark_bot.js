@@ -326,7 +326,7 @@ client13.login(process.env.STARK_BOT13);
 
 // Stark15
 
-const client114 = new Discord.Client();
+const client14 = new Discord.Client();
 
 client14.on("ready", () => {
 
