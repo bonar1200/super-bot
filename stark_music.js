@@ -64,11 +64,17 @@ client.on('message', async msg => { // eslint-disable-line
 				try {
 					var videos = await youtube.searchVideos(searchString, 5);
 					let index = 0;
-					msg.channel.send(`
-__**نتائج البحث:**__
-${videos.map(video2 => ``${++index} - ${video2.title}``).join('\n')}
-**اختر اغنية من القائمة بين 1-10** 
-					`);
+
+const embed = new Discord.RichEmbed()
+  .setAuthor("Author Name", "https://i.imgur.com/lm8s41J.png")
+
+  .setColor(0x00AE86)
+  .setDescription(`${videos.map(video2 => "**${++index} -** ${video2.title}").join('\n')}`)
+
+  .addField("Inline Field", "They can also be inline.", true);
+
+
+  msg.channel.send({embed});
 					// eslint-disable-next-line max-depth
 					try {
 						var response = await msg.channel.awaitMessages(msg2 => msg2.content > 0 && msg2.content < 6, {
