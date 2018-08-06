@@ -206,7 +206,7 @@ function play(guild, song) {
 
 	const dispatcher = serverQueue.connection.playStream(ytdl(song.url))
 		.on('end', reason => {
-			if (reason === 'Stream is not generating quickly enough.') console.log('**المقطع انتهى**');
+			if (reason === 'Stream is not generating quickly enough.') console.log('**الاغنية انتهت**');
 			else console.log(reason);
 			serverQueue.songs.shift();
 			play(guild, serverQueue.songs[0]);
