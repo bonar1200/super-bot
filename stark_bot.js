@@ -145,7 +145,7 @@ clien6.channels.get('475809829743493130').send('t!rep <@215251553538408458>');
 client6.login(process.env.STARK_BOT8);
 
 // Stark7
-const client = new Discord.Client();
+const client7 = new Discord.Client();
 
 client7.on("ready", () => {
 
