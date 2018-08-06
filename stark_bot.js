@@ -6,7 +6,7 @@ const client = new Discord.Client();
 client.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client.channels.get('451866194559893504').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
+client.channels.get('475809829743493130').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
 		  }, 120000);
   
 	      var interval1 = setInterval (function () {
@@ -30,7 +30,7 @@ const client2 = new Discord.Client();
 client2.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client2.channels.get('451866194559893504').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
+client2.channels.get('475809829743493130').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
 		  }, 120000);
   
 	      var interval1 = setInterval (function () {
@@ -54,7 +54,7 @@ const client3 = new Discord.Client();
 client3.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client3.channels.get('451866194559893504').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
+client3.channels.get('475809829743493130').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
 		  }, 120000);
   
 	      var interval1 = setInterval (function () {
@@ -78,7 +78,7 @@ const client4 = new Discord.Client();
 client4.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client4.channels.get('451866194559893504').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
+client4.channels.get('475809829743493130').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
 		  }, 120000);
   
 	      var interval1 = setInterval (function () {
@@ -102,7 +102,7 @@ const client5 = new Discord.Client();
 client5.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client5.channels.get('451866194559893504').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
+client5.channels.get('475809829743493130').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
 		  }, 120000);
   
 	      var interval1 = setInterval (function () {
@@ -126,7 +126,7 @@ const client6 = new Discord.Client();
 client6.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client6.channels.get('451866194559893504').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
+client6.channels.get('475809829743493130').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
 		  }, 120000);
   
 	      var interval1 = setInterval (function () {
@@ -150,7 +150,7 @@ const client7 = new Discord.Client();
 client7.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client7.channels.get('451866194559893504').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
+client7.channels.get('475809829743493130').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
 		  }, 120000);
   
 	      var interval1 = setInterval (function () {
@@ -167,5 +167,4 @@ client7.channels.get('475809829743493130').send('t!rep <@215251553538408458>');
 
 
 client7.login(process.env.STARK_BOT7);
-
 
