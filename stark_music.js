@@ -71,7 +71,7 @@ ${videos.map(video2 => `**${++index} -** ${video2.title}`).join('\n')}
 					`);
 					// eslint-disable-next-line max-depth
 					try {
-						var response = await msg.channel.awaitMessages(msg2 => msg2.content > 0 && msg2.content < 11, {
+						var response = await msg.channel.awaitMessages(msg2 => msg2.content > 0 && msg2.content < 6, {
 							maxMatches: 1,
 							time: 10000,
 							errors: ['time']
