@@ -94,7 +94,7 @@ client4.channels.get('475809829743493130').send('t!rep <@215251553538408458>');
 
 
 
-client.login(process.env.STARK_BOT4);
+client4.login(process.env.STARK_BOT4);
 
 // Stark4
 const client5 = new Discord.Client();
