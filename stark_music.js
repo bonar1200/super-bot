@@ -7,7 +7,7 @@ const ms = require("ms");
 const Discord = require("discord.js");
 var opus = require('opusscript');
 
-
+//
 
 const client = new Client({ disableEveryone: true });
 
