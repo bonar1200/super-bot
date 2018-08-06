@@ -69,14 +69,14 @@ const embed = new Discord.RichEmbed()
   .setAuthor("Stark Music", "http://memberdata.s3.amazonaws.com/hi/hitsdd/photos/hitsdd_photo_gal__photo_1923946100.png")
 
   .setColor('RANDOM')
-  .setDescription(`${videos.map(video2 => `**${++index} -** ${video2.title}`).join('\n')}`)  .then(msg => {
-    msg.delete(15000)
-  })
+  .setDescription(`${videos.map(video2 => `**${++index} -** ${video2.title}`).join('\n')}`)
 
 
 
  msg.channel.send('**اختر رقم المقطع : **')
-  msg.channel.send({embed});
+  msg.channel.send({embed})  .then(msg => {
+    msg.delete(15000)
+  });
 					// eslint-disable-next-line max-depth
 					try {
 						var response = await msg.channel.awaitMessages(msg2 => msg2.content > 0 && msg2.content < 6, {
