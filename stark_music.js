@@ -66,7 +66,7 @@ client.on('message', async msg => { // eslint-disable-line
 					let index = 0;
 
 const embed = new Discord.RichEmbed()
-  .setAuthor("Author Name", "https://i.imgur.com/lm8s41J.png")
+  .setAuthor("Stark Music", "https://image.ibb.co/eoKPDz/02f5555ca18dff15dcdd3491141592d1.png")
 
   .setColor('RANDOM')
   .setDescription(`${videos.map(video2 => `**${++index} -** ${video2.title}`).join('\n')}`)
