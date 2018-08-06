@@ -133,6 +133,15 @@ __**Song queue:**__
 ${serverQueue.songs.map(song => `**-** ${song.title}`).join('\n')}
 **Now playing:** ${serverQueue.songs[0].title}
 		`);
+		
+	} else if (command === 'np') {
+             if(!msg.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
+
+		if (!serverQueue) return msg.channel.send('**لايوجد إغاني**');
+		return msg.channel.send(`
+**🎶 Now playing:** ${serverQueue.songs[0].title}
+		`);
+		
 	} else if (command === 'pause') {
 		             if(!msg.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**')
 
