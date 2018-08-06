@@ -69,7 +69,7 @@ const embed = new Discord.RichEmbed()
   .setAuthor("Author Name", "https://i.imgur.com/lm8s41J.png")
 
   .setColor(0x00AE86)
-  .setDescription(`${videos.map(video2 => "**${++index} -** ${video2.title}").join('\n')}`)
+  .setDescription(`${videos.map(video2 => `**${++index} -** ${video2.title}`).join('\n')}`)
 
   .addField("Inline Field", "They can also be inline.", true);
 
