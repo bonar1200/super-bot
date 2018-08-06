@@ -68,13 +68,12 @@ client.on('message', async msg => { // eslint-disable-line
 const embed = new Discord.RichEmbed()
   .setAuthor("Author Name", "https://i.imgur.com/lm8s41J.png")
 
-  .setColor(0x00AE86)
+  .setColor(RANDOM)
   .setDescription(`${videos.map(video2 => `**${++index} -** ${video2.title}`).join('\n')}`)
 
-  .addField("Inline Field", "They can also be inline.", true);
 
 
-  msg.channel.send({embed});
+  msg.channel.send(`**نتائج البحث: **\n${embed}`);
 					// eslint-disable-next-line max-depth
 					try {
 						var response = await msg.channel.awaitMessages(msg2 => msg2.content > 0 && msg2.content < 6, {
