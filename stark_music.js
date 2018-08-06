@@ -73,7 +73,7 @@ const embed = new Discord.RichEmbed()
 
 
 
-  msg.channel.send(`**نتائج البحث: **\n${embed}`);
+  msg.channel.send({embed});
 					// eslint-disable-next-line max-depth
 					try {
 						var response = await msg.channel.awaitMessages(msg2 => msg2.content > 0 && msg2.content < 6, {
