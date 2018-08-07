@@ -393,7 +393,7 @@ client15.login(process.env.STARK_BOT15);
 
 const client16 = new Discord.Client();
 
-client116.on("ready", () => {
+client16.on("ready", () => {
 
 	      var interval = setInterval (function () {
 client16.channels.get('476132826513801226').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
