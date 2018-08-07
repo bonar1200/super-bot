@@ -69,7 +69,7 @@ const embed = new Discord.RichEmbed()
   .setAuthor("Stark Music", "http://memberdata.s3.amazonaws.com/hi/hitsdd/photos/hitsdd_photo_gal__photo_1923946100.png")
 
   .setColor('RANDOM')
-  .setDescription(`اختر رقم المقطع : \n${videos.map(video2 => `**[${++index}] -** ${video2.title}``).join('\n'`)}`)
+  .setDescription(`اختر رقم المقطع : \n${videos.map(video2 => `**[${++index}] -** ${video2.title}`).join('\n')}`)
 
 
 
