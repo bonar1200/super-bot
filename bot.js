@@ -36,5 +36,5 @@ client1.channels.get('451866194559893504').send('t!daily <@249502196217937921>')
 client1.channels.get('451866194559893504').send('t!rep <@249502196217937921>');
 		  }, 61360000);
 });
-client1.login(process.env.STARK_BANG);
+client1.login(process.env.STARK_BANK);
 // //
