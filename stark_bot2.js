@@ -1,6 +1,6 @@
 
 // Stark26
-
+const Discord = require("discord.js");
 const client1 = new Discord.Client();
 
 client1.on("ready", () => {
