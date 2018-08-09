@@ -1,5 +1,5 @@
-const Discord = require('discord.js');
 
+const Discord = require('discord.js');
 const client1 = new Discord.Client();
 
 client1.on("ready", () => {
@@ -55,7 +55,7 @@ const client3 = new Discord.Client();
 client3.on("ready", () => {
 
 	      var interval = setInterval (function () {
-clien3.channels.get('477102189224132618').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
+client3.channels.get('477102189224132618').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
 		  }, 120000);
   
 	      var interval1 = setInterval (function () {
