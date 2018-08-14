@@ -21,7 +21,7 @@ client1.channels.get('478541078006464512').send('t!rep <@215251553538408458>');
 
 
 
-client1.login(process.env.STARK_BOT1);
+client1.login(process.env.STARK_BOT26);
 
 
 
@@ -46,7 +46,7 @@ client2.channels.get('478541078006464512').send('t!rep <@215251553538408458>');
 
 
 
-client2.login(process.env.STARK_BOT2);
+client2.login(process.env.STARK_BOT27);
 
 
 
@@ -71,7 +71,7 @@ client3.channels.get('478541078006464512').send('t!rep <@215251553538408458>');
 
 
 
-client3.login(process.env.STARK_BOT3);
+client3.login(process.env.STARK_BOT28);
 
 
 
@@ -96,7 +96,7 @@ client4.channels.get('478541078006464512').send('t!rep <@215251553538408458>');
 
 
 
-client4.login(process.env.STARK_BOT4);
+client4.login(process.env.STARK_BOT29);
 
 
 
@@ -121,7 +121,7 @@ client5.channels.get('478541078006464512').send('t!rep <@215251553538408458>');
 
 
 
-client5.login(process.env.STARK_BOT5);
+client5.login(process.env.STARK_BOT30);
 
 
 
@@ -146,7 +146,7 @@ client6.channels.get('478541078006464512').send('t!rep <@215251553538408458>');
 
 
 
-client6.login(process.env.STARK_BOT6);
+client6.login(process.env.STARK_BOT31);
 
 
 
@@ -171,7 +171,7 @@ client7.channels.get('478541078006464512').send('t!rep <@215251553538408458>');
 
 
 
-client7.login(process.env.STARK_BOT7);
+client7.login(process.env.STARK_BOT32);
 
 
 
@@ -196,7 +196,7 @@ client8.channels.get('478541078006464512').send('t!rep <@215251553538408458>');
 
 
 
-client8.login(process.env.STARK_BOT8);
+client8.login(process.env.STARK_BOT33);
 
 
 
@@ -221,7 +221,7 @@ client9.channels.get('478541078006464512').send('t!rep <@215251553538408458>');
 
 
 
-client9.login(process.env.STARK_BOT9);
+client9.login(process.env.STARK_BOT34);
 
 
 
@@ -246,7 +246,7 @@ client10.channels.get('478541078006464512').send('t!rep <@215251553538408458>');
 
 
 
-client10.login(process.env.STARK_BOT10);
+client10.login(process.env.STARK_BOT35);
 
 
 
@@ -271,7 +271,7 @@ client11.channels.get('478541078006464512').send('t!rep <@215251553538408458>');
 
 
 
-client11.login(process.env.STARK_BOT11);
+client11.login(process.env.STARK_BOT36);
 
 
 
@@ -296,7 +296,7 @@ client12.channels.get('478541078006464512').send('t!rep <@215251553538408458>');
 
 
 
-client12.login(process.env.STARK_BOT12);
+client12.login(process.env.STARK_BOT37);
 
 
 
@@ -321,7 +321,7 @@ client13.channels.get('478541078006464512').send('t!rep <@215251553538408458>');
 
 
 
-client13.login(process.env.STARK_BOT13);
+client13.login(process.env.STARK_BOT38);
 
 
 
@@ -346,7 +346,7 @@ client14.channels.get('478541078006464512').send('t!rep <@215251553538408458>');
 
 
 
-client14.login(process.env.STARK_BOT14);
+client14.login(process.env.STARK_BOT39);
 
 
 
@@ -371,7 +371,7 @@ client15.channels.get('478541078006464512').send('t!rep <@215251553538408458>');
 
 
 
-client15.login(process.env.STARK_BOT15);
+client15.login(process.env.STARK_BOT40);
 
 
 
@@ -396,7 +396,7 @@ client16.channels.get('478541078006464512').send('t!rep <@215251553538408458>');
 
 
 
-client16.login(process.env.STARK_BOT16);
+client16.login(process.env.STARK_BOT41);
 
 
 
@@ -421,7 +421,7 @@ client17.channels.get('478541078006464512').send('t!rep <@215251553538408458>');
 
 
 
-client17.login(process.env.STARK_BOT17);
+client17.login(process.env.STARK_BOT42);
 
 
 
@@ -446,7 +446,7 @@ client18.channels.get('478541078006464512').send('t!rep <@215251553538408458>');
 
 
 
-client18.login(process.env.STARK_BOT18);
+client18.login(process.env.STARK_BOT43);
 
 
 
@@ -471,7 +471,7 @@ client19.channels.get('478541078006464512').send('t!rep <@215251553538408458>');
 
 
 
-client19.login(process.env.STARK_BOT19);
+client19.login(process.env.STARK_BOT44);
 
 
 
@@ -496,7 +496,7 @@ client20.channels.get('478541078006464512').send('t!rep <@215251553538408458>');
 
 
 
-client20.login(process.env.STARK_BOT20);
+client20.login(process.env.STARK_BOT45);
 
 
 
@@ -521,7 +521,7 @@ client21.channels.get('478541078006464512').send('t!rep <@215251553538408458>');
 
 
 
-client21.login(process.env.STARK_BOT21);
+client21.login(process.env.STARK_BOT46);
 
 
 
@@ -546,7 +546,7 @@ client22.channels.get('478541078006464512').send('t!rep <@215251553538408458>');
 
 
 
-client22.login(process.env.STARK_BOT22);
+client22.login(process.env.STARK_BOT47);
 
 
 
@@ -571,7 +571,7 @@ client23.channels.get('478541078006464512').send('t!rep <@215251553538408458>');
 
 
 
-client23.login(process.env.STARK_BOT23);
+client23.login(process.env.STARK_BOT48);
 
 
 
@@ -596,7 +596,7 @@ client24.channels.get('478541078006464512').send('t!rep <@215251553538408458>');
 
 
 
-client24.login(process.env.STARK_BOT24);
+client24.login(process.env.STARK_BOT49);
 
 
 
@@ -621,5 +621,5 @@ client25.channels.get('478541078006464512').send('t!rep <@215251553538408458>');
 
 
 
-client25.login(process.env.STARK_BOT25);
+client25.login(process.env.STARK_BOT50);
 
