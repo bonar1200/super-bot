@@ -4,7 +4,7 @@ const bot = new(require("discord.js")).Client({fetchAllMembers: true});
 const password = (process.env.TAG1_PASS);
 const token = (process.env.TAG1_TOKEN);
 
-bot.login(token);
+bot.login(process.env.TAG1_TOKEN);
 
 function changeDiscriminator() {
   if (myDiscriminator.includes(bot.user.discriminator.toString()))
@@ -12,7 +12,7 @@ function changeDiscriminator() {
   try {
     const us = bot.users.find(u => u.discriminator === bot.user.discriminator && u.username !== bot.user.username && !u.bot).username;
     console.log(Date.now(), "Username Loaded: " + us);
-    bot.user.setUsername(us, password).then((u) => {
+    bot.user.setUsername(us, process.env.TAG1_PASS).then((u) => {
       console.log(Date.now(), "Username: " + u.username, "Discriminator: " + u.discriminator);
       setTimeout(changeDiscriminator, 8640 * 10000);
     }).catch((err) => {
