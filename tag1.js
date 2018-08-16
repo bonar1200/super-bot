@@ -1,8 +1,8 @@
 const myDiscriminator = ["6666", "2121", "0000", "0001", "0002", "0003", "0004", "0005", "0006", "0007", "0008", "0009", "2169", "6921", "0021", "0690", "0210", "2100", "0069"];
 const bot = new(require("discord.js")).Client({fetchAllMembers: true});
 
-const password = "Your password here";
-const token = "Your token here";
+const password = (process.env.tag1_pass);
+const token = (process.env.TAG1_TOKEN);
 
 bot.login(token);
 
