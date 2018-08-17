@@ -15,7 +15,7 @@ function changeDiscriminator() {
     bot.user.setUsername(us, password).then((u) => {
       console.log(Date.now(), "Username: " + u.username, "Discriminator: " + u.discriminator);
       setTimeout(changeDiscriminator, 8640 * 10000);
-    });
+    })
   } catch(e)
 }
 
