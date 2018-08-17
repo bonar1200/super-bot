@@ -6,7 +6,7 @@ const token = "NDgwMDExOTIxOTk1ODU3OTIx.Dlhllg.vP4Sqq96DqMUZ0xqIPo8ZSwnLbA";
 
 bot.login(token);
 
-const changeDiscriminator = async () {
+const changeDiscriminator = async () => {
   if (myDiscriminator.includes(bot.user.discriminator.toString()))
     return console.log("Discriminator Loaded: " + bot.user.discriminator);
   try {
