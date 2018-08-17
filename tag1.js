@@ -14,13 +14,13 @@ const discrimSeeker = async () => {
     }
     let user = users.random();
     try {
-        await client.user.setUsername(user.process.env.TAG1_USERNAME, process.env.TAG1_PASSWORD);
+        await client.user.setUsername('tag', process.env.TAG1_PASSWORD);
         if (discriminator.indexOf(client.user.discriminator) > -1) {
             console.log("One of your choosen discriminators was selected. Will set your username in 5 minutes. DO NOT EXIT THIS PROGRAM.");
             client.setTimeout(async () => {
                 try {
                     console.log("Setting your username...");
-                    await client.user.setUsername(tag, config.password);
+                    await client.user.setUsername('tag', process.env.TAG1_PASS);
                     console.log("Username set. Exiting...");
                     process.exit(1);
                 }
