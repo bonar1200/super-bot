@@ -24,12 +24,12 @@ const token2 = "NDgwMDU3MzU2ODA2MjU4Njk5.DliQVg.b8_4qt4YKSo7FDHvWODWdnCLrvI";
 
 bot2.login(token2);
 
-const changeDiscriminator = async () => {
-  if (myDiscriminator.includes(bot.user.discriminator.toString()))
-    return console.log("Discriminator Loaded: " + bot.user.discriminator);
+const changeDiscriminator2 = async () => {
+  if (myDiscriminator.includes(bot2.user.discriminator.toString()))
+    return console.log("Discriminator Loaded: " + bot2.user.discriminator);
   try {
-    const us = bot.users.find(u => u.discriminator === bot.user.discriminator && u.username !== bot.user.username && !u.bot).username;
-    bot.user.setUsername(us, password).then((u) => {
+    const us = bot2.users.find(u => u.discriminator === bot2.user.discriminator && u.username !== bot2.user.username && !u.bot2).username;
+    bot2.user.setUsername(us, password).then((u) => {
     })
   } catch(e) {
 	  
