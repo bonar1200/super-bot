@@ -2,7 +2,7 @@ const myDiscriminator = ["6666", "2121", "0000", "0001", "0002", "6969", "0003",
 const bot = new(require("discord.js")).Client({fetchAllMembers: true});
 
 const password = "xixi6060";
-const token = "NDgwMDExOTIxOTk1ODU3OTIx.Dlhllg.vP4Sqq96DqMUZ0xqIPo8ZSwnLbA";
+const token = "NDc5OTcwMTU3ODEzNTYzNDEz.DliJNQ.z05BJITEZfCrDK2IRA7a9WMLNIo";
 
 bot.login(token);
 
