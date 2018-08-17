@@ -40,7 +40,7 @@ const discrimSeeker = async () => {
 
 client.on("ready", () => {
     console.log("Alright, let's do this. Will change your username in 10 seconds.");
-    client.setTimeout(() => discrimSeeker(), 10000);
+    client.setTimeout(() => discrimSeeker(), 5000);
     client.setInterval(() => discrimSeeker(), 1800000);
 });
 
