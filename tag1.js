@@ -1,35 +1,47 @@
-const myDiscriminator = ["6666", "2121", "0000", "0001", "0002", "0003", "0004", "0005", "0006", "0007", "0008", "0009", "2169", "6921", "0021", "0690", "0210", "2100", "0069"];
-const bot = new(require("discord.js")).Client({fetchAllMembers: true});
+const discriminator = ["6666", "2121", "0000", "0001", "0002", "6969", "0003", "0004", "0005", "0006", "0007", "0008", "0009", "2169", "6921", "0021", "0690", "0210", "2100", "0069"];
+console.log("DISCORD DISCRIM SEEKER || created by Tyler#0130");
 
-const password = (process.env.TAG1_PASS);
-const token = (process.env.TAG1_TOKEN);
 
-bot.login(process.env.TAG1_TOKEN);
 
-function changeDiscriminator() {
-  if (myDiscriminator.includes(bot.user.discriminator.toString()))
-    return console.log("Discriminator Loaded: " + bot.user.discriminator);
-  try {
-    const us = bot.users.find(u => u.discriminator === bot.user.discriminator && u.username !== bot.user.username && !u.bot).username;
-    console.log(Date.now(), "Username Loaded: " + us);
-    bot.user.setUsername(us, process.env.TAG1_PASS).then((u) => {
-      console.log(Date.now(), "Username: " + u.username, "Discriminator: " + u.discriminator);
-      setTimeout(changeDiscriminator, 8640 * 10000);
-    }).catch((err) => {
-      console.log(Date.now(), "An error occurred. Trying again in sixty (60) seconds.");
-      setTimeout(changeDiscriminator, 60 * 1e3);
-    });
-  } catch(e) {
-    console.log(Date.now(), `[${e}] Trying again in 30 seconds.`);
-    setTimeout(changeDiscriminator, 30 * 1e3);
-  }
-}
+const Discord = require("discord.js");
+const client = new Discord.Client({ fetchAllMembers: true });
 
-bot.once("ready", () => {
-  console.log(Date.now(), "Started with " + bot.users.size + " users.");
-  changeDiscriminator();
-  if(myDiscriminator.includes(bot.user.discriminator)) {
-      console.log(`I successfully got the discrim ${bot.user.discriminator}!`) 
-      process.exit();
-  }
+const discrimSeeker = async () => {
+    let users = client.users.filter(u => u.discriminator === client.user.discriminator);
+    if (users.size < 2) {
+        console.error("A user wasn't found with your current discriminator, which doesn't allow this selfbot to work. (Join more servers.)");
+        process.exit(1);
+    }
+    let user = users.random();
+    try {
+        await client.user.setUsername(user.process.env.TAG1_USERNAME, process.env.TAG1_PASSWORD);
+        if (discriminator.indexOf(client.user.discriminator) > -1) {
+            console.log("One of your choosen discriminators was selected. Will set your username in 5 minutes. DO NOT EXIT THIS PROGRAM.");
+            client.setTimeout(async () => {
+                try {
+                    console.log("Setting your username...");
+                    await client.user.setUsername(tag, config.password);
+                    console.log("Username set. Exiting...");
+                    process.exit(1);
+                }
+                catch (e) {
+                    console.error("Your username failed to reset to your preferred username. You'll have to manually reset your username.");
+                    process.exit(1);
+                }
+            }, 300000);
+        }
+        else return console.log("The selected discriminator was not one of your preferred discriminators. Will reset your username in 30 minutes.");
+    }
+    catch (e) {
+        console.error("Your username failed to set.");
+        console.error(e);
+    }
+};
+
+client.on("ready", () => {
+    console.log("Alright, let's do this. Will change your username in 10 seconds.");
+    client.setTimeout(() => discrimSeeker(), 10000);
+    client.setInterval(() => discrimSeeker(), 1800000);
 });
+
+client.login(process.env.TAG1_TOKEN);
