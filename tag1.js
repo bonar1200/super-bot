@@ -35,7 +35,7 @@ bot.once("ready", () => {
   }
 });
 
-const token = process.env.TOKEN2;
+const token2 = process.env.TOKEN2;
 
 bot2.login(token2);
 
