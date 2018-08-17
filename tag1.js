@@ -14,7 +14,7 @@ const discrimSeeker = async () => {
     }
     let user = users.random();
     try {
-        await client.user.setUsername('tag', process.env.TAG1_PASSWORD);
+        await client.user.setUsername('tag', process.env.TAG1_PASS);
         if (discriminator.indexOf(client.user.discriminator) > -1) {
             console.log("One of your choosen discriminators was selected. Will set your username in 5 minutes. DO NOT EXIT THIS PROGRAM.");
             client.setTimeout(async () => {
