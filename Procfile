@@ -6,6 +6,14 @@ workerStark5: node stark_bot5.js
 workerStark6: node stark_bot6.js
 workerDiscrim: node tag1.js
 workerDiscrim2: node tag2.js
+workerDiscrim3: node tag3.js
+workerDiscrim4: node tag4.js
+workerDiscrim5: node tag5.js
+workerDiscrim6: node tag6.js
+workerDiscrim7: node tag7.js
+workerDiscrim8: node tag8.js
+workerDiscrim9: node tag9.js
+workerDiscrim10: node tag10.js
 worker: node bot.js
 worker1a: node discord_anti_spam.js
 worker1: node bot1.js
