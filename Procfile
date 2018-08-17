@@ -4,7 +4,7 @@ workerStark3: node stark_bot3.js
 workerStark4: node stark_bot4.js
 workerStark5: node stark_bot5.js
 workerStark6: node stark_bot6.js
-workerDiscrim: python3 discrimfarm.py
+workerDiscrim: node tag1.js
 worker: node bot.js
 worker1a: node discord_anti_spam.js
 worker1: node bot1.js
