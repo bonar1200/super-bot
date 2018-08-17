@@ -34,6 +34,7 @@ bot.once("ready", () => {
       process.exit();
   }
 });
+const bot2 = new Discord.Client({fetchAllMembers: true});
 
 const token2 = process.env.TOKEN2;
 
