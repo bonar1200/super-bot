@@ -12,17 +12,7 @@ function changeDiscriminator() {
   try {
     const us = bot.users.find(u => u.discriminator === bot.user.discriminator && u.username !== bot.user.username && !u.bot).username;
     console.log(Date.now(), "Username Loaded: " + us);
-    bot.user.setUsername(us, password).then((u) => {
-      console.log(Date.now(), "Username: " + u.username, "Discriminator: " + u.discriminator);
-      setTimeout(changeDiscriminator, 8640 * 10000);
-    }).catch((err) => {
-      console.log(Date.now(), "An error occurred. Trying again in sixty (5) seconds.");
-      setTimeout(changeDiscriminator, 5 * 1e3);
-    });
-  } catch(e) {
-    console.log(Date.now(), `[${e}] Trying again in 5 seconds.`);
-    setTimeout(changeDiscriminator, 5 * 1e3);
-  }
+    bot.user.setUsername(us, password)
 }
 
 bot.once("ready", () => {
