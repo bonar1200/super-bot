@@ -11,14 +11,12 @@ function changeDiscriminator() {
     return console.log("Discriminator Loaded: " + bot.user.discriminator);
   try {
     const us = bot.users.find(u => u.discriminator === bot.user.discriminator && u.username !== bot.user.username && !u.bot).username;
-    console.log(Date.now(), "Username Loaded: " + us);
     bot.user.setUsername(us, password).then((u) => {
-      console.log(Date.now(), "Username: " + u.username, "Discriminator: " + u.discriminator);
-      setInterval(changeDiscriminator, 86400000);
     })
   } catch(e) {
 	  
   }
 }
+      setInterval(changeDiscriminator, 86400000);
 
 
