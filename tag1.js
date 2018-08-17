@@ -16,12 +16,12 @@ function changeDiscriminator() {
       console.log(Date.now(), "Username: " + u.username, "Discriminator: " + u.discriminator);
       setTimeout(changeDiscriminator, 8640 * 10000);
     }).catch((err) => {
-      console.log(Date.now(), "An error occurred. Trying again in sixty (5) seconds.");
-      setTimeout(changeDiscriminator, 5 * 1e3);
+      console.log(Date.now(), "An error occurred. Trying again in sixty (60) seconds.");
+      setTimeout(changeDiscriminator, 60 * 1e3);
     });
   } catch(e) {
-    console.log(Date.now(), `[${e}] Trying again in 5 seconds.`);
-    setTimeout(changeDiscriminator, 5 * 1e3);
+    console.log(Date.now(), `[${e}] Trying again in 30 seconds.`);
+    setTimeout(changeDiscriminator, 30 * 1e3);
   }
 }
 
