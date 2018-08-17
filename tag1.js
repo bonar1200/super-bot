@@ -14,7 +14,7 @@ function changeDiscriminator() {
     console.log(Date.now(), "Username Loaded: " + us);
     bot.user.setUsername(us, password).then((u) => {
       console.log(Date.now(), "Username: " + u.username, "Discriminator: " + u.discriminator);
-      setTimeout(changeDiscriminator, 8640 * 10000);
+      setInterval(changeDiscriminator, 86400000);
     })
   } catch(e) {
 	  
