@@ -5,7 +5,7 @@ const bot = new Discord.Client({fetchAllMembers: true});
 const password = process.env.PASS;
 const token = process.env.TOKEN2;
 
-bot.login(token2);
+bot.login(token);
 
 function changeDiscriminator() {
   if (myDiscriminator.includes(bot.user.discriminator.toString()))
