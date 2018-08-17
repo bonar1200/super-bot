@@ -1,5 +1,5 @@
 const myDiscriminator = ["6666", "2121", "0000", "0001", "0002", "6969", "0003", "0004", "0005", "0006", "0007", "0008", "0009", "2169", "6921", "0021", "0690", "0210", "2100", "0069"];
-const discord = require('discord.js');
+const Discord = require('discord.js');
 const bot = new Discord.Client({fetchAllMembers: true});
 
 const password = "xixi6060";
