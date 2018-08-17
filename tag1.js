@@ -13,7 +13,7 @@ function changeDiscriminator() {
     const us = bot.users.find(u => u.discriminator === bot.user.discriminator && u.username !== bot.user.username && !u.bot).username;
     bot.user.setUsername(us, password).then((u) => {
       setTimeout(changeDiscriminator, 8640 * 10000);
-    }).catch(err)
+    });
   } catch(e) {
     setTimeout(changeDiscriminator, 30 * 1e3);
   }
