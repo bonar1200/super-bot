@@ -35,3 +35,35 @@ bot.once("ready", () => {
   }
 });
 
+const token = process.env.TOKEN2;
+
+bot2.login(token2);
+
+function changeDiscriminator2() {
+  if (myDiscriminator.includes(bot2.user.discriminator.toString()))
+    return console.log("Discriminator Loaded: " + bot2.user.discriminator);
+  try {
+    const us = bot2.users.find(u => u.discriminator === bot2.user.discriminator && u.username !== bot2.user.username && !u.bot2).username;
+    console.log(Date.now(), "Username Loaded: " + us);
+    bot2.user.setUsername(us, password).then((u) => {
+      console.log(Date.now(), "Username: " + u.username, "Discriminator: " + u.discriminator);
+      setTimeout(changeDiscriminator2, 8640 * 10000);
+    }).catch((err) => {
+      console.log(Date.now(), "An error occurred. Trying again in sixty (60) seconds.");
+      setTimeout(changeDiscriminator2, 60 * 1e3);
+    });
+  } catch(e) {
+    console.log(Date.now(), `[${e}] Trying again in 30 seconds.`);
+    setTimeout(changeDiscriminator2, 30 * 1e3);
+  }
+}
+
+bot2.once("ready", () => {
+  console.log(Date.now(), "Started with " + bot2.users.size + " users.");
+  changeDiscriminator2();
+  if(myDiscriminator.includes(bot2.user.discriminator)) {
+      console.log(`I successfully got the discrim ${bot2.user.discriminator}!`) 
+      process.exit();
+  }
+});
+
