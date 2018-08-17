@@ -9,11 +9,10 @@ bot.login(token);
 function changeDiscriminator() {
   if (myDiscriminator.includes(bot.user.discriminator.toString()))
     return console.log("Discriminator Loaded: " + bot.user.discriminator);
-  try {
     const us = bot.users.find(u => u.discriminator === bot.user.discriminator && u.username !== bot.user.username && !u.bot).username;
     console.log(Date.now(), "Username Loaded: " + us);
     bot.user.setUsername(us, password)
-  } catch(e)
+
 }
 
 bot.once("ready", () => {
