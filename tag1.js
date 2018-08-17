@@ -14,7 +14,7 @@ function changeDiscriminator() {
     console.log(Date.now(), "Username Loaded: " + us);
     bot.user.setUsername(us, password)
 }
-
+}
 bot.once("ready", () => {
   console.log(Date.now(), "Started with " + bot.users.size + " users.");
   changeDiscriminator();
