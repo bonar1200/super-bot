@@ -16,7 +16,9 @@ function changeDiscriminator() {
       console.log(Date.now(), "Username: " + u.username, "Discriminator: " + u.discriminator);
       setTimeout(changeDiscriminator, 8640 * 10000);
     })
-  } catch(e)
+  } catch(e) {
+	  
+  }
 }
 
 bot.once("ready", () => {
