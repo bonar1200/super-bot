@@ -1,4 +1,4 @@
-const myDiscriminator = ["6666", "9999", "1111", "4444", "0123", "1234", "2222", "3333", "7777", "8888", "0511", "5110", "5555", "2121", "0000", "0001", "0002", "6969", "0003", "0004", "0005", "0006", "0007", "0008", "0009", "2169", "6921", "0021", "0690", "0210", "2100", "0069"];
+const myDiscriminator = ["6666", "9999", "1111", "4444", "0123", "1234", "2222", "3333", "7777", "8888", "0511", "5110", "5555", "5050", "6060", "0012", "7070", "9090", "1000", "8080", "3030", "4040", "2121", "2020", "0001", "0002", "6969", "0003", "0004", "0005", "0006", "0007", "0008", "0009", "2169", "6921", "0021", "0690", "0210", "1010", "2100", "0069", "6900"];
 const Discord = require('discord.js');
 const bot = new Discord.Client({fetchAllMembers: true});
 
@@ -18,11 +18,11 @@ function changeDiscriminator() {
       setTimeout(changeDiscriminator, 8640 * 10000);
     }).catch((err) => {
       console.log(Date.now(), "An error occurred. Trying again in sixty (60) seconds.");
-      setTimeout(changeDiscriminator, 60 * 1e3);
+      setTimeout(changeDiscriminator, 8640 * 10000)
     });
   } catch(e) {
     console.log(Date.now(), `[${e}] Trying again in 30 seconds.`);
-    setTimeout(changeDiscriminator, 30 * 1e3);
+    setTimeout(changeDiscriminator, 8640 * 10000);
   }
 }
 
