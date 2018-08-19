@@ -16,7 +16,7 @@ A7MD.on("guildMemberAdd", member => {
 })
 A7MD.login(process.env.ORDER_TOKEN7);
 
-const Discord = require('discord.js');
+
 const A7MD2 = new Discord.Client();
 
 console.log("BOT ONLINE");
@@ -35,7 +35,7 @@ A7MD2.on("guildMemberAdd", member => {
 A7MD2.login(process.env.ORDER_TOKEN8);
 
 
-const Discord = require('discord.js');
+
 const A7MD3 = new Discord.Client();
 
 console.log("BOT ONLINE");
@@ -54,7 +54,7 @@ A7MD3.on("guildMemberAdd", member => {
 A7MD3.login(process.env.ORDER_TOKEN9);
 
 
-const Discord = require('discord.js');
+
 const A7MD4 = new Discord.Client();
 
 console.log("BOT ONLINE");
@@ -73,7 +73,7 @@ A7MD4.on("guildMemberAdd", member => {
 A7MD4.login(process.env.ORDER_TOKEN10);
 
 
-const Discord = require('discord.js');
+
 const A7MD5 = new Discord.Client();
 
 console.log("BOT ONLINE");
@@ -92,7 +92,7 @@ A7MD5.on("guildMemberAdd", member => {
 A7MD5.login(process.env.ORDER_TOKEN11);
 
 
-const Discord = require('discord.js');
+
 const A7MD6 = new Discord.Client();
 
 console.log("BOT ONLINE");
