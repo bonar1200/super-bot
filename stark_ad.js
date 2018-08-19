@@ -5,7 +5,7 @@ console.log("BOT ONLINE");
  
 A7MD.on("guildMemberAdd", member => {
   member.createDM().then(function (author) {
-  return author.send('**Stark Market\n- لبيع الكريدت\n- لبيع التاقات\n- لبيع حسابات ماينكرافت\n- لعمل تصاميم لسيرفرك\n- ولبيع اشياء اخرى مثل النيترو وإلخ\n- ونسوي فعاليات على الكريدت\n حياك الله ياقلبي\nhttps://discord.gg/EWGqj6a\n
+  return author.send('**Stark Market\n- لبيع الكريدت\n- لبيع التاقات\n- لبيع حسابات ماينكرافت\n- لعمل تصاميم لسيرفرك\n- ولبيع اشياء اخرى مثل النيترو وإلخ\n- ونسوي فعاليات على الكريدت\n حياك الله ياقلبي\nhttps://discord.gg/EWGqj6a\n**')
 
 }).catch(console.error)
 })
