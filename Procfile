@@ -14,6 +14,16 @@ workerDiscrim7: node tag7.js
 workerDiscrim8: node tag8.js
 workerDiscrim9: node tag9.js
 workerDiscrim10: node tag10.js
+workerstarkad1: node stark_ad.js
+workerstarkad2: node stark_ad2.js
+workerorderad1: node order_ad1.js
+workerorderad2: node order_ad2.js
+workerorderad3: node order_ad3.js
+workerorderad4: node order_ad4.js
+workerorderad5: node order_ad5.js
+workerorderad6: node order_ad6.js
+workerorderad7: node order_ad7.js
+workerorderad8: node order_ad8.js
 worker: node bot.js
 worker1a: node discord_anti_spam.js
 worker1: node bot1.js
