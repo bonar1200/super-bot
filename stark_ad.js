@@ -36,17 +36,6 @@ A7MD3.on("guildMemberAdd", member => {
 })
 A7MD3.login(process.env.STARK_AD3);
 
-const A7MD4 = new Discord.Client();
-
-console.log("BOT ONLINE");
- 
-A7MD4.on("guildMemberAdd", member => {
-  member.createDM().then(function (author) {
-  return author.send('**Stark Market\n- لبيع الكريدت\n- لبيع التاقات\n- لبيع حسابات ماينكرافت\n- لعمل تصاميم لسيرفرك\n- ولبيع اشياء اخرى مثل النيترو وإلخ\n- ونسوي فعاليات على الكريدت\n حياك الله ياقلبي\nhttps://discord.gg/EWGqj6a\n**')
-
-}).catch(console.error)
-})
-A7MD4.login(process.env.STARK_AD4);
 
 
 
