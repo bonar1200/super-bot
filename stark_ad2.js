@@ -23,7 +23,7 @@ ${member}**`)
 })
 A7MD.login(process.env.STARK_AD7);
 
-const Discord = require('discord.js');
+
 const A7MD2 = new Discord.Client();
 
 console.log("BOT ONLINE");
@@ -48,7 +48,7 @@ ${member}**`)
 })
 A7MD2.login(process.env.STARK_AD8);
 
-const Discord = require('discord.js');
+
 const A7MD3 = new Discord.Client();
 
 console.log("BOT ONLINE");
@@ -73,7 +73,7 @@ ${member}**`)
 })
 A7MD3.login(process.env.STARK_AD9);
 
-const Discord = require('discord.js');
+
 const A7MD4 = new Discord.Client();
 
 console.log("BOT ONLINE");
@@ -98,7 +98,7 @@ ${member}**`)
 })
 A7MD4.login(process.env.STARK_AD10);
 
-const Discord = require('discord.js');
+
 const A7MD5 = new Discord.Client();
 
 console.log("BOT ONLINE");
@@ -123,7 +123,7 @@ ${member}**`)
 })
 A7MD5.login(process.env.STARK_AD11);
 
-const Discord = require('discord.js');
+
 const A7MD6 = new Discord.Client();
 
 console.log("BOT ONLINE");
