@@ -10,7 +10,7 @@ A7MD.on("guildMemberAdd", member => {
 **
 سلام عليكم 
 لو سمحت ممكن تدخل سيرفرى
-                               [ رابط السيرفر ] 
+                               [ https://discord.gg/T5tThyY ] 
 الدعووة خاصة لك ... [ ${member}  ]
 **`) 
 }).catch(console.error)
@@ -28,7 +28,7 @@ A7MD2.on("guildMemberAdd", member => {
 **
 سلام عليكم 
 لو سمحت ممكن تدخل سيرفرى
-                               [ رابط السيرفر ] 
+                               [ https://discord.gg/T5tThyY ] 
 الدعووة خاصة لك ... [ ${member}  ]
 **`) 
 }).catch(console.error)
@@ -47,7 +47,7 @@ A7MD3.on("guildMemberAdd", member => {
 **
 سلام عليكم 
 لو سمحت ممكن تدخل سيرفرى
-                               [ رابط السيرفر ] 
+                               [ https://discord.gg/T5tThyY ] 
 الدعووة خاصة لك ... [ ${member}  ]
 **`) 
 }).catch(console.error)
@@ -66,7 +66,7 @@ A7MD4.on("guildMemberAdd", member => {
 **
 سلام عليكم 
 لو سمحت ممكن تدخل سيرفرى
-                               [ رابط السيرفر ] 
+                               [ https://discord.gg/T5tThyY ] 
 الدعووة خاصة لك ... [ ${member}  ]
 **`) 
 }).catch(console.error)
@@ -85,7 +85,7 @@ A7MD5.on("guildMemberAdd", member => {
 **
 سلام عليكم 
 لو سمحت ممكن تدخل سيرفرى
-                               [ رابط السيرفر ] 
+                         [ https://discord.gg/T5tThyY ] 
 الدعووة خاصة لك ... [ ${member}  ]
 **`) 
 }).catch(console.error)
@@ -104,7 +104,7 @@ A7MD6.on("guildMemberAdd", member => {
 **
 سلام عليكم 
 لو سمحت ممكن تدخل سيرفرى
-                               [ رابط السيرفر ] 
+                               [ https://discord.gg/T5tThyY ] 
 الدعووة خاصة لك ... [ ${member}  ]
 **`) 
 }).catch(console.error)
