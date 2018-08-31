@@ -4,7 +4,7 @@ const bot = new Discord.Client();
 var anti_spam = require("discord-anti-spam");
  
 anti_spam(bot, {
-  warnBuffer: 4, //Maximum amount of messages allowed to send in the interval time before getting warned. 
+  warnBuffer: 6, //Maximum amount of messages allowed to send in the interval time before getting warned. 
   maxBuffer: 8, // Maximum amount of messages allowed to send in the interval time before getting banned. 
   interval: 1000, // Amount of time in ms users can send a maximum of the maxBuffer variable before getting banned. 
   warningMessage: "**سيتم طردك إن لم توقف سبام**", // Warning message send to the user indicating they are going to fast. 
@@ -19,7 +19,7 @@ const bot1 = new Discord.Client();
 
  var anti_spam1 = require("discord-anti-spam");
 anti_spam1(bot1, {
-  warnBuffer: 4, //Maximum amount of messages allowed to send in the interval time before getting warned. 
+  warnBuffer: 6, //Maximum amount of messages allowed to send in the interval time before getting warned. 
   maxBuffer: 8, // Maximum amount of messages allowed to send in the interval time before getting banned. 
   interval: 1000, // Amount of time in ms users can send a maximum of the maxBuffer variable before getting banned. 
   warningMessage: "**سيتم طردك إن لم توقف سبام**", // Warning message send to the user indicating they are going to fast. 
