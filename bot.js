@@ -9,11 +9,11 @@ client.channels.get('451866194559893504').send('لا إله الا الله, س�
   
   	      var interval1 = setInterval (function () {
   client.channels.get('451866194559893504').send('#daily');
-  client.channels.get('451866194559893504').send('#rep <@448675703018487819>');  
+  client.channels.get('451866194559893504').send('#rep <@483092158786568203>');  
 		  }, 86800000);
 	      var interval2 = setInterval (function () {
-client.channels.get('451866194559893504').send('t!daily <@448675703018487819>');
-client.channels.get('451866194559893504').send('t!rep <@448675703018487819>');
+client.channels.get('451866194559893504').send('t!daily <@483092158786568203>');
+client.channels.get('451866194559893504').send('t!rep <@483092158786568203>');
 		  }, 61360000);
 });
 client.login(process.env.BOT_TOKEN);
