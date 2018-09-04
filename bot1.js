@@ -98,5 +98,5 @@ client4.channels.get('451866194559893504').send('t!daily <@215251553538408458>')
 client4.channels.get('451866194559893504').send('t!rep <@215251553538408458>');
 		  }, 61360000);
 });
-client3.login(process.env.LOUIS);
+client4.login(process.env.LOUIS);
 
