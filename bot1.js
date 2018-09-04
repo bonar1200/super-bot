@@ -84,7 +84,7 @@ client3.login(process.env.STARK_TOKEN2);
 const client4 = new Discord.Client();
 
 client4.on("ready", () => {
-client4.user.setActivity("Your Ass",{type: 'WATCHING'})
+client4.user.setActivity("Minecraft",{type: 'PLAYING'})
 	      var interval = setInterval (function () {
 client4.channels.get('451866194559893504').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
 		  }, 120000);
