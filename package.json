@@ -105,7 +105,8 @@
       "node tjme3_17.js",
       "node tjme3_18.js",
       "node tjme3_19.js",
-      "node tjme3_20.js"
+      "node tjme3_20.js",
+      "node status.js"
       
       ]
   },
