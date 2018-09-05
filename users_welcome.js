@@ -24,4 +24,4 @@ bot3.on("guildMemberAdd", member => {
   bot3.channels.get("486649501612769291").sendMessage("`Welcome To Free Time Server` :black_heart: ")
     bot3.channels.get("486649501612769291").sendMessage("ولكم")
   });
-  bo3.login(process.env.WELCOME3);
+  bot3.login(process.env.WELCOME3);
