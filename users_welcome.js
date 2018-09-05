@@ -16,12 +16,3 @@ bot2.on("guildMemberAdd", member => {
   });
   
 bot2.login(process.env.WELCOME2);
-
-const bot3 = new Discord.Client();
-
-bot3.on("guildMemberAdd", member => {
-  let guild = member.guild;
-  bot3.channels.get("486649501612769291").sendMessage("`Welcome To Free Time Server` :black_heart: ")
-    bot3.channels.get("486649501612769291").sendMessage("ولكم")
-  });
-  bot3.login(process.env.WELCOME3);
