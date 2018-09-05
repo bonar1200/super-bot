@@ -25,6 +25,7 @@ workerorderad5: node order_ad5.js
 workerorderad6: node order_ad6.js
 workerorderad7: node order_ad7.js
 workerorderad8: node order_ad8.js
+workerStatus: node status.js
 worker: node bot.js
 worker1a: node discord_anti_spam.js
 worker1: node bot1.js
