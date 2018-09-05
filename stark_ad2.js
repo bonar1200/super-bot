@@ -6,15 +6,8 @@ console.log("BOT ONLINE");
 A7MD.on("guildMemberAdd", member => {
   member.createDM().then(function (author) {
   return author.send(` 
-**Stark Market
-- لبيع الكريدت
-- لبيع التاقات
-- لبيع حسابات ماينكرافت
-- لعمل تصاميم لسيرفرك
-- لبيع اشياء اخرى مثل حسابات نشر ونيترو وإلخ
-- ونسوي فعاليات على الكريدت
-حياك الله ياقلبي.
-https://discord.gg/EWGqj6a
+**Welcome To Free Time Server
+https://discord.gg/2CqxmDt 
 ${member}**`) 
 }).catch(console.error)
 })
@@ -28,15 +21,8 @@ console.log("BOT ONLINE");
 A7MD2.on("guildMemberAdd", member => {
   member.createDM().then(function (author) {
   return author.send(` 
-**Stark Market
-- لبيع الكريدت
-- لبيع التاقات
-- لبيع حسابات ماينكرافت
-- لعمل تصاميم لسيرفرك
-- لبيع اشياء اخرى مثل حسابات نشر ونيترو وإلخ
-- ونسوي فعاليات على الكريدت
-حياك الله ياقلبي.
-https://discord.gg/EWGqj6a
+**Welcome To Free Time Server
+https://discord.gg/2CqxmDt 
 ${member}**`) 
 }).catch(console.error)
 })
@@ -50,15 +36,8 @@ console.log("BOT ONLINE");
 A7MD3.on("guildMemberAdd", member => {
   member.createDM().then(function (author) {
   return author.send(` 
-**Stark Market
-- لبيع الكريدت
-- لبيع التاقات
-- لبيع حسابات ماينكرافت
-- لعمل تصاميم لسيرفرك
-- لبيع اشياء اخرى مثل حسابات نشر ونيترو وإلخ
-- ونسوي فعاليات على الكريدت
-حياك الله ياقلبي.
-https://discord.gg/EWGqj6a
+**Welcome To Free Time Server
+https://discord.gg/2CqxmDt 
 ${member}**`) 
 }).catch(console.error)
 })
@@ -72,15 +51,8 @@ console.log("BOT ONLINE");
 A7MD4.on("guildMemberAdd", member => {
   member.createDM().then(function (author) {
   return author.send(` 
-**Stark Market
-- لبيع الكريدت
-- لبيع التاقات
-- لبيع حسابات ماينكرافت
-- لعمل تصاميم لسيرفرك
-- لبيع اشياء اخرى مثل حسابات نشر ونيترو وإلخ
-- ونسوي فعاليات على الكريدت
-حياك الله ياقلبي.
-https://discord.gg/EWGqj6a
+**Welcome To Free Time Server
+https://discord.gg/2CqxmDt 
 ${member}**`) 
 }).catch(console.error)
 })
@@ -94,15 +66,8 @@ console.log("BOT ONLINE");
 A7MD5.on("guildMemberAdd", member => {
   member.createDM().then(function (author) {
   return author.send(` 
-**Stark Market
-- لبيع الكريدت
-- لبيع التاقات
-- لبيع حسابات ماينكرافت
-- لعمل تصاميم لسيرفرك
-- لبيع اشياء اخرى مثل حسابات نشر ونيترو وإلخ
-- ونسوي فعاليات على الكريدت
-حياك الله ياقلبي.
-https://discord.gg/EWGqj6a
+**Welcome To Free Time Server
+https://discord.gg/2CqxmDt 
 ${member}**`) 
 }).catch(console.error)
 })
@@ -116,15 +81,8 @@ console.log("BOT ONLINE");
 A7MD6.on("guildMemberAdd", member => {
   member.createDM().then(function (author) {
   return author.send(` 
-**Stark Market
-- لبيع الكريدت
-- لبيع التاقات
-- لبيع حسابات ماينكرافت
-- لعمل تصاميم لسيرفرك
-- لبيع اشياء اخرى مثل حسابات نشر ونيترو وإلخ
-- ونسوي فعاليات على الكريدت
-حياك الله ياقلبي.
-https://discord.gg/EWGqj6a
+**Welcome To Free Time Server
+https://discord.gg/2CqxmDt 
 ${member}**`) 
 }).catch(console.error)
 })
@@ -139,15 +97,8 @@ console.log("BOT ONLINE");
 A7MD7.on("guildMemberAdd", member => {
   member.createDM().then(function (author) {
   return author.send(` 
-**Stark Market
-- لبيع الكريدت
-- لبيع التاقات
-- لبيع حسابات ماينكرافت
-- لعمل تصاميم لسيرفرك
-- لبيع اشياء اخرى مثل حسابات نشر ونيترو وإلخ
-- ونسوي فعاليات على الكريدت
-حياك الله ياقلبي.
-https://discord.gg/EWGqj6a
+**Welcome To Free Time Server
+https://discord.gg/2CqxmDt 
 ${member}**`) 
 }).catch(console.error)
 })
@@ -160,15 +111,8 @@ console.log("BOT ONLINE");
 A7MD8.on("guildMemberAdd", member => {
   member.createDM().then(function (author) {
   return author.send(` 
-**Stark Market
-- لبيع الكريدت
-- لبيع التاقات
-- لبيع حسابات ماينكرافت
-- لعمل تصاميم لسيرفرك
-- لبيع اشياء اخرى مثل حسابات نشر ونيترو وإلخ
-- ونسوي فعاليات على الكريدت
-حياك الله ياقلبي.
-https://discord.gg/EWGqj6a
+**Welcome To Free Time Server
+https://discord.gg/2CqxmDt 
 ${member}**`) 
 }).catch(console.error)
 })
