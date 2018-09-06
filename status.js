@@ -53,7 +53,7 @@ client7.on('ready',  () => {
     client7.user.setGame("Fplay | 🎵", "https://www.twitch.tv/FreeTime");
 });
 
-client7.login(process.env.PLAY6);
+client7.login(process.env.PLAY7);
 
 const client8 = new Discord.Client();
 
