@@ -47,4 +47,28 @@ client6.on('ready',  () => {
 
 client6.login(process.env.PLAY6);
 
+const client7 = new Discord.Client();
+
+client7.on('ready',  () => {
+    client7.user.setGame("Fplay | 🎵", "https://www.twitch.tv/FreeTime");
+});
+
+client7.login(process.env.PLAY6);
+
+const client8 = new Discord.Client();
+
+client8.on('ready',  () => {
+    client8.user.setGame("Lplay | 🎵", "https://www.twitch.tv/FreeTime");
+});
+
+client8.login(process.env.PLAY8);
+
+const client9 = new Discord.Client();
+
+client9.on('ready',  () => {
+    client9.user.setGame("Type Aplay", "https://www.twitch.tv/FreeTime");
+});
+
+client9.login(process.env.PLAY9);
+
 
