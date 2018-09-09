@@ -5,6 +5,7 @@ workerStark4: node stark_bot4.js
 workerStark5: node stark_bot5.js
 workerStark6: node stark_bot6.js
 workerStark7: node stark_bot7.js
+workerStark8: node stark_bot8.js
 workerDiscrim: node tag1.js
 workerDiscrim2: node tag2.js
 workerDiscrim3: node tag3.js
