@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+
 const A7MD = new Discord.Client();
 
 console.log("BOT ONLINE");
@@ -7,10 +8,8 @@ A7MD.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
   return channel.send(` 
 **
-سلام عليكم 
-لو سمحت ممكن تدخل سيرفرى
-                               [ رابط السيرفر ] 
-الدعووة خاصة لك ... [ ${member}  ]
+Best server for Paypal Money.
+https://discord.gg/ksTnDGq
 **`) 
 }).catch(console.error)
 })
@@ -25,10 +24,8 @@ A7MD2.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
   return channel.send(` 
 **
-سلام عليكم 
-لو سمحت ممكن تدخل سيرفرى
-                               [ رابط السيرفر ] 
-الدعووة خاصة لك ... [ ${member}  ]
+Best server for Paypal Money.
+https://discord.gg/ksTnDGq
 **`) 
 }).catch(console.error)
 })
@@ -44,10 +41,8 @@ A7MD3.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
   return channel.send(` 
 **
-سلام عليكم 
-لو سمحت ممكن تدخل سيرفرى
-                               [ رابط السيرفر ] 
-الدعووة خاصة لك ... [ ${member}  ]
+Best server for Paypal Money.
+https://discord.gg/ksTnDGq
 **`) 
 }).catch(console.error)
 })
@@ -63,10 +58,8 @@ A7MD4.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
   return channel.send(` 
 **
-سلام عليكم 
-لو سمحت ممكن تدخل سيرفرى
-                               [ رابط السيرفر ] 
-الدعووة خاصة لك ... [ ${member}  ]
+Best server for Paypal Money.
+https://discord.gg/ksTnDGq
 **`) 
 }).catch(console.error)
 })
@@ -82,10 +75,8 @@ A7MD5.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
   return channel.send(` 
 **
-سلام عليكم 
-لو سمحت ممكن تدخل سيرفرى
-                               [ رابط السيرفر ] 
-الدعووة خاصة لك ... [ ${member}  ]
+Best server for Paypal Money.
+https://discord.gg/ksTnDGq
 **`) 
 }).catch(console.error)
 })
@@ -101,12 +92,9 @@ A7MD6.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
   return channel.send(` 
 **
-سلام عليكم 
-لو سمحت ممكن تدخل سيرفرى
-                               [ رابط السيرفر ] 
-الدعووة خاصة لك ... [ ${member}  ]
+Best server for Paypal Money.
+https://discord.gg/ksTnDGq
 **`) 
 }).catch(console.error)
 })
 A7MD6.login(process.env.ORDER_TOKEN12);
-
