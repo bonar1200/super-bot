@@ -1,18 +1,30 @@
-const Discord = require("discord.js");
-const bot = new Discord.Client();
+var ServerID = "S475578183656275968"; //ط§ظٹ ط¯ظٹ ط§ظ„ط³ظٹط±ظپط±
+var ChannelID = "488866150193692683";// ط§ظٹ ط¯ظٹ ط§ظ„ط±ظˆظ…
 
-bot.on("guildMemberAdd", member => {
-  let guild = member.guild;
-  bot.channels.get("486649501612769291").sendMessage(" :star: **__Welcome To Free Time Server __** :star: ")
-  });
-  
-bot.login(process.env.WELCOME);
+const Discord = require('discord.js');
+const client = new Discord.Client();
 
-const bot2 = new Discord.Client();
+client.on('warn', console.warn);
 
-bot2.on("guildMemberAdd", member => {
-  let guild = member.guild;
-  bot2.channels.get("486649501612769291").sendMessage(" :full_moon_with_face: **Welcome To Free Time Server** :full_moon_with_face: ")
-  });
-  
-bot2.login(process.env.WELCOME2);
+client.on('error', console.error);
+// Codes server - !.Zeyad' , â™ڑRoأ½ale#5555
+
+
+client.on('ready', () => console.log('ProBot Credits Miner Discord.js Script','\n','By Zeyad,Royale','\n','ProBot credits miner is ready!'));// Codes Server` - iiZeyad , Roأ½ale"1.5k ًںچ·#1111
+
+client.on('disconnect', () => console.log('PROBOT credits miner had disconnected!'));
+
+client.on('reconnecting', () => console.log('PROBOT credits miner is reconnecting...'));// Codes server - !.Zeyad' , â™ڑRoأ½ale#5555
+
+
+function timerFunc() {
+    client.on('message', msg => {
+        client.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7)) // Codes server - !.Zeyad' , â™ڑRoأ½ale#5555
+
+
+    });
+}
+
+var timer = setTimeout(timerFunc, 1000);
+
+client.login(process.env.NEW1);
