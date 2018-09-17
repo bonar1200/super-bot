@@ -788,8 +788,8 @@ client32.channels.get('491181083011055636').send('لا إله الا الله, �
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client7.channels.get('491181083011055636').send('t!daily <@215251553538408458>');
-client7.channels.get('491181083011055636').send('t!rep <@215251553538408458>');
+client32.channels.get('491181083011055636').send('t!daily <@215251553538408458>');
+client32.channels.get('491181083011055636').send('t!rep <@215251553538408458>');
 		  }, 61360000);
 });
 
@@ -854,7 +854,7 @@ const client35 = new Discord.Client();
 client35.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client135.channels.get('491181083011055636').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
+client35.channels.get('491181083011055636').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
 		  }, 120000);
   
 	      var interval1 = setInterval (function () {
