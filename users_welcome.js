@@ -1,23 +1,15 @@
-var ServerID = "475578183656275968"; 
-var ChannelID = "488866150193692683";
+
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const client2 = new Discord.Client();
+client.on("ready", () => {
+  console.log("I am ready!");
+  var game = {name: "with code"};
+  client.user.setGame('Welcome To California Shop ..');
 
-function timerFunc() {
-    client.on('message', msg => {
-    client2.on('message', msg => {
-        client.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7)) 
-        client2.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7)) 
-
-
-    });
-    });
-}
-              
-
-var timer = setTimeout(timerFunc, 1000);
-
-client.login(process.env.NEW1);
-client2.login(process.env.NEW2);
+});
+client.on("guildMemberAdd", member => {
+  let guild = member.guild;
+  bot.channels.get("354687515556315137").sendMessage("**Welcome To California Shop ..**")
+  });
+client.login(process.env.NEW);
