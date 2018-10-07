@@ -10,6 +10,6 @@ client.on("ready", () => {
 });
 client.on("guildMemberAdd", member => {
   let guild = member.guild;
-  bot.channels.get("354687515556315137").sendMessage("**Welcome To California Shop ..**")
+  client.channels.get("495662394836779009").sendMessage("**Welcome To California Shop ..**")
   });
 client.login(process.env.NEW);
