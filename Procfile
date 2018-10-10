@@ -8,6 +8,7 @@ workerStark7: node stark_bot7.js
 workerStark8: node stark_bot8.js
 workerStark9: node stark_bot9.js
 workerStark10: node stark_bot10.js
+workerStark11: node stark_bot11.js
 workerDiscrim: node tag1.js
 workerDiscrim2: node tag2.js
 workerDiscrim3: node tag3.js
