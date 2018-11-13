@@ -1247,7 +1247,7 @@ client50.channels.get('512024407221207050').send('t!rep <@215251553538408458>');
 
 
 
-client50.login(process.env.S100);
+client50.login(process.env.STARK_BOT100);
 
 
 
