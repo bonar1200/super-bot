@@ -132,6 +132,7 @@
     "opusscript": "0.0.6",
     "canvas": "1.6.11",
     "eris": "0.8.6",
+    "enmap": "4.3.3",
     "discord-anti-spam": "1.1.2"
   }
 }
