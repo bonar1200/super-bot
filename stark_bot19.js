@@ -1243,12 +1243,12 @@ client50.channels.get('511991820683837440').send('t!rep <@215251553538408458>');
 		  }, 61360000);
 });
 
-client.on('message', msg => {
+client1.on('message', msg => {
     let ownerid = '215251553538408458';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
             if(msg.channel.id !== "511991820683837440") return;
-            if(msg.isMentioned(client.user)){
+            if(msg.isMentioned(client1.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
                 msg.channel.send(`#credits <@215251553538408458> ${args[2]}`).then(()=>{
