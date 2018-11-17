@@ -20,6 +20,7 @@ workerStark19: node stark_bot19.js
 workerStark20: node stark_bot20.js
 workerStark21: node stark_bot21.js
 workerStark22: node stark_bot22.js
+workerStark23: node stark_bot23.js
 workerDiscrim: node tag1.js
 workerDiscrim2: node tag2.js
 workerDiscrim3: node tag3.js
