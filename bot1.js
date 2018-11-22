@@ -40,7 +40,7 @@ client3.login(process.env.STARK_TOKEN2);
 const client4 = new Discord.Client();
 
 client4.on("ready", () => {
-client4.user.setActivity("Minecraft",{type: 'PLAYING'})
+client4.user.setActivity("6$ = Million Credits ابيع كريدت",{type: 'PLAYING'})
 
 });
 client4.login(process.env.LOUIS);
