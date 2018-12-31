@@ -1201,26 +1201,7 @@ client48.login(process.env.STARK_BOT48);
 
 const client49 = new Discord.Client();
 
-client49.on("ready", () => {
 
-	      var interval = setInterval (function () {
-client49.channels.get('529373902145847307').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
-		  }, 120000);
-  
-	      var interval1 = setInterval (function () {
-  client49.channels.get('529373902145847307').send('#daily');
-  client49.channels.get('529373902145847307').send('#rep <@215251553538408458>');  
-		  }, 86800000);
-  
-	      var interval2 = setInterval (function () {
-client49.channels.get('529373902145847307').send('t!daily <@215251553538408458>');
-client49.channels.get('529373902145847307').send('t!rep <@215251553538408458>');
-		  }, 61360000);
-});
-
-
-
-client49.login(process.env.STARK_BOT49);
 
 
 
