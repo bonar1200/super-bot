@@ -15,6 +15,7 @@ client.on('message', message => {
  
  
   if (message.content.startsWith('$bc')) {
+           if (!message.member.hasPermission('MANAGE_ROLES')) return message.reply("** لا يوجد لديك برمشن 'Manage Roles' **").catch(console.error);
           if (!args[0]) {
 message.channel.send("**$bc <message>**");
 return;
