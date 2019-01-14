@@ -12,12 +12,12 @@ client1.channels.get('517962766842069012').send('لا إله الا الله, س
   
 	      var interval1 = setInterval (function () {
   client1.channels.get('517962766842069012').send('#daily');
-  client1.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client1.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client1.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client1.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client1.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client1.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -37,12 +37,12 @@ client2.channels.get('517962766842069012').send('لا إله الا الله, س
   
 	      var interval1 = setInterval (function () {
   client2.channels.get('517962766842069012').send('#daily');
-  client2.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client2.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client2.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client2.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client2.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client2.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -62,12 +62,12 @@ client3.channels.get('517962766842069012').send('لا إله الا الله, س
   
 	      var interval1 = setInterval (function () {
   client3.channels.get('517962766842069012').send('#daily');
-  client3.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client3.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client3.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client3.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client3.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client3.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -87,12 +87,12 @@ client4.channels.get('517962766842069012').send('لا إله الا الله, س
   
 	      var interval1 = setInterval (function () {
   client4.channels.get('517962766842069012').send('#daily');
-  client4.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client4.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client4.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client4.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client4.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client4.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -112,12 +112,12 @@ client5.channels.get('517962766842069012').send('لا إله الا الله, س
   
 	      var interval1 = setInterval (function () {
   client5.channels.get('517962766842069012').send('#daily');
-  client5.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client5.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client5.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client5.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client5.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client5.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -137,12 +137,12 @@ client6.channels.get('517962766842069012').send('لا إله الا الله, س
   
 	      var interval1 = setInterval (function () {
   client6.channels.get('517962766842069012').send('#daily');
-  client6.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client6.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client6.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client6.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client6.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client6.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -162,12 +162,12 @@ client7.channels.get('517962766842069012').send('لا إله الا الله, س
   
 	      var interval1 = setInterval (function () {
   client7.channels.get('517962766842069012').send('#daily');
-  client7.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client7.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client7.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client7.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client7.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client7.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -187,12 +187,12 @@ client8.channels.get('517962766842069012').send('لا إله الا الله, س
   
 	      var interval1 = setInterval (function () {
   client8.channels.get('517962766842069012').send('#daily');
-  client8.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client8.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client8.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client8.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client8.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client8.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -212,12 +212,12 @@ client9.channels.get('517962766842069012').send('لا إله الا الله, س
   
 	      var interval1 = setInterval (function () {
   client9.channels.get('517962766842069012').send('#daily');
-  client9.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client9.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client9.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client9.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client9.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client9.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -237,12 +237,12 @@ client10.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client10.channels.get('517962766842069012').send('#daily');
-  client10.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client10.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client10.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client10.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client10.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client10.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -262,12 +262,12 @@ client11.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client11.channels.get('517962766842069012').send('#daily');
-  client11.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client11.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client11.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client11.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client11.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client11.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -287,12 +287,12 @@ client12.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client12.channels.get('517962766842069012').send('#daily');
-  client12.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client12.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client12.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client12.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client12.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client12.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -312,12 +312,12 @@ client13.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client13.channels.get('517962766842069012').send('#daily');
-  client13.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client13.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client13.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client13.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client13.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client13.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -337,12 +337,12 @@ client14.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client14.channels.get('517962766842069012').send('#daily');
-  client14.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client14.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client14.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client14.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client14.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client14.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -362,12 +362,12 @@ client15.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client15.channels.get('517962766842069012').send('#daily');
-  client15.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client15.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client15.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client15.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client15.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client15.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -387,12 +387,12 @@ client16.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client16.channels.get('517962766842069012').send('#daily');
-  client16.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client16.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client16.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client16.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client16.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client16.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -412,12 +412,12 @@ client17.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client17.channels.get('517962766842069012').send('#daily');
-  client17.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client17.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client17.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client17.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client17.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client17.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -437,12 +437,12 @@ client18.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client18.channels.get('517962766842069012').send('#daily');
-  client18.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client18.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client18.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client18.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client18.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client18.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -462,12 +462,12 @@ client19.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client19.channels.get('517962766842069012').send('#daily');
-  client19.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client19.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client19.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client19.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client19.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client19.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -487,12 +487,12 @@ client20.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client20.channels.get('517962766842069012').send('#daily');
-  client20.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client20.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client20.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client20.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client20.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client20.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -512,12 +512,12 @@ client21.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client21.channels.get('517962766842069012').send('#daily');
-  client21.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client21.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client21.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client21.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client21.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client21.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -537,12 +537,12 @@ client22.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client22.channels.get('517962766842069012').send('#daily');
-  client22.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client22.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client22.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client22.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client22.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client22.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -562,12 +562,12 @@ client23.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client23.channels.get('517962766842069012').send('#daily');
-  client23.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client23.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client23.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client23.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client23.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client23.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -587,12 +587,12 @@ client24.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client24.channels.get('517962766842069012').send('#daily');
-  client24.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client24.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client24.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client24.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client24.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client24.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -612,12 +612,12 @@ client25.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client25.channels.get('517962766842069012').send('#daily');
-  client25.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client25.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client25.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client25.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client25.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client25.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -636,12 +636,12 @@ client26.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client26.channels.get('517962766842069012').send('#daily');
-  client26.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client26.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client26.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client26.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client26.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client26.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -661,12 +661,12 @@ client27.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client27.channels.get('517962766842069012').send('#daily');
-  client27.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client27.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client27.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client27.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client27.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client27.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -686,12 +686,12 @@ client28.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client28.channels.get('517962766842069012').send('#daily');
-  client28.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client28.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client28.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client28.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client28.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client28.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -711,12 +711,12 @@ client29.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client29.channels.get('517962766842069012').send('#daily');
-  client29.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client29.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client29.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client29.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client29.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client29.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -736,12 +736,12 @@ client30.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client30.channels.get('517962766842069012').send('#daily');
-  client30.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client30.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client30.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client30.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client30.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client30.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -761,12 +761,12 @@ client31.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client31.channels.get('517962766842069012').send('#daily');
-  client31.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client31.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client31.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client31.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client31.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client31.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -786,12 +786,12 @@ client32.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client32.channels.get('517962766842069012').send('#daily');
-  client32.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client32.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client32.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client32.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client32.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client32.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -811,12 +811,12 @@ client33.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client33.channels.get('517962766842069012').send('#daily');
-  client33.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client33.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client33.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client33.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client33.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client33.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -836,12 +836,12 @@ client34.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client34.channels.get('517962766842069012').send('#daily');
-  client34.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client34.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client34.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client34.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client34.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client34.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -861,12 +861,12 @@ client35.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client35.channels.get('517962766842069012').send('#daily');
-  client35.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client35.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client35.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client35.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client35.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client35.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -886,12 +886,12 @@ client36.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client36.channels.get('517962766842069012').send('#daily');
-  client36.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client36.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client36.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client36.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client36.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client36.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -911,12 +911,12 @@ client37.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client37.channels.get('517962766842069012').send('#daily');
-  client37.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client37.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client37.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client37.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client37.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client37.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -936,12 +936,12 @@ client38.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client38.channels.get('517962766842069012').send('#daily');
-  client38.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client38.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client38.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client38.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client38.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client38.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -961,12 +961,12 @@ client39.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client39.channels.get('517962766842069012').send('#daily');
-  client39.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client39.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client39.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client39.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client39.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client39.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -986,12 +986,12 @@ client40.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client40.channels.get('517962766842069012').send('#daily');
-  client40.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client40.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client40.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client40.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client40.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client40.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -1011,12 +1011,12 @@ client41.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client41.channels.get('517962766842069012').send('#daily');
-  client41.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client41.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client41.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client41.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client41.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client41.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -1036,12 +1036,12 @@ client42.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client42.channels.get('517962766842069012').send('#daily');
-  client42.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client42.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client42.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client42.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client42.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client42.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -1061,12 +1061,12 @@ client43.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client43.channels.get('517962766842069012').send('#daily');
-  client43.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client43.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client43.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client43.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client43.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client43.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -1086,12 +1086,12 @@ client44.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client44.channels.get('517962766842069012').send('#daily');
-  client44.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client44.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client44.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client44.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client44.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client44.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -1111,12 +1111,12 @@ client45.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client45.channels.get('517962766842069012').send('#daily');
-  client45.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client45.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client45.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client45.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client45.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client45.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -1136,12 +1136,12 @@ client46.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client46.channels.get('517962766842069012').send('#daily');
-  client46.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client46.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client46.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client46.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client46.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client46.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -1161,12 +1161,12 @@ client47.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client47.channels.get('517962766842069012').send('#daily');
-  client47.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client47.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client47.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client47.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client47.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client47.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -1186,12 +1186,12 @@ client48.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client48.channels.get('517962766842069012').send('#daily');
-  client48.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client48.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client48.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client48.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client48.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client48.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -1211,12 +1211,12 @@ client49.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client49.channels.get('517962766842069012').send('#daily');
-  client49.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client49.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client49.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client49.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client49.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client49.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -1236,12 +1236,12 @@ client50.channels.get('517962766842069012').send('لا إله الا الله, �
   
 	      var interval1 = setInterval (function () {
   client50.channels.get('517962766842069012').send('#daily');
-  client50.channels.get('517962766842069012').send('#rep <@526040102598869013>');  
+  client50.channels.get('517962766842069012').send('#rep <@529406835094978570>');  
 		  }, 86800000);
   
 	      var interval2 = setInterval (function () {
-client50.channels.get('517962766842069012').send('t!daily <@526040102598869013>');
-client50.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
+client50.channels.get('517962766842069012').send('t!daily <@529406835094978570>');
+client50.channels.get('517962766842069012').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
@@ -1250,14 +1250,14 @@ client50.channels.get('517962766842069012').send('t!rep <@526040102598869013>');
 client50.login(process.env.S50);
 
 client1.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client1.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1271,14 +1271,14 @@ client1.on('message', msg => {
     }
 });
 client2.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client2.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1292,14 +1292,14 @@ client2.on('message', msg => {
     }
 });
 client3.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client3.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1313,14 +1313,14 @@ client3.on('message', msg => {
     }
 });
 client4.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client4.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1334,14 +1334,14 @@ client4.on('message', msg => {
     }
 });
 client5.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client5.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1355,14 +1355,14 @@ client5.on('message', msg => {
     }
 });
 client6.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client6.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1376,14 +1376,14 @@ client6.on('message', msg => {
     }
 });
 client7.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client7.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1397,14 +1397,14 @@ client7.on('message', msg => {
     }
 });
 client8.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client8.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1418,14 +1418,14 @@ client8.on('message', msg => {
     }
 });
 client9.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client9.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1439,14 +1439,14 @@ client9.on('message', msg => {
     }
 });
 client10.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client10.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1460,14 +1460,14 @@ client10.on('message', msg => {
     }
 });
 client11.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client11.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1481,14 +1481,14 @@ client11.on('message', msg => {
     }
 });
 client12.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client12.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1502,14 +1502,14 @@ client12.on('message', msg => {
     }
 });
 client13.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client13.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1523,14 +1523,14 @@ client13.on('message', msg => {
     }
 });
 client14.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client14.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1544,14 +1544,14 @@ client14.on('message', msg => {
     }
 });
 client15.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client15.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1565,14 +1565,14 @@ client15.on('message', msg => {
     }
 });
 client16.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client16.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1586,14 +1586,14 @@ client16.on('message', msg => {
     }
 });
 client17.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client17.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1607,14 +1607,14 @@ client17.on('message', msg => {
     }
 });
 client18.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client18.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1628,14 +1628,14 @@ client18.on('message', msg => {
     }
 });
 client19.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client19.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1649,14 +1649,14 @@ client19.on('message', msg => {
     }
 });
 client20.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client20.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1670,14 +1670,14 @@ client20.on('message', msg => {
     }
 });
 client21.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client21.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1691,14 +1691,14 @@ client21.on('message', msg => {
     }
 });
 client22.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client22.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1712,14 +1712,14 @@ client22.on('message', msg => {
     }
 });
 client23.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client23.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1733,14 +1733,14 @@ client23.on('message', msg => {
     }
 });
 client24.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client24.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1754,14 +1754,14 @@ client24.on('message', msg => {
     }
 });
 client25.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client25.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1775,14 +1775,14 @@ client25.on('message', msg => {
     }
 });
 client26.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client26.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1796,14 +1796,14 @@ client26.on('message', msg => {
     }
 });
 client27.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client27.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1817,14 +1817,14 @@ client27.on('message', msg => {
     }
 });
 client28.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client28.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1838,14 +1838,14 @@ client28.on('message', msg => {
     }
 });
 client29.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client29.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1859,14 +1859,14 @@ client29.on('message', msg => {
     }
 });
 client30.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client30.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1880,14 +1880,14 @@ client30.on('message', msg => {
     }
 });
 client31.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client31.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1901,14 +1901,14 @@ client31.on('message', msg => {
     }
 });
 client32.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client32.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1922,14 +1922,14 @@ client32.on('message', msg => {
     }
 });
 client33.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client33.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1943,14 +1943,14 @@ client33.on('message', msg => {
     }
 });
 client34.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client34.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1964,14 +1964,14 @@ client34.on('message', msg => {
     }
 });
 client35.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client35.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1985,14 +1985,14 @@ client35.on('message', msg => {
     }
 });
 client36.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client36.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -2006,14 +2006,14 @@ client36.on('message', msg => {
     }
 });
 client37.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client37.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -2027,14 +2027,14 @@ client37.on('message', msg => {
     }
 });
 client38.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client38.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -2048,14 +2048,14 @@ client38.on('message', msg => {
     }
 });
 client39.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client39.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -2069,14 +2069,14 @@ client39.on('message', msg => {
     }
 });
 client40.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client40.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -2090,14 +2090,14 @@ client40.on('message', msg => {
     }
 });
 client41.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client41.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -2111,14 +2111,14 @@ client41.on('message', msg => {
     }
 });
 client42.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client42.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -2132,14 +2132,14 @@ client42.on('message', msg => {
     }
 });
 client43.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client43.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -2153,14 +2153,14 @@ client43.on('message', msg => {
     }
 });
 client44.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client44.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -2174,14 +2174,14 @@ client44.on('message', msg => {
     }
 });
 client45.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client45.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -2195,14 +2195,14 @@ client45.on('message', msg => {
     }
 });
 client46.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client46.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -2216,14 +2216,14 @@ client46.on('message', msg => {
     }
 });
 client47.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client47.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -2237,14 +2237,14 @@ client47.on('message', msg => {
     }
 });
 client48.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client48.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -2258,14 +2258,14 @@ client48.on('message', msg => {
     }
 });
 client49.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client49.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -2279,14 +2279,14 @@ client49.on('message', msg => {
     }
 });
 client50.on('message', msg => {
-    let ownerid = '526040102598869013';
+    let ownerid = '529406835094978570';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client50.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@526040102598869013> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
