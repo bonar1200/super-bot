@@ -1247,55 +1247,6 @@ client50.channels.get('541600601625329674').send('t!rep <@529406835094978570>');
 
 
 
-client50.login(process.env.S100);
-
-const client50a = new Discord.Client();
-
-client50a.on("ready", () => {
-
-	      var interval = setInterval (function () {
-client50a.channels.get('541600601625329674').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
-		  }, 120000);
-  
-	      var interval1 = setInterval (function () {
-  client50a.channels.get('541600601625329674').send('#daily');
-  client50a.channels.get('541600601625329674').send('#rep <@529406835094978570>');  
-		  }, 86800000);
-  
-	      var interval2 = setInterval (function () {
-client50a.channels.get('541600601625329674').send('t!daily <@529406835094978570>');
-client50a.channels.get('541600601625329674').send('t!rep <@529406835094978570>');
-		  }, 61360000);
-});
-
-
-
-client50a.login(process.env.S100A);
-
-const client50b = new Discord.Client();
-
-client50b.on("ready", () => {
-
-	      var interval = setInterval (function () {
-client50b.channels.get('541600601625329674').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
-		  }, 120000);
-  
-	      var interval1 = setInterval (function () {
-  client50b.channels.get('541600601625329674').send('#daily');
-  client50b.channels.get('541600601625329674').send('#rep <@529406835094978570>');  
-		  }, 86800000);
-  
-	      var interval2 = setInterval (function () {
-client50b.channels.get('541600601625329674').send('t!daily <@529406835094978570>');
-client50b.channels.get('541600601625329674').send('t!rep <@529406835094978570>');
-		  }, 61360000);
-});
-
-
-
-client50b.login(process.env.S100B);
-
-
 
 client1.on('message', msg => {
     let ownerid = '529406835094978570';
@@ -2332,50 +2283,6 @@ client50.on('message', msg => {
         if(msg.content.startsWith(`credits`)){
 
             if(msg.isMentioned(client50.user)){
-                farm.set(`farm`, 'blah blah')
-                let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
-                    const filter = m => m.author.id === msg.author.id;
-                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
-                        if(col.first().content === "cancel"){
-                            return msg.reply(`Canceled!`);
-                        }
-                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
-                    })
-                })
-            }
-        }
-    }
-});
-
-client50a.on('message', msg => {
-    let ownerid = '529406835094978570';
-    if(msg.author.id === ownerid){
-        if(msg.content.startsWith(`credits`)){
-
-            if(msg.isMentioned(client50a.user)){
-                farm.set(`farm`, 'blah blah')
-                let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
-                    const filter = m => m.author.id === msg.author.id;
-                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
-                        if(col.first().content === "cancel"){
-                            return msg.reply(`Canceled!`);
-                        }
-                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
-                    })
-                })
-            }
-        }
-    }
-});
-
-client50b.on('message', msg => {
-    let ownerid = '529406835094978570';
-    if(msg.author.id === ownerid){
-        if(msg.content.startsWith(`credits`)){
-
-            if(msg.isMentioned(client50b.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
                 msg.channel.send(`#credits <@529406835094978570> ${args[2]}`).then(()=>{
