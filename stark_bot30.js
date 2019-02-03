@@ -1245,7 +1245,7 @@ client50.channels.get('541600601625329674').send('t!rep <@529406835094978570>');
 		  }, 61360000);
 });
 
-
+client50.login(process.env.S100);
 
 
 client1.on('message', msg => {
