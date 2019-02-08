@@ -31,6 +31,7 @@ workerStark30: node stark_bot30.js
 workerStark31: node stark_bot31.js
 workerStark32: node stark_bot32.js
 workerStark33: node stark_bot33.js
+workerStark34: node stark_bot34.js
 workerStark35: node stark_bot35.js
 workerStark36: node stark_bot36.js
 workerBC: node bc.js
