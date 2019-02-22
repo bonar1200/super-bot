@@ -32,8 +32,8 @@ message.guild.members.forEach(m => {
       moment = require("moment"),
       date = moment.duration(new Date() - member.user.createdAt).format("d");
 
-  if(date < 14) {
-    member.ban("Member account age is lower than 14 days.")
+  if(date < 10) {
+    member.ban("Member account age is lower than 10 days.")
   }
 });
  
