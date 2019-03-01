@@ -5,7 +5,7 @@ bot.on(`ready`, () => {
   bot.user.setStatus("online")
   });
   bot.on("message", async message => {
-
+ 
   let prefix = `$`
   let messageArray = message.content.split(" ");
   let msg = message;
@@ -33,10 +33,7 @@ bot.on(`ready`, () => {
       if(!argsBC) return message.channel.send("Type the message you want to send.");
         message.channel.send("انتظر قليلاً").then(message1 => {
           message.guild.members.filter(m => m.presence.status !== "offline").forEach(m => {
-            m.send(argsBC).catch(function(error) {
-
-            console.log(error);
-            });
+            m.send(argsBC.replace("[user]", m)).catch(err => console.log(err));
           });
           setTimeout(() => {
             message1.edit(`تم ارسال الرسالة الى \`${message.guild.members.filter(m => m.presence.status !== "offline").size}\` عضو بنجاح`
@@ -51,10 +48,8 @@ bot.on(`ready`, () => {
     if(!argsBC) return message.channel.send("Type the message you want to send.");
       message.channel.send("انتظر قليلاً").then(message1 => {
         message.guild.members.forEach(m => {
-          m.send(argsBC).catch(async function(error) {
-            console.log(error);
-            });
-          });
+          m.send(argsBC.replace("[user]", m)).catch(err => console.log(err));
+        });
         let members = message.guild.members
         setTimeout(() => {
           message1.edit(`تم ارسال الرسالة الى \`${members.size}\` عضو بنجاح`
@@ -73,10 +68,10 @@ type: "LISTENING"
 });
 message.channel.send(`**Done! it's now Listening To:** ${hargs}`)
 }
-
+ 
 if(message.content.startsWith(prefix + "setwatching")){
-  if(message.author.id != "529406835094978570") return;
- let hargs = message.content.split(' ').slice(1).join(' ');
+ if(message.author.id != "529406835094978570") return;
+let hargs = message.content.split(' ').slice(1).join(' ');
 if(!hargs) return message.reply("**الرجاء وضع الكلام الذي تريده**");
 if(hargs.length < 1 || hargs.length > 50) return message.reply("**مع الأسف  ... م ينفع يكون اكثر من 50 حرف**");
 message.delete();
@@ -85,7 +80,7 @@ type: "WATCHING"
 });
 message.channel.send(`**Done! it's now Watching:** (${hargs})`)
 }
-
+ 
 if(message.content.startsWith(prefix + "setstreaming")){
   if(message.author.id != "529406835094978570") return;
  let hargs = message.content.split(' ').slice(1).join(' ');
@@ -94,13 +89,13 @@ if(hargs.length < 1 || hargs.length > 50) return message.reply("**مع الأس�
 message.delete();
 bot.user.setActivity(hargs, {
 type: "STREAMING",
-			 url: "https://www.twitch.tv/Vplo"
+             url: "https://www.twitch.tv/Vplo"
 });
 message.channel.send(`**Done! It's now Streaming:** ${hargs}`)
 }
-
+ 
 if(message.content.startsWith(prefix + "setplaying")){
-  if(message.author.id != "529406835094978570") return;
+ if(message.author.id != "529406835094978570") return;
 let hargs = message.content.split(' ').slice(1).join(' ');
 if(!hargs) return message.reply("**الرجاء وضع الكلام الذي تريده**");
 if(hargs.length < 1 || hargs.length > 50) return message.reply("**مع الأسف  ... م ينفع يكون اكثر من 50 حرف**");
@@ -133,6 +128,7 @@ if(message.content.startsWith(prefix + "setnothing")){
  message.channel.send(`Done!`)
  }
 });
+
 
 bot.on("guildMemberAdd", async member => {
   let moment2 = require('moment-duration-format'),
