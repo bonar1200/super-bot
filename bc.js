@@ -134,7 +134,7 @@ if(message.content.startsWith(prefix + "setnothing")){
  }
 });
 
-client.on("guildMemberAdd", async member => {
+bot.on("guildMemberAdd", async member => {
   let moment2 = require('moment-duration-format'),
       moment = require("moment"),
       date = moment.duration(new Date() - member.user.createdAt).format("d");
