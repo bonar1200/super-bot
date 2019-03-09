@@ -1247,7 +1247,7 @@ client50.channels.get('554001876622770178').send('t!rep <@553898855574405140>');
 
 
 
-client50a.login(process.env.S50);
+client50.login(process.env.S50);
 
 const client50a = new Discord.Client();
 
