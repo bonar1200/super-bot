@@ -36,6 +36,7 @@ workerStark35: node stark_bot35.js
 workerStark36: node stark_bot36.js
 workerStark37: node stark_bot37.js
 workerStark38: node stark_bot38.js
+workerStark38: node stark_bot39.js
 workerBC: node bc.js
 workerDiscrim: node tag1.js
 workerDiscrim2: node tag2.js
