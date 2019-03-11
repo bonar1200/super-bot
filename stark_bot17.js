@@ -1231,14 +1231,14 @@ client50.channels.get('534483799740907530').send('t!rep <@215251553538408458>');
 client50.login(process.env.STARK_BOT50);
 
 client1.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client1.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1252,14 +1252,14 @@ client1.on('message', msg => {
     }
 });
 client2.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client2.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1273,14 +1273,14 @@ client2.on('message', msg => {
     }
 });
 client3.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client3.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1294,14 +1294,14 @@ client3.on('message', msg => {
     }
 });
 client4.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client4.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1315,14 +1315,14 @@ client4.on('message', msg => {
     }
 });
 client5.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client5.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1336,14 +1336,14 @@ client5.on('message', msg => {
     }
 });
 client6.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client6.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1357,14 +1357,14 @@ client6.on('message', msg => {
     }
 });
 client7.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client7.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1378,14 +1378,14 @@ client7.on('message', msg => {
     }
 });
 client8.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client8.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1399,14 +1399,14 @@ client8.on('message', msg => {
     }
 });
 client9.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client9.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1420,14 +1420,14 @@ client9.on('message', msg => {
     }
 });
 client10.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client10.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1441,14 +1441,14 @@ client10.on('message', msg => {
     }
 });
 client11.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client11.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1462,14 +1462,14 @@ client11.on('message', msg => {
     }
 });
 client12.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client12.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1483,14 +1483,14 @@ client12.on('message', msg => {
     }
 });
 client13.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client13.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1504,14 +1504,14 @@ client13.on('message', msg => {
     }
 });
 client14.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client14.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1525,14 +1525,14 @@ client14.on('message', msg => {
     }
 });
 client15.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client15.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1546,14 +1546,14 @@ client15.on('message', msg => {
     }
 });
 client16.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client16.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1567,14 +1567,14 @@ client16.on('message', msg => {
     }
 });
 client17.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client17.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1588,14 +1588,14 @@ client17.on('message', msg => {
     }
 });
 client18.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client18.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1609,14 +1609,14 @@ client18.on('message', msg => {
     }
 });
 client19.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client19.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1630,14 +1630,14 @@ client19.on('message', msg => {
     }
 });
 client20.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client20.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1651,14 +1651,14 @@ client20.on('message', msg => {
     }
 });
 client21.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client21.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1672,14 +1672,14 @@ client21.on('message', msg => {
     }
 });
 client22.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client22.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1693,14 +1693,14 @@ client22.on('message', msg => {
     }
 });
 client23.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client23.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1714,14 +1714,14 @@ client23.on('message', msg => {
     }
 });
 client24.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client24.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1735,14 +1735,14 @@ client24.on('message', msg => {
     }
 });
 client25.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client25.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1756,14 +1756,14 @@ client25.on('message', msg => {
     }
 });
 client26.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client26.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1777,14 +1777,14 @@ client26.on('message', msg => {
     }
 });
 client27.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client27.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1798,14 +1798,14 @@ client27.on('message', msg => {
     }
 });
 client28.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client28.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1819,14 +1819,14 @@ client28.on('message', msg => {
     }
 });
 client29.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client29.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1840,14 +1840,14 @@ client29.on('message', msg => {
     }
 });
 client30.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client30.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1861,14 +1861,14 @@ client30.on('message', msg => {
     }
 });
 client31.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client31.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1882,14 +1882,14 @@ client31.on('message', msg => {
     }
 });
 client32.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client32.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1903,14 +1903,14 @@ client32.on('message', msg => {
     }
 });
 client33.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client33.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1924,14 +1924,14 @@ client33.on('message', msg => {
     }
 });
 client34.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client34.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1945,14 +1945,14 @@ client34.on('message', msg => {
     }
 });
 client35.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client35.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1966,14 +1966,14 @@ client35.on('message', msg => {
     }
 });
 client36.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client36.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -1987,14 +1987,14 @@ client36.on('message', msg => {
     }
 });
 client37.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client37.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -2008,14 +2008,14 @@ client37.on('message', msg => {
     }
 });
 client38.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client38.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -2029,14 +2029,14 @@ client38.on('message', msg => {
     }
 });
 client39.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client39.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -2050,14 +2050,14 @@ client39.on('message', msg => {
     }
 });
 client40.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client40.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -2071,14 +2071,14 @@ client40.on('message', msg => {
     }
 });
 client41.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client41.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -2092,14 +2092,14 @@ client41.on('message', msg => {
     }
 });
 client42.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client42.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -2113,14 +2113,14 @@ client42.on('message', msg => {
     }
 });
 client43.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client43.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -2134,14 +2134,14 @@ client43.on('message', msg => {
     }
 });
 client44.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client44.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -2155,14 +2155,14 @@ client44.on('message', msg => {
     }
 });
 client45.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client45.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -2176,14 +2176,14 @@ client45.on('message', msg => {
     }
 });
 client46.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client46.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -2197,14 +2197,14 @@ client46.on('message', msg => {
     }
 });
 client47.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client47.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -2218,14 +2218,14 @@ client47.on('message', msg => {
     }
 });
 client48.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client48.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -2239,14 +2239,14 @@ client48.on('message', msg => {
     }
 });
 client49.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client49.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
@@ -2260,14 +2260,14 @@ client49.on('message', msg => {
     }
 });
 client50.on('message', msg => {
-    let ownerid = '553898855574405140';
+    let ownerid = '554710035138215955';
     if(msg.author.id === ownerid){
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client50.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@553898855574405140> ${args[2]}`).then(()=>{
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
                     const filter = m => m.author.id === msg.author.id;
                     msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
                         if(col.first().content === "cancel"){
