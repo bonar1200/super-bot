@@ -1227,6 +1227,44 @@ client49.login(process.env.S49);
 
 
 const client50 = new Discord.Client();
+client50.on("ready", () => {
+
+	      var interval = setInterval (function () {
+client50.channels.get('554001876622770178').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
+		  }, 120000);
+  
+	      var interval1 = setInterval (function () {
+  client50.channels.get('554001876622770178').send('#daily');
+  client50.channels.get('554001876622770178').send('#rep <@554710035138215955>');  
+		  }, 86800000);
+  
+	      var interval2 = setInterval (function () {
+client50.channels.get('554001876622770178').send('t!daily <@554710035138215955>');
+client50.channels.get('554001876622770178').send('t!rep <@554710035138215955>');
+		  }, 61360000);
+});
+
+client50a.login(process.env.S50);
+
+const client50a = new Discord.Client();
+client50a.on("ready", () => {
+
+	      var interval = setInterval (function () {
+client50a.channels.get('554001876622770178').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
+		  }, 120000);
+  
+	      var interval1 = setInterval (function () {
+  client50a.channels.get('554001876622770178').send('#daily');
+  client50a.channels.get('554001876622770178').send('#rep <@554710035138215955>');  
+		  }, 86800000);
+  
+	      var interval2 = setInterval (function () {
+client50a.channels.get('554001876622770178').send('t!daily <@554710035138215955>');
+client50a.channels.get('554001876622770178').send('t!rep <@554710035138215955>');
+		  }, 61360000);
+});
+
+client50a.login(process.env.S50A);
 
 client1.on('message', msg => {
     let ownerid = '554710035138215955';
