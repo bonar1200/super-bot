@@ -6,7 +6,7 @@ bot.on(`ready`, () => {
   });
   bot.on("message", async message => {
 
-  let prefix = `$`
+  let prefix = `!`
   let messageArray = message.content.split(" ");
   let msg = message;
   let cmd = messageArray[0];
