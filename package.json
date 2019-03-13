@@ -32,6 +32,8 @@
     ],
   "scripts": {
     "start": [
+      "node brc1.js",
+      "node brc2.js",
       "node stark_bot.js",
       "node stark_bot2.js",
       "node stark_bot3.js",
