@@ -1,3 +1,5 @@
+workerbrc1: node brc1.js
+workerbrc2: node brc2.js
 workerStark: node stark_bot.js
 workerStark2: node stark_bot2.js
 workerStark3: node stark_bot3.js
