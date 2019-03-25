@@ -149,7 +149,7 @@ bot1.on("guildMemberAdd", async member => {
       date = moment.duration(new Date() - member.user.createdAt).format("d");
 
   if(date < 10) {
-    member.ban("Member account age is lower than 10 days.")
+    member.ban("Member account age is lower than 5 days.")
   }
 });
 bot1.login(process.env.BC1)
