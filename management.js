@@ -23,6 +23,7 @@ client1.channels.get('559796297331376138').send('t@prune 99999999');
 client1.channels.get('559796277618016284').send('t@prune 99999999');
 client1.channels.get('559802258540462081').send('t@prune 99999999');
 client1.channels.get('559802245235998853').send('t@prune 99999999');
+client1.channels.get('559798245799493635').send('t@prune 99999999');
 		  }, 36000000);
 
 	      var interva2 = setInterval (function () {
