@@ -24,7 +24,6 @@ client1.channels.get('559796277618016284').send('t@prune 99999999');
 client1.channels.get('559802258540462081').send('t@prune 99999999');
 client1.channels.get('559802245235998853').send('t@prune 99999999');
 		  }, 36000000);
-});
 
 	      var interva2 = setInterval (function () {
 client1.channels.get('561200236647809024').send('?prune 99999999');
@@ -35,7 +34,6 @@ client1.channels.get('559795916211617803').send('?prune 99999999');
 client1.channels.get('559796297331376138').send('?prune 99999999');
 client1.channels.get('559796277618016284').send('?prune 99999999');
 		  }, 36300000);
-});
 
 	      var interva3 = setInterval (function () {
 client1.channels.get('561200236647809024').send('?prune 99999999');
@@ -46,7 +44,6 @@ client1.channels.get('559795916211617803').send('?prune 99999999');
 client1.channels.get('559796297331376138').send('?prune 99999999');
 client1.channels.get('559796277618016284').send('?prune 99999999');
 		  }, 36600000);
-});
 
 	      var interva4 = setInterval (function () {
 client1.channels.get('561200236647809024').send('?prune 99999999');
@@ -57,7 +54,6 @@ client1.channels.get('559795916211617803').send('?prune 99999999');
 client1.channels.get('559796297331376138').send('?prune 99999999');
 client1.channels.get('559796277618016284').send('?prune 99999999');
 		  }, 36900000);
-});
 
 	      var interva5 = setInterval (function () {
 client1.channels.get('561200236647809024').send('?prune 99999999');
@@ -68,7 +64,6 @@ client1.channels.get('559795916211617803').send('?prune 99999999');
 client1.channels.get('559796297331376138').send('?prune 99999999');
 client1.channels.get('559796277618016284').send('?prune 99999999');
 		  }, 37200000);
-});
 
 	      var interva6 = setInterval (function () {
 client1.channels.get('561200236647809024').send('?prune 99999999');
@@ -79,6 +74,5 @@ client1.channels.get('559795916211617803').send('?prune 99999999');
 client1.channels.get('559796297331376138').send('?prune 99999999');
 client1.channels.get('559796277618016284').send('?prune 99999999');
 		  }, 37500000);
-});
 
 client1.login(process.env.MANAGEMENT);
