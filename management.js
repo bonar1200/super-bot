@@ -74,5 +74,5 @@ client1.channels.get('559795916211617803').send('?prune 99999999');
 client1.channels.get('559796297331376138').send('?prune 99999999');
 client1.channels.get('559796277618016284').send('?prune 99999999');
 		  }, 37500000);
-
+});
 client1.login(process.env.MANAGEMENT);
