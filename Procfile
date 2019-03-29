@@ -1,4 +1,5 @@
 workerbrc1: node brc1.js
+workermm: node management.js
 workerbrc2: node brc2.js
 workerStark: node stark_bot.js
 workerStark2: node stark_bot2.js
