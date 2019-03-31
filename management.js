@@ -56,30 +56,33 @@ client1.channels.get('559802258540462081').send('?prune 99999999');
 	      var interval16 = setInterval (function () {
 client1.channels.get('559802245235998853').send('?prune 99999999');
 		  }, 36960000);		  
-	      var interval17 = setInterval (function () {
+	      var interval18 = setInterval (function () {
 client1.channels.get('559798245799493635').send('?prune 99999999');
 		  }, 37080000);			  
-	      var interval17 = setInterval (function () {
+	      var interval19 = setInterval (function () {
 client1.channels.get('559824477387751434').send('?prune 99999999');
 		  }, 37160000);			  
-	      var interval17 = setInterval (function () {
+	      var interval20 = setInterval (function () {
 client1.channels.get('561200236647809024').send('?prune 99999999');
 		  }, 37240000);			  
-	      var interval17 = setInterval (function () {
+	      var interval21 = setInterval (function () {
 client1.channels.get('559798307870867466').send('?prune 99999999');
 		  }, 37300000);			  
-	      var interval17 = setInterval (function () {
+	      var interval22 = setInterval (function () {
 client1.channels.get('559795902957486084').send('?prune 99999999');
 		  }, 37360000);				  
-	      var interval17 = setInterval (function () {
+	      var interval23 = setInterval (function () {
 client1.channels.get('559795916211617803').send('?prune 99999999');
 		  }, 37420000);				  
-	      var interval17 = setInterval (function () {
+	      var interval24 = setInterval (function () {
 client1.channels.get('559796297331376138').send('?prune 99999999');
 		  }, 37480000);				  
-	      var interval17 = setInterval (function () {
+	      var interval25 = setInterval (function () {
 client1.channels.get('559796277618016284').send('?prune 99999999');
 		  }, 37540000);	
+		  var interval26 = setInterval (function () {
+client1.channels.get('561200236647809024').send('?prune 99999999');
+		  }, 37600000);	
 		  	
 
 		  
