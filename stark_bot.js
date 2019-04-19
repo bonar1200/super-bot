@@ -49,9 +49,11 @@ client1.channels.get('568594108759801886').send('pewdiepie');
 		  }, 1510000);
 
 
-client1.login(process.env.S1);
+
 
 });
+client1.login(process.env.S1);
+
 const client2 = new Discord.Client();
 client2.on("ready", () => {
 
@@ -97,9 +99,11 @@ client2.channels.get('568594108759801886').send('pewdiepie');
 		  }, 1510000);
 
 
-client2.login(process.env.S2);
+
 
 });
+client2.login(process.env.S2);
+
 const client3 = new Discord.Client();
 client3.on("ready", () => {
 
@@ -145,9 +149,11 @@ client3.channels.get('568594108759801886').send('pewdiepie');
 		  }, 1510000);
 
 
-client3.login(process.env.S3);
+
 
 });
+client3.login(process.env.S3);
+
 const client4 = new Discord.Client();
 client4.on("ready", () => {
 
@@ -193,9 +199,12 @@ client4.channels.get('568594108759801886').send('pewdiepie');
 		  }, 1510000);
 
 
-client4.login(process.env.S4);
+
 
 });
+client4.login(process.env.S4);
+
+
 const client5 = new Discord.Client();
 client5.on("ready", () => {
 
@@ -241,9 +250,10 @@ client5.channels.get('568594108759801886').send('pewdiepie');
 		  }, 1510000);
 
 
-client5.login(process.env.S5);
 
 });
+client5.login(process.env.S5);
+
 const client6 = new Discord.Client();
 client6.on("ready", () => {
 
@@ -289,9 +299,11 @@ client6.channels.get('568594108759801886').send('pewdiepie');
 		  }, 1510000);
 
 
-client6.login(process.env.S6);
+
 
 });
+client6.login(process.env.S6);
+
 const client7 = new Discord.Client();
 client7.on("ready", () => {
 
@@ -337,9 +349,11 @@ client7.channels.get('568594108759801886').send('pewdiepie');
 		  }, 1510000);
 
 
-client7.login(process.env.S7);
+
 
 });
+client7.login(process.env.S7);
+
 const client8 = new Discord.Client();
 client8.on("ready", () => {
 
@@ -385,9 +399,11 @@ client8.channels.get('568594108759801886').send('pewdiepie');
 		  }, 1510000);
 
 
-client8.login(process.env.S8);
+
 
 });
+client8.login(process.env.S8);
+
 const client9 = new Discord.Client();
 client9.on("ready", () => {
 
@@ -433,9 +449,11 @@ client9.channels.get('568594108759801886').send('pewdiepie');
 		  }, 1510000);
 
 
-client9.login(process.env.S9);
+
 
 });
+client9.login(process.env.S9);
+
 const client10 = new Discord.Client();
 client10.on("ready", () => {
 
@@ -481,9 +499,11 @@ client10.channels.get('568594108759801886').send('pewdiepie');
 		  }, 1510000);
 
 
-client10.login(process.env.S10);
+
 
 });
+client10.login(process.env.S10);
+
 const client11 = new Discord.Client();
 client11.on("ready", () => {
 
@@ -529,9 +549,10 @@ client11.channels.get('568594108759801886').send('pewdiepie');
 		  }, 1510000);
 
 
-client11.login(process.env.S11);
+
 
 });
+client11.login(process.env.S11);
 
 const client12 = new Discord.Client();
 client12.on("ready", () => {
@@ -578,9 +599,10 @@ client12.channels.get('568594108759801886').send('pewdiepie');
 		  }, 1510000);
 
 
-client12.login(process.env.S12);
+
 
 });
+client12.login(process.env.S12);
 
 const client13 = new Discord.Client();
 client13.on("ready", () => {
@@ -627,9 +649,10 @@ client13.channels.get('568594108759801886').send('pewdiepie');
 		  }, 1510000);
 
 
-client13.login(process.env.S13);
+
 
 });
+client13.login(process.env.S13);
 
 const client14 = new Discord.Client();
 client14.on("ready", () => {
@@ -676,9 +699,11 @@ client14.channels.get('568594108759801886').send('pewdiepie');
 		  }, 1510000);
 
 
-client14.login(process.env.S14);
+
 
 });
+client14.login(process.env.S14);
+
 const client15 = new Discord.Client();
 client15.on("ready", () => {
 
@@ -724,9 +749,11 @@ client15.channels.get('568594108759801886').send('pewdiepie');
 		  }, 1510000);
 
 
-client15.login(process.env.S15);
+
 
 });
+client15.login(process.env.S15);
+
 const client16 = new Discord.Client();
 client16.on("ready", () => {
 
@@ -772,9 +799,11 @@ client16.channels.get('568594108759801886').send('pewdiepie');
 		  }, 1510000);
 
 
-client16.login(process.env.S16);
+
 
 });
+client16.login(process.env.S16);
+
 const client17 = new Discord.Client();
 client17.on("ready", () => {
 
@@ -820,9 +849,11 @@ client17.channels.get('568594108759801886').send('pewdiepie');
 		  }, 1510000);
 
 
-client17.login(process.env.S17);
+
 
 });
+client17.login(process.env.S17);
+
 const client18 = new Discord.Client();
 client18.on("ready", () => {
 
@@ -868,9 +899,11 @@ client18.channels.get('568594108759801886').send('pewdiepie');
 		  }, 1510000);
 
 
-client18.login(process.env.S18);
+
 
 });
+client18.login(process.env.S18);
+
 const client19 = new Discord.Client();
 client19.on("ready", () => {
 
@@ -916,9 +949,11 @@ client19.channels.get('568594108759801886').send('pewdiepie');
 		  }, 1510000);
 
 
-client19.login(process.env.S19);
+
 
 });
+client19.login(process.env.S19);
+
 const client20 = new Discord.Client();
 client20.on("ready", () => {
 
@@ -964,10 +999,10 @@ client20.channels.get('568594108759801886').send('pewdiepie');
 		  }, 1510000);
 
 
-client20.login(process.env.S20);
+
 
 });
-
+client20.login(process.env.S20);
 
 client1.on('message', msg => {
     let ownerid = '554710035138215955';
