@@ -3,8 +3,8 @@ const Discord = require('discord.js');
 const Enmap = require(`enmap`);
 const farm = new Enmap();
 const client1 = new Discord.Client();
-const helloResponses = ["مت مت ههههههههههههههههههههههههههههههههه", "سلام عليكم", "ههههههههههههههه.", "سلام عليكم", "خلاص بطلع برب"];
-const helloResponses1 = ["باك", "مسوي اهبل الحين؟", "ههههههههههههههه.", "ok ,np", "يخوي اشبك"];
+const helloResponses = ["مت مت ههههههههههههههههههههههههههههههههه", "سلام عليكم", "ههههههههههههههه.", "وشفيك انت", "خلاص بطلع برب", "اوك خلاصصصص"];
+const helloResponses1 = ["باك", "مسوي اهبل الحين؟", "ههههههههههههههه.", "ok ,np", "يخوي اشبك", "اعصب عليكم"];
 
 client1.on("ready", () => {
 
