@@ -3,630 +3,989 @@ const Discord = require('discord.js');
 const Enmap = require(`enmap`);
 const farm = new Enmap();
 const client1 = new Discord.Client();
+const client2 = new Discord.Client();
+const client3 = new Discord.Client();
+const client4 = new Discord.Client();
+const client5 = new Discord.Client();
+const client6 = new Discord.Client();
+const client7 = new Discord.Client();
+const client8 = new Discord.Client();
+const client9 = new Discord.Client();
+const client10 = new Discord.Client();
+const client11 = new Discord.Client();
+const client12 = new Discord.Client();
+const client13 = new Discord.Client();
+const client14 = new Discord.Client();
+const client15 = new Discord.Client();
+const client16 = new Discord.Client();
+const client17 = new Discord.Client();
+const client18 = new Discord.Client();
+const client19 = new Discord.Client();
+const client20 = new Discord.Client();
+
 
 client1.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client1.channels.get('554720081570037762').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
-		  }, 120000);
-  
-	      var interval1 = setInterval (function () {
-  client1.channels.get('554720081570037762').send('#daily');
-  client.channels.get('554720081570037762').send('#rep <@215251553538408458>');  
-		  }, 86800000);
-  
+client1.channels.get('568594108759801886').send('هلا والله كيف الحال');
+
+		  }, 210000);
+
+
 	      var interval2 = setInterval (function () {
-client1.channels.get('554720081570037762').send('t!daily <@215251553538408458>');
-client1.channels.get('554720081570037762').send('t!rep <@215251553538408458>');
-		  }, 61360000);
+client1.channels.get('568594108759801886').send('سلام عليكم');
+
+		  }, 430000);
+
+
+	      var interval3 = setInterval (function () {
+client1.channels.get('568594108759801886').send('ههههههههههه');
+
+		  }, 650000);
+
+
+	      var interval4 = setInterval (function () {
+client1.channels.get('568594108759801886').send('برب');
+
+		  }, 860000);
+
+
+	      var interval5 = setInterval (function () {
+client1.channels.get('568594108759801886').send('باك');
+
+		  }, 1080000);
+
+
+	      var interval6 = setInterval (function () {
+client1.channels.get('568594108759801886').send('كيف بس');
+
+		  }, 1300000);
+
+
+	      var interval7 = setInterval (function () {
+client1.channels.get('568594108759801886').send('pewdiepie');
+
+		  }, 1510000);
+
+
+client1.login(process.env.S1);
+
 });
-
-
-
-client1.login(process.env.STARK_BOT1);
-
-
-
-const client2 = new Discord.Client();
 
 client2.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client2.channels.get('554720081570037762').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
-		  }, 120000);
-  
-	      var interval1 = setInterval (function () {
-  client2.channels.get('554720081570037762').send('#daily');
-  client2.channels.get('554720081570037762').send('#rep <@215251553538408458>');  
-		  }, 86800000);
-  
+client2.channels.get('568594108759801886').send('هلا والله كيف الحال');
+
+		  }, 210000);
+
+
 	      var interval2 = setInterval (function () {
-client2.channels.get('554720081570037762').send('t!daily <@215251553538408458>');
-client2.channels.get('554720081570037762').send('t!rep <@215251553538408458>');
-		  }, 61360000);
+client2.channels.get('568594108759801886').send('سلام عليكم');
+
+		  }, 430000);
+
+
+	      var interval3 = setInterval (function () {
+client2.channels.get('568594108759801886').send('ههههههههههه');
+
+		  }, 650000);
+
+
+	      var interval4 = setInterval (function () {
+client2.channels.get('568594108759801886').send('برب');
+
+		  }, 860000);
+
+
+	      var interval5 = setInterval (function () {
+client2.channels.get('568594108759801886').send('باك');
+
+		  }, 1080000);
+
+
+	      var interval6 = setInterval (function () {
+client2.channels.get('568594108759801886').send('كيف بس');
+
+		  }, 1300000);
+
+
+	      var interval7 = setInterval (function () {
+client2.channels.get('568594108759801886').send('pewdiepie');
+
+		  }, 1510000);
+
+
+client2.login(process.env.S2);
+
 });
-
-
-
-client2.login(process.env.STARK_BOT2);
-
-
-
-const client3 = new Discord.Client();
 
 client3.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client3.channels.get('554720081570037762').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
-		  }, 120000);
-  
-	      var interval1 = setInterval (function () {
-  client3.channels.get('554720081570037762').send('#daily');
-  client3.channels.get('554720081570037762').send('#rep <@215251553538408458>');  
-		  }, 86800000);
-  
+client3.channels.get('568594108759801886').send('هلا والله كيف الحال');
+
+		  }, 210000);
+
+
 	      var interval2 = setInterval (function () {
-client3.channels.get('554720081570037762').send('t!daily <@215251553538408458>');
-client3.channels.get('554720081570037762').send('t!rep <@215251553538408458>');
-		  }, 61360000);
+client3.channels.get('568594108759801886').send('سلام عليكم');
+
+		  }, 430000);
+
+
+	      var interval3 = setInterval (function () {
+client3.channels.get('568594108759801886').send('ههههههههههه');
+
+		  }, 650000);
+
+
+	      var interval4 = setInterval (function () {
+client3.channels.get('568594108759801886').send('برب');
+
+		  }, 860000);
+
+
+	      var interval5 = setInterval (function () {
+client3.channels.get('568594108759801886').send('باك');
+
+		  }, 1080000);
+
+
+	      var interval6 = setInterval (function () {
+client3.channels.get('568594108759801886').send('كيف بس');
+
+		  }, 1300000);
+
+
+	      var interval7 = setInterval (function () {
+client3.channels.get('568594108759801886').send('pewdiepie');
+
+		  }, 1510000);
+
+
+client3.login(process.env.S3);
+
 });
-
-
-
-client3.login(process.env.STARK_BOT3);
-
-
-
-const client4 = new Discord.Client();
 
 client4.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client4.channels.get('554720081570037762').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
-		  }, 120000);
-  
-	      var interval1 = setInterval (function () {
-  client4.channels.get('554720081570037762').send('#daily');
-  client4.channels.get('554720081570037762').send('#rep <@215251553538408458>');  
-		  }, 86800000);
-  
+client4.channels.get('568594108759801886').send('هلا والله كيف الحال');
+
+		  }, 210000);
+
+
 	      var interval2 = setInterval (function () {
-client4.channels.get('554720081570037762').send('t!daily <@215251553538408458>');
-client4.channels.get('554720081570037762').send('t!rep <@215251553538408458>');
-		  }, 61360000);
+client4.channels.get('568594108759801886').send('سلام عليكم');
+
+		  }, 430000);
+
+
+	      var interval3 = setInterval (function () {
+client4.channels.get('568594108759801886').send('ههههههههههه');
+
+		  }, 650000);
+
+
+	      var interval4 = setInterval (function () {
+client4.channels.get('568594108759801886').send('برب');
+
+		  }, 860000);
+
+
+	      var interval5 = setInterval (function () {
+client4.channels.get('568594108759801886').send('باك');
+
+		  }, 1080000);
+
+
+	      var interval6 = setInterval (function () {
+client4.channels.get('568594108759801886').send('كيف بس');
+
+		  }, 1300000);
+
+
+	      var interval7 = setInterval (function () {
+client4.channels.get('568594108759801886').send('pewdiepie');
+
+		  }, 1510000);
+
+
+client4.login(process.env.S4);
+
 });
-
-
-
-client4.login(process.env.STARK_BOT4);
-
-
-
-const client5 = new Discord.Client();
 
 client5.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client5.channels.get('554720081570037762').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
-		  }, 120000);
-  
-	      var interval1 = setInterval (function () {
-  client5.channels.get('554720081570037762').send('#daily');
-  client5.channels.get('554720081570037762').send('#rep <@215251553538408458>');  
-		  }, 86800000);
-  
+client5.channels.get('568594108759801886').send('هلا والله كيف الحال');
+
+		  }, 210000);
+
+
 	      var interval2 = setInterval (function () {
-client5.channels.get('554720081570037762').send('t!daily <@215251553538408458>');
-client5.channels.get('554720081570037762').send('t!rep <@215251553538408458>');
-		  }, 61360000);
+client5.channels.get('568594108759801886').send('سلام عليكم');
+
+		  }, 430000);
+
+
+	      var interval3 = setInterval (function () {
+client5.channels.get('568594108759801886').send('ههههههههههه');
+
+		  }, 650000);
+
+
+	      var interval4 = setInterval (function () {
+client5.channels.get('568594108759801886').send('برب');
+
+		  }, 860000);
+
+
+	      var interval5 = setInterval (function () {
+client5.channels.get('568594108759801886').send('باك');
+
+		  }, 1080000);
+
+
+	      var interval6 = setInterval (function () {
+client5.channels.get('568594108759801886').send('كيف بس');
+
+		  }, 1300000);
+
+
+	      var interval7 = setInterval (function () {
+client5.channels.get('568594108759801886').send('pewdiepie');
+
+		  }, 1510000);
+
+
+client5.login(process.env.S5);
+
 });
-
-
-
-client5.login(process.env.STARK_BOT5);
-
-
-
-const client6 = new Discord.Client();
 
 client6.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client6.channels.get('554720081570037762').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
-		  }, 120000);
-  
-	      var interval1 = setInterval (function () {
-  client6.channels.get('554720081570037762').send('#daily');
-  client6.channels.get('554720081570037762').send('#rep <@215251553538408458>');  
-		  }, 86800000);
-  
+client6.channels.get('568594108759801886').send('هلا والله كيف الحال');
+
+		  }, 210000);
+
+
 	      var interval2 = setInterval (function () {
-client6.channels.get('554720081570037762').send('t!daily <@215251553538408458>');
-client6.channels.get('554720081570037762').send('t!rep <@215251553538408458>');
-		  }, 61360000);
+client6.channels.get('568594108759801886').send('سلام عليكم');
+
+		  }, 430000);
+
+
+	      var interval3 = setInterval (function () {
+client6.channels.get('568594108759801886').send('ههههههههههه');
+
+		  }, 650000);
+
+
+	      var interval4 = setInterval (function () {
+client6.channels.get('568594108759801886').send('برب');
+
+		  }, 860000);
+
+
+	      var interval5 = setInterval (function () {
+client6.channels.get('568594108759801886').send('باك');
+
+		  }, 1080000);
+
+
+	      var interval6 = setInterval (function () {
+client6.channels.get('568594108759801886').send('كيف بس');
+
+		  }, 1300000);
+
+
+	      var interval7 = setInterval (function () {
+client6.channels.get('568594108759801886').send('pewdiepie');
+
+		  }, 1510000);
+
+
+client6.login(process.env.S6);
+
 });
-
-
-
-client6.login(process.env.STARK_BOT6);
-
-
-
-const client7 = new Discord.Client();
 
 client7.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client7.channels.get('554720081570037762').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
-		  }, 120000);
-  
-	      var interval1 = setInterval (function () {
-  client7.channels.get('554720081570037762').send('#daily');
-  client7.channels.get('554720081570037762').send('#rep <@215251553538408458>');  
-		  }, 86800000);
-  
+client7.channels.get('568594108759801886').send('هلا والله كيف الحال');
+
+		  }, 210000);
+
+
 	      var interval2 = setInterval (function () {
-client7.channels.get('554720081570037762').send('t!daily <@215251553538408458>');
-client7.channels.get('554720081570037762').send('t!rep <@215251553538408458>');
-		  }, 61360000);
+client7.channels.get('568594108759801886').send('سلام عليكم');
+
+		  }, 430000);
+
+
+	      var interval3 = setInterval (function () {
+client7.channels.get('568594108759801886').send('ههههههههههه');
+
+		  }, 650000);
+
+
+	      var interval4 = setInterval (function () {
+client7.channels.get('568594108759801886').send('برب');
+
+		  }, 860000);
+
+
+	      var interval5 = setInterval (function () {
+client7.channels.get('568594108759801886').send('باك');
+
+		  }, 1080000);
+
+
+	      var interval6 = setInterval (function () {
+client7.channels.get('568594108759801886').send('كيف بس');
+
+		  }, 1300000);
+
+
+	      var interval7 = setInterval (function () {
+client7.channels.get('568594108759801886').send('pewdiepie');
+
+		  }, 1510000);
+
+
+client7.login(process.env.S7);
+
 });
-
-
-
-client7.login(process.env.STARK_BOT7);
-
-
-
-const client8 = new Discord.Client();
 
 client8.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client8.channels.get('554720081570037762').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
-		  }, 120000);
-  
-	      var interval1 = setInterval (function () {
-  client8.channels.get('554720081570037762').send('#daily');
-  client8.channels.get('554720081570037762').send('#rep <@215251553538408458>');  
-		  }, 86800000);
-  
+client8.channels.get('568594108759801886').send('هلا والله كيف الحال');
+
+		  }, 210000);
+
+
 	      var interval2 = setInterval (function () {
-client8.channels.get('554720081570037762').send('t!daily <@215251553538408458>');
-client8.channels.get('554720081570037762').send('t!rep <@215251553538408458>');
-		  }, 61360000);
+client8.channels.get('568594108759801886').send('سلام عليكم');
+
+		  }, 430000);
+
+
+	      var interval3 = setInterval (function () {
+client8.channels.get('568594108759801886').send('ههههههههههه');
+
+		  }, 650000);
+
+
+	      var interval4 = setInterval (function () {
+client8.channels.get('568594108759801886').send('برب');
+
+		  }, 860000);
+
+
+	      var interval5 = setInterval (function () {
+client8.channels.get('568594108759801886').send('باك');
+
+		  }, 1080000);
+
+
+	      var interval6 = setInterval (function () {
+client8.channels.get('568594108759801886').send('كيف بس');
+
+		  }, 1300000);
+
+
+	      var interval7 = setInterval (function () {
+client8.channels.get('568594108759801886').send('pewdiepie');
+
+		  }, 1510000);
+
+
+client8.login(process.env.S8);
+
 });
-
-
-
-client8.login(process.env.STARK_BOT8);
-
-
-
-const client9 = new Discord.Client();
 
 client9.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client9.channels.get('554720081570037762').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
-		  }, 120000);
-  
-	      var interval1 = setInterval (function () {
-  client9.channels.get('554720081570037762').send('#daily');
-  client9.channels.get('554720081570037762').send('#rep <@215251553538408458>');  
-		  }, 86800000);
-  
+client9.channels.get('568594108759801886').send('هلا والله كيف الحال');
+
+		  }, 210000);
+
+
 	      var interval2 = setInterval (function () {
-client9.channels.get('554720081570037762').send('t!daily <@215251553538408458>');
-client9.channels.get('554720081570037762').send('t!rep <@215251553538408458>');
-		  }, 61360000);
+client9.channels.get('568594108759801886').send('سلام عليكم');
+
+		  }, 430000);
+
+
+	      var interval3 = setInterval (function () {
+client9.channels.get('568594108759801886').send('ههههههههههه');
+
+		  }, 650000);
+
+
+	      var interval4 = setInterval (function () {
+client9.channels.get('568594108759801886').send('برب');
+
+		  }, 860000);
+
+
+	      var interval5 = setInterval (function () {
+client9.channels.get('568594108759801886').send('باك');
+
+		  }, 1080000);
+
+
+	      var interval6 = setInterval (function () {
+client9.channels.get('568594108759801886').send('كيف بس');
+
+		  }, 1300000);
+
+
+	      var interval7 = setInterval (function () {
+client9.channels.get('568594108759801886').send('pewdiepie');
+
+		  }, 1510000);
+
+
+client9.login(process.env.S9);
+
 });
-
-
-
-client9.login(process.env.STARK_BOT9);
-
-
-
-const client10 = new Discord.Client();
 
 client10.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client10.channels.get('554720081570037762').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
-		  }, 120000);
-  
-	      var interval1 = setInterval (function () {
-  client10.channels.get('554720081570037762').send('#daily');
-  client10.channels.get('554720081570037762').send('#rep <@215251553538408458>');  
-		  }, 86800000);
-  
+client10.channels.get('568594108759801886').send('هلا والله كيف الحال');
+
+		  }, 210000);
+
+
 	      var interval2 = setInterval (function () {
-client10.channels.get('554720081570037762').send('t!daily <@215251553538408458>');
-client10.channels.get('554720081570037762').send('t!rep <@215251553538408458>');
-		  }, 61360000);
+client10.channels.get('568594108759801886').send('سلام عليكم');
+
+		  }, 430000);
+
+
+	      var interval3 = setInterval (function () {
+client10.channels.get('568594108759801886').send('ههههههههههه');
+
+		  }, 650000);
+
+
+	      var interval4 = setInterval (function () {
+client10.channels.get('568594108759801886').send('برب');
+
+		  }, 860000);
+
+
+	      var interval5 = setInterval (function () {
+client10.channels.get('568594108759801886').send('باك');
+
+		  }, 1080000);
+
+
+	      var interval6 = setInterval (function () {
+client10.channels.get('568594108759801886').send('كيف بس');
+
+		  }, 1300000);
+
+
+	      var interval7 = setInterval (function () {
+client10.channels.get('568594108759801886').send('pewdiepie');
+
+		  }, 1510000);
+
+
+client10.login(process.env.S10);
+
 });
-
-
-
-client10.login(process.env.STARK_BOT10);
-
-
-
-const client11 = new Discord.Client();
 
 client11.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client11.channels.get('554720081570037762').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
-		  }, 120000);
-  
-	      var interval1 = setInterval (function () {
-  client11.channels.get('554720081570037762').send('#daily');
-  client11.channels.get('554720081570037762').send('#rep <@215251553538408458>');  
-		  }, 86800000);
-  
+client11.channels.get('568594108759801886').send('هلا والله كيف الحال');
+
+		  }, 210000);
+
+
 	      var interval2 = setInterval (function () {
-client11.channels.get('554720081570037762').send('t!daily <@215251553538408458>');
-client11.channels.get('554720081570037762').send('t!rep <@215251553538408458>');
-		  }, 61360000);
+client11.channels.get('568594108759801886').send('سلام عليكم');
+
+		  }, 430000);
+
+
+	      var interval3 = setInterval (function () {
+client11.channels.get('568594108759801886').send('ههههههههههه');
+
+		  }, 650000);
+
+
+	      var interval4 = setInterval (function () {
+client11.channels.get('568594108759801886').send('برب');
+
+		  }, 860000);
+
+
+	      var interval5 = setInterval (function () {
+client11.channels.get('568594108759801886').send('باك');
+
+		  }, 1080000);
+
+
+	      var interval6 = setInterval (function () {
+client11.channels.get('568594108759801886').send('كيف بس');
+
+		  }, 1300000);
+
+
+	      var interval7 = setInterval (function () {
+client11.channels.get('568594108759801886').send('pewdiepie');
+
+		  }, 1510000);
+
+
+client11.login(process.env.S11);
+
 });
 
-
-
-client11.login(process.env.STARK_BOT11);
-
-
-
-const client12 = new Discord.Client();
 
 client12.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client12.channels.get('554720081570037762').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
-		  }, 120000);
-  
-	      var interval1 = setInterval (function () {
-  client12.channels.get('554720081570037762').send('#daily');
-  client12.channels.get('554720081570037762').send('#rep <@215251553538408458>');  
-		  }, 86800000);
-  
+client12.channels.get('568594108759801886').send('هلا والله كيف الحال');
+
+		  }, 210000);
+
+
 	      var interval2 = setInterval (function () {
-client12.channels.get('554720081570037762').send('t!daily <@215251553538408458>');
-client12.channels.get('554720081570037762').send('t!rep <@215251553538408458>');
-		  }, 61360000);
+client12.channels.get('568594108759801886').send('سلام عليكم');
+
+		  }, 430000);
+
+
+	      var interval3 = setInterval (function () {
+client12.channels.get('568594108759801886').send('ههههههههههه');
+
+		  }, 650000);
+
+
+	      var interval4 = setInterval (function () {
+client12.channels.get('568594108759801886').send('برب');
+
+		  }, 860000);
+
+
+	      var interval5 = setInterval (function () {
+client12.channels.get('568594108759801886').send('باك');
+
+		  }, 1080000);
+
+
+	      var interval6 = setInterval (function () {
+client12.channels.get('568594108759801886').send('كيف بس');
+
+		  }, 1300000);
+
+
+	      var interval7 = setInterval (function () {
+client12.channels.get('568594108759801886').send('pewdiepie');
+
+		  }, 1510000);
+
+
+client12.login(process.env.S12);
+
 });
 
-
-
-client12.login(process.env.STARK_BOT12);
-
-
-
-const client13 = new Discord.Client();
 
 client13.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client13.channels.get('554720081570037762').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
-		  }, 120000);
-  
-	      var interval1 = setInterval (function () {
-  client13.channels.get('554720081570037762').send('#daily');
-  client13.channels.get('554720081570037762').send('#rep <@215251553538408458>');  
-		  }, 86800000);
-  
+client13.channels.get('568594108759801886').send('هلا والله كيف الحال');
+
+		  }, 210000);
+
+
 	      var interval2 = setInterval (function () {
-client13.channels.get('554720081570037762').send('t!daily <@215251553538408458>');
-client13.channels.get('554720081570037762').send('t!rep <@215251553538408458>');
-		  }, 61360000);
+client13.channels.get('568594108759801886').send('سلام عليكم');
+
+		  }, 430000);
+
+
+	      var interval3 = setInterval (function () {
+client13.channels.get('568594108759801886').send('ههههههههههه');
+
+		  }, 650000);
+
+
+	      var interval4 = setInterval (function () {
+client13.channels.get('568594108759801886').send('برب');
+
+		  }, 860000);
+
+
+	      var interval5 = setInterval (function () {
+client13.channels.get('568594108759801886').send('باك');
+
+		  }, 1080000);
+
+
+	      var interval6 = setInterval (function () {
+client13.channels.get('568594108759801886').send('كيف بس');
+
+		  }, 1300000);
+
+
+	      var interval7 = setInterval (function () {
+client13.channels.get('568594108759801886').send('pewdiepie');
+
+		  }, 1510000);
+
+
+client13.login(process.env.S13);
+
 });
 
-
-
-client13.login(process.env.STARK_BOT13);
-
-
-
-const client14 = new Discord.Client();
 
 client14.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client14.channels.get('554720081570037762').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
-		  }, 120000);
-  
-	      var interval1 = setInterval (function () {
-  client14.channels.get('554720081570037762').send('#daily');
-  client14.channels.get('554720081570037762').send('#rep <@215251553538408458>');  
-		  }, 86800000);
-  
+client14.channels.get('568594108759801886').send('هلا والله كيف الحال');
+
+		  }, 210000);
+
+
 	      var interval2 = setInterval (function () {
-client14.channels.get('554720081570037762').send('t!daily <@215251553538408458>');
-client14.channels.get('554720081570037762').send('t!rep <@215251553538408458>');
-		  }, 61360000);
+client14.channels.get('568594108759801886').send('سلام عليكم');
+
+		  }, 430000);
+
+
+	      var interval3 = setInterval (function () {
+client14.channels.get('568594108759801886').send('ههههههههههه');
+
+		  }, 650000);
+
+
+	      var interval4 = setInterval (function () {
+client14.channels.get('568594108759801886').send('برب');
+
+		  }, 860000);
+
+
+	      var interval5 = setInterval (function () {
+client14.channels.get('568594108759801886').send('باك');
+
+		  }, 1080000);
+
+
+	      var interval6 = setInterval (function () {
+client14.channels.get('568594108759801886').send('كيف بس');
+
+		  }, 1300000);
+
+
+	      var interval7 = setInterval (function () {
+client14.channels.get('568594108759801886').send('pewdiepie');
+
+		  }, 1510000);
+
+
+client14.login(process.env.S14);
+
 });
-
-
-
-client14.login(process.env.STARK_BOT14);
-
-
-
-const client15 = new Discord.Client();
 
 client15.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client15.channels.get('554720081570037762').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
-		  }, 120000);
-  
-	      var interval1 = setInterval (function () {
-  client15.channels.get('554720081570037762').send('#daily');
-  client15.channels.get('554720081570037762').send('#rep <@215251553538408458>');  
-		  }, 86800000);
-  
+client15.channels.get('568594108759801886').send('هلا والله كيف الحال');
+
+		  }, 210000);
+
+
 	      var interval2 = setInterval (function () {
-client15.channels.get('554720081570037762').send('t!daily <@215251553538408458>');
-client15.channels.get('554720081570037762').send('t!rep <@215251553538408458>');
-		  }, 61360000);
+client15.channels.get('568594108759801886').send('سلام عليكم');
+
+		  }, 430000);
+
+
+	      var interval3 = setInterval (function () {
+client15.channels.get('568594108759801886').send('ههههههههههه');
+
+		  }, 650000);
+
+
+	      var interval4 = setInterval (function () {
+client15.channels.get('568594108759801886').send('برب');
+
+		  }, 860000);
+
+
+	      var interval5 = setInterval (function () {
+client15.channels.get('568594108759801886').send('باك');
+
+		  }, 1080000);
+
+
+	      var interval6 = setInterval (function () {
+client15.channels.get('568594108759801886').send('كيف بس');
+
+		  }, 1300000);
+
+
+	      var interval7 = setInterval (function () {
+client15.channels.get('568594108759801886').send('pewdiepie');
+
+		  }, 1510000);
+
+
+client15.login(process.env.S15);
+
 });
-
-
-
-client15.login(process.env.STARK_BOT15);
-
-
-
-const client16 = new Discord.Client();
 
 client16.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client16.channels.get('554720081570037762').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
-		  }, 120000);
-  
-	      var interval1 = setInterval (function () {
-  client16.channels.get('554720081570037762').send('#daily');
-  client16.channels.get('554720081570037762').send('#rep <@215251553538408458>');  
-		  }, 86800000);
-  
+client16.channels.get('568594108759801886').send('هلا والله كيف الحال');
+
+		  }, 210000);
+
+
 	      var interval2 = setInterval (function () {
-client16.channels.get('554720081570037762').send('t!daily <@215251553538408458>');
-client16.channels.get('554720081570037762').send('t!rep <@215251553538408458>');
-		  }, 61360000);
+client16.channels.get('568594108759801886').send('سلام عليكم');
+
+		  }, 430000);
+
+
+	      var interval3 = setInterval (function () {
+client16.channels.get('568594108759801886').send('ههههههههههه');
+
+		  }, 650000);
+
+
+	      var interval4 = setInterval (function () {
+client16.channels.get('568594108759801886').send('برب');
+
+		  }, 860000);
+
+
+	      var interval5 = setInterval (function () {
+client16.channels.get('568594108759801886').send('باك');
+
+		  }, 1080000);
+
+
+	      var interval6 = setInterval (function () {
+client16.channels.get('568594108759801886').send('كيف بس');
+
+		  }, 1300000);
+
+
+	      var interval7 = setInterval (function () {
+client16.channels.get('568594108759801886').send('pewdiepie');
+
+		  }, 1510000);
+
+
+client16.login(process.env.S16);
+
 });
-
-
-
-client16.login(process.env.STARK_BOT16);
-
-
-
-const client17 = new Discord.Client();
 
 client17.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client17.channels.get('554720081570037762').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
-		  }, 120000);
-  
-	      var interval1 = setInterval (function () {
-  client17.channels.get('554720081570037762').send('#daily');
-  client17.channels.get('554720081570037762').send('#rep <@215251553538408458>');  
-		  }, 86800000);
-  
+client17.channels.get('568594108759801886').send('هلا والله كيف الحال');
+
+		  }, 210000);
+
+
 	      var interval2 = setInterval (function () {
-client17.channels.get('554720081570037762').send('t!daily <@215251553538408458>');
-client17.channels.get('554720081570037762').send('t!rep <@215251553538408458>');
-		  }, 61360000);
+client17.channels.get('568594108759801886').send('سلام عليكم');
+
+		  }, 430000);
+
+
+	      var interval3 = setInterval (function () {
+client17.channels.get('568594108759801886').send('ههههههههههه');
+
+		  }, 650000);
+
+
+	      var interval4 = setInterval (function () {
+client17.channels.get('568594108759801886').send('برب');
+
+		  }, 860000);
+
+
+	      var interval5 = setInterval (function () {
+client17.channels.get('568594108759801886').send('باك');
+
+		  }, 1080000);
+
+
+	      var interval6 = setInterval (function () {
+client17.channels.get('568594108759801886').send('كيف بس');
+
+		  }, 1300000);
+
+
+	      var interval7 = setInterval (function () {
+client17.channels.get('568594108759801886').send('pewdiepie');
+
+		  }, 1510000);
+
+
+client17.login(process.env.S17);
+
 });
-
-
-
-client17.login(process.env.STARK_BOT17);
-
-
-
-const client18 = new Discord.Client();
 
 client18.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client18.channels.get('554720081570037762').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
-		  }, 120000);
-  
-	      var interval1 = setInterval (function () {
-  client18.channels.get('554720081570037762').send('#daily');
-  client18.channels.get('554720081570037762').send('#rep <@215251553538408458>');  
-		  }, 86800000);
-  
+client18.channels.get('568594108759801886').send('هلا والله كيف الحال');
+
+		  }, 210000);
+
+
 	      var interval2 = setInterval (function () {
-client18.channels.get('554720081570037762').send('t!daily <@215251553538408458>');
-client18.channels.get('554720081570037762').send('t!rep <@215251553538408458>');
-		  }, 61360000);
+client18.channels.get('568594108759801886').send('سلام عليكم');
+
+		  }, 430000);
+
+
+	      var interval3 = setInterval (function () {
+client18.channels.get('568594108759801886').send('ههههههههههه');
+
+		  }, 650000);
+
+
+	      var interval4 = setInterval (function () {
+client18.channels.get('568594108759801886').send('برب');
+
+		  }, 860000);
+
+
+	      var interval5 = setInterval (function () {
+client18.channels.get('568594108759801886').send('باك');
+
+		  }, 1080000);
+
+
+	      var interval6 = setInterval (function () {
+client18.channels.get('568594108759801886').send('كيف بس');
+
+		  }, 1300000);
+
+
+	      var interval7 = setInterval (function () {
+client18.channels.get('568594108759801886').send('pewdiepie');
+
+		  }, 1510000);
+
+
+client18.login(process.env.S18);
+
 });
-
-
-
-client18.login(process.env.STARK_BOT18);
-
-
-
-const client19 = new Discord.Client();
 
 client19.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client19.channels.get('554720081570037762').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
-		  }, 120000);
-  
-	      var interval1 = setInterval (function () {
-  client19.channels.get('554720081570037762').send('#daily');
-  client19.channels.get('554720081570037762').send('#rep <@215251553538408458>');  
-		  }, 86800000);
-  
+client19.channels.get('568594108759801886').send('هلا والله كيف الحال');
+
+		  }, 210000);
+
+
 	      var interval2 = setInterval (function () {
-client19.channels.get('554720081570037762').send('t!daily <@215251553538408458>');
-client19.channels.get('554720081570037762').send('t!rep <@215251553538408458>');
-		  }, 61360000);
+client19.channels.get('568594108759801886').send('سلام عليكم');
+
+		  }, 430000);
+
+
+	      var interval3 = setInterval (function () {
+client19.channels.get('568594108759801886').send('ههههههههههه');
+
+		  }, 650000);
+
+
+	      var interval4 = setInterval (function () {
+client19.channels.get('568594108759801886').send('برب');
+
+		  }, 860000);
+
+
+	      var interval5 = setInterval (function () {
+client19.channels.get('568594108759801886').send('باك');
+
+		  }, 1080000);
+
+
+	      var interval6 = setInterval (function () {
+client19.channels.get('568594108759801886').send('كيف بس');
+
+		  }, 1300000);
+
+
+	      var interval7 = setInterval (function () {
+client19.channels.get('568594108759801886').send('pewdiepie');
+
+		  }, 1510000);
+
+
+client19.login(process.env.S19);
+
 });
-
-
-
-client19.login(process.env.STARK_BOT19);
-
-
-
-const client20 = new Discord.Client();
 
 client20.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client20.channels.get('554720081570037762').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
-		  }, 120000);
-  
-	      var interval1 = setInterval (function () {
-  client20.channels.get('554720081570037762').send('#daily');
-  client20.channels.get('554720081570037762').send('#rep <@215251553538408458>');  
-		  }, 86800000);
-  
+client20.channels.get('568594108759801886').send('هلا والله كيف الحال');
+
+		  }, 210000);
+
+
 	      var interval2 = setInterval (function () {
-client20.channels.get('554720081570037762').send('t!daily <@215251553538408458>');
-client20.channels.get('554720081570037762').send('t!rep <@215251553538408458>');
-		  }, 61360000);
+client20.channels.get('568594108759801886').send('سلام عليكم');
+
+		  }, 430000);
+
+
+	      var interval3 = setInterval (function () {
+client20.channels.get('568594108759801886').send('ههههههههههه');
+
+		  }, 650000);
+
+
+	      var interval4 = setInterval (function () {
+client20.channels.get('568594108759801886').send('برب');
+
+		  }, 860000);
+
+
+	      var interval5 = setInterval (function () {
+client20.channels.get('568594108759801886').send('باك');
+
+		  }, 1080000);
+
+
+	      var interval6 = setInterval (function () {
+client20.channels.get('568594108759801886').send('كيف بس');
+
+		  }, 1300000);
+
+
+	      var interval7 = setInterval (function () {
+client20.channels.get('568594108759801886').send('pewdiepie');
+
+		  }, 1510000);
+
+
+client20.login(process.env.S20);
+
 });
-
-
-
-client20.login(process.env.STARK_BOT20);
-
-
-
-const client21 = new Discord.Client();
-
-client21.on("ready", () => {
-
-	      var interval = setInterval (function () {
-client21.channels.get('554720081570037762').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
-		  }, 120000);
-  
-	      var interval1 = setInterval (function () {
-  client21.channels.get('554720081570037762').send('#daily');
-  client21.channels.get('554720081570037762').send('#rep <@215251553538408458>');  
-		  }, 86800000);
-  
-	      var interval2 = setInterval (function () {
-client21.channels.get('554720081570037762').send('t!daily <@215251553538408458>');
-client21.channels.get('554720081570037762').send('t!rep <@215251553538408458>');
-		  }, 61360000);
-});
-
-
-
-client21.login(process.env.STARK_BOT21);
-
-
-
-const client22 = new Discord.Client();
-
-client22.on("ready", () => {
-
-	      var interval = setInterval (function () {
-client22.channels.get('554720081570037762').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
-		  }, 120000);
-  
-	      var interval1 = setInterval (function () {
-  client22.channels.get('554720081570037762').send('#daily');
-  client22.channels.get('554720081570037762').send('#rep <@215251553538408458>');  
-		  }, 86800000);
-  
-	      var interval2 = setInterval (function () {
-client22.channels.get('554720081570037762').send('t!daily <@215251553538408458>');
-client22.channels.get('554720081570037762').send('t!rep <@215251553538408458>');
-		  }, 61360000);
-});
-
-
-
-client22.login(process.env.STARK_BOT22);
-
-
-
-const client23 = new Discord.Client();
-
-client23.on("ready", () => {
-
-	      var interval = setInterval (function () {
-client23.channels.get('554720081570037762').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
-		  }, 120000);
-  
-	      var interval1 = setInterval (function () {
-  client23.channels.get('554720081570037762').send('#daily');
-  client23.channels.get('554720081570037762').send('#rep <@215251553538408458>');  
-		  }, 86800000);
-  
-	      var interval2 = setInterval (function () {
-client23.channels.get('554720081570037762').send('t!daily <@215251553538408458>');
-client23.channels.get('554720081570037762').send('t!rep <@215251553538408458>');
-		  }, 61360000);
-});
-
-
-
-client23.login(process.env.STARK_BOT23);
-
-
-
-const client24 = new Discord.Client();
-
-client24.on("ready", () => {
-
-	      var interval = setInterval (function () {
-client24.channels.get('554720081570037762').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
-		  }, 120000);
-  
-	      var interval1 = setInterval (function () {
-  client24.channels.get('554720081570037762').send('#daily');
-  client24.channels.get('554720081570037762').send('#rep <@215251553538408458>');  
-		  }, 86800000);
-  
-	      var interval2 = setInterval (function () {
-client24.channels.get('554720081570037762').send('t!daily <@215251553538408458>');
-client24.channels.get('554720081570037762').send('t!rep <@215251553538408458>');
-		  }, 61360000);
-});
-
-
-
-client24.login(process.env.STARK_BOT24);
-
-
-
-const client25 = new Discord.Client();
-
-client25.on("ready", () => {
-
-	      var interval = setInterval (function () {
-client25.channels.get('554720081570037762').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
-		  }, 120000);
-  
-	      var interval1 = setInterval (function () {
-  client25.channels.get('554720081570037762').send('#daily');
-  client25.channels.get('554720081570037762').send('#rep <@215251553538408458>');  
-		  }, 86800000);
-  
-	      var interval2 = setInterval (function () {
-client25.channels.get('554720081570037762').send('t!daily <@215251553538408458>');
-client25.channels.get('554720081570037762').send('t!rep <@215251553538408458>');
-		  }, 61360000);
-});
-
-
-
-client25.login(process.env.STARK_BOT25);
-
-
-
 
 
 client1.on('message', msg => {
@@ -1139,6 +1498,531 @@ client25.on('message', msg => {
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client25.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client26.on('message', msg => {
+    let ownerid = '554710035138215955';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client26.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client27.on('message', msg => {
+    let ownerid = '554710035138215955';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client27.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client28.on('message', msg => {
+    let ownerid = '554710035138215955';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client28.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client29.on('message', msg => {
+    let ownerid = '554710035138215955';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client29.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client30.on('message', msg => {
+    let ownerid = '554710035138215955';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client30.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client31.on('message', msg => {
+    let ownerid = '554710035138215955';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client31.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client32.on('message', msg => {
+    let ownerid = '554710035138215955';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client32.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client33.on('message', msg => {
+    let ownerid = '554710035138215955';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client33.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client34.on('message', msg => {
+    let ownerid = '554710035138215955';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client34.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client35.on('message', msg => {
+    let ownerid = '554710035138215955';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client35.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client36.on('message', msg => {
+    let ownerid = '554710035138215955';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client36.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client37.on('message', msg => {
+    let ownerid = '554710035138215955';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client37.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client38.on('message', msg => {
+    let ownerid = '554710035138215955';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client38.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client39.on('message', msg => {
+    let ownerid = '554710035138215955';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client39.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client40.on('message', msg => {
+    let ownerid = '554710035138215955';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client40.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client41.on('message', msg => {
+    let ownerid = '554710035138215955';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client41.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client42.on('message', msg => {
+    let ownerid = '554710035138215955';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client42.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client43.on('message', msg => {
+    let ownerid = '554710035138215955';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client43.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client44.on('message', msg => {
+    let ownerid = '554710035138215955';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client44.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client45.on('message', msg => {
+    let ownerid = '554710035138215955';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client45.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client46.on('message', msg => {
+    let ownerid = '554710035138215955';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client46.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client47.on('message', msg => {
+    let ownerid = '554710035138215955';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client47.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client48.on('message', msg => {
+    let ownerid = '554710035138215955';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client48.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client49.on('message', msg => {
+    let ownerid = '554710035138215955';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client49.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client50.on('message', msg => {
+    let ownerid = '554710035138215955';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client50.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
                 msg.channel.send(`#credits <@554710035138215955> ${args[2]}`).then(()=>{
