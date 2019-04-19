@@ -3,25 +3,6 @@ const Discord = require('discord.js');
 const Enmap = require(`enmap`);
 const farm = new Enmap();
 const client1 = new Discord.Client();
-const client2 = new Discord.Client();
-const client3 = new Discord.Client();
-const client4 = new Discord.Client();
-const client5 = new Discord.Client();
-const client6 = new Discord.Client();
-const client7 = new Discord.Client();
-const client8 = new Discord.Client();
-const client9 = new Discord.Client();
-const client10 = new Discord.Client();
-const client11 = new Discord.Client();
-const client12 = new Discord.Client();
-const client13 = new Discord.Client();
-const client14 = new Discord.Client();
-const client15 = new Discord.Client();
-const client16 = new Discord.Client();
-const client17 = new Discord.Client();
-const client18 = new Discord.Client();
-const client19 = new Discord.Client();
-const client20 = new Discord.Client();
 
 
 client1.on("ready", () => {
@@ -71,7 +52,7 @@ client1.channels.get('568594108759801886').send('pewdiepie');
 client1.login(process.env.S1);
 
 });
-
+const client2 = new Discord.Client();
 client2.on("ready", () => {
 
 	      var interval = setInterval (function () {
@@ -119,7 +100,7 @@ client2.channels.get('568594108759801886').send('pewdiepie');
 client2.login(process.env.S2);
 
 });
-
+const client3 = new Discord.Client();
 client3.on("ready", () => {
 
 	      var interval = setInterval (function () {
@@ -167,7 +148,7 @@ client3.channels.get('568594108759801886').send('pewdiepie');
 client3.login(process.env.S3);
 
 });
-
+const client4 = new Discord.Client();
 client4.on("ready", () => {
 
 	      var interval = setInterval (function () {
@@ -215,7 +196,7 @@ client4.channels.get('568594108759801886').send('pewdiepie');
 client4.login(process.env.S4);
 
 });
-
+const client5 = new Discord.Client();
 client5.on("ready", () => {
 
 	      var interval = setInterval (function () {
@@ -263,7 +244,7 @@ client5.channels.get('568594108759801886').send('pewdiepie');
 client5.login(process.env.S5);
 
 });
-
+const client6 = new Discord.Client();
 client6.on("ready", () => {
 
 	      var interval = setInterval (function () {
@@ -311,7 +292,7 @@ client6.channels.get('568594108759801886').send('pewdiepie');
 client6.login(process.env.S6);
 
 });
-
+const client7 = new Discord.Client();
 client7.on("ready", () => {
 
 	      var interval = setInterval (function () {
@@ -359,7 +340,7 @@ client7.channels.get('568594108759801886').send('pewdiepie');
 client7.login(process.env.S7);
 
 });
-
+const client8 = new Discord.Client();
 client8.on("ready", () => {
 
 	      var interval = setInterval (function () {
@@ -407,7 +388,7 @@ client8.channels.get('568594108759801886').send('pewdiepie');
 client8.login(process.env.S8);
 
 });
-
+const client9 = new Discord.Client();
 client9.on("ready", () => {
 
 	      var interval = setInterval (function () {
@@ -455,7 +436,7 @@ client9.channels.get('568594108759801886').send('pewdiepie');
 client9.login(process.env.S9);
 
 });
-
+const client10 = new Discord.Client();
 client10.on("ready", () => {
 
 	      var interval = setInterval (function () {
@@ -503,7 +484,7 @@ client10.channels.get('568594108759801886').send('pewdiepie');
 client10.login(process.env.S10);
 
 });
-
+const client11 = new Discord.Client();
 client11.on("ready", () => {
 
 	      var interval = setInterval (function () {
@@ -552,7 +533,7 @@ client11.login(process.env.S11);
 
 });
 
-
+const client12 = new Discord.Client();
 client12.on("ready", () => {
 
 	      var interval = setInterval (function () {
@@ -601,7 +582,7 @@ client12.login(process.env.S12);
 
 });
 
-
+const client13 = new Discord.Client();
 client13.on("ready", () => {
 
 	      var interval = setInterval (function () {
@@ -650,7 +631,7 @@ client13.login(process.env.S13);
 
 });
 
-
+const client14 = new Discord.Client();
 client14.on("ready", () => {
 
 	      var interval = setInterval (function () {
@@ -698,7 +679,7 @@ client14.channels.get('568594108759801886').send('pewdiepie');
 client14.login(process.env.S14);
 
 });
-
+const client15 = new Discord.Client();
 client15.on("ready", () => {
 
 	      var interval = setInterval (function () {
@@ -746,7 +727,7 @@ client15.channels.get('568594108759801886').send('pewdiepie');
 client15.login(process.env.S15);
 
 });
-
+const client16 = new Discord.Client();
 client16.on("ready", () => {
 
 	      var interval = setInterval (function () {
@@ -794,7 +775,7 @@ client16.channels.get('568594108759801886').send('pewdiepie');
 client16.login(process.env.S16);
 
 });
-
+const client17 = new Discord.Client();
 client17.on("ready", () => {
 
 	      var interval = setInterval (function () {
@@ -842,7 +823,7 @@ client17.channels.get('568594108759801886').send('pewdiepie');
 client17.login(process.env.S17);
 
 });
-
+const client18 = new Discord.Client();
 client18.on("ready", () => {
 
 	      var interval = setInterval (function () {
@@ -890,7 +871,7 @@ client18.channels.get('568594108759801886').send('pewdiepie');
 client18.login(process.env.S18);
 
 });
-
+const client19 = new Discord.Client();
 client19.on("ready", () => {
 
 	      var interval = setInterval (function () {
@@ -938,7 +919,7 @@ client19.channels.get('568594108759801886').send('pewdiepie');
 client19.login(process.env.S19);
 
 });
-
+const client20 = new Discord.Client();
 client20.on("ready", () => {
 
 	      var interval = setInterval (function () {
