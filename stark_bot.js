@@ -10,12 +10,12 @@ client1.on("ready", () => {
 
 var interval = setInterval (function () {
             var response = helloResponses [Math.floor(Math.random()*helloResponses .length)];
-            client1.channels.get('568594108759801886').send(response).then().catch(console.error);
+            client1.channels.get('568818476550979595').send(response).then().catch(console.error);
 		  }, 240000);
 		  
 var interval2 = setInterval (function () {
             var response1 = helloResponses [Math.floor(Math.random()*helloResponses1 .length)];
-            client1.channels.get('568594108759801886').send(response1).then().catch(console.error);
+            client1.channels.get('568818476550979595').send(response1).then().catch(console.error);
 		  }, 450000);
 
 });
@@ -26,12 +26,12 @@ client2.on("ready", () => {
 
 var interval = setInterval (function () {
             var response = helloResponses [Math.floor(Math.random()*helloResponses .length)];
-            client2.channels.get('568594108759801886').send(response).then().catch(console.error);
+            client2.channels.get('568818476550979595').send(response).then().catch(console.error);
 		  }, 240000);
 		  
 var interval2 = setInterval (function () {
             var response1 = helloResponses [Math.floor(Math.random()*helloResponses1 .length)];
-            client2.channels.get('568594108759801886').send(response1).then().catch(console.error);
+            client2.channels.get('568818476550979595').send(response1).then().catch(console.error);
 		  }, 450000);
 
 
@@ -45,12 +45,12 @@ client3.on("ready", () => {
 
 var interval = setInterval (function () {
             var response = helloResponses [Math.floor(Math.random()*helloResponses .length)];
-            client3.channels.get('568594108759801886').send(response).then().catch(console.error);
+            client3.channels.get('568818476550979595').send(response).then().catch(console.error);
 		  }, 240000);
 		  
 var interval2 = setInterval (function () {
             var response1 = helloResponses [Math.floor(Math.random()*helloResponses1 .length)];
-            client3.channels.get('568594108759801886').send(response1).then().catch(console.error);
+            client3.channels.get('568818476550979595').send(response1).then().catch(console.error);
 		  }, 450000);
 
 
@@ -64,12 +64,12 @@ client4.on("ready", () => {
 
 var interval = setInterval (function () {
             var response = helloResponses [Math.floor(Math.random()*helloResponses .length)];
-            client4.channels.get('568594108759801886').send(response).then().catch(console.error);
+            client4.channels.get('568818476550979595').send(response).then().catch(console.error);
 		  }, 240000);
 		  
 var interval2 = setInterval (function () {
             var response1 = helloResponses [Math.floor(Math.random()*helloResponses1 .length)];
-            client4.channels.get('568594108759801886').send(response1).then().catch(console.error);
+            client4.channels.get('568818476550979595').send(response1).then().catch(console.error);
 		  }, 450000);
 
 
@@ -84,12 +84,12 @@ client5.on("ready", () => {
 
 var interval = setInterval (function () {
             var response = helloResponses [Math.floor(Math.random()*helloResponses .length)];
-            client5.channels.get('568594108759801886').send(response).then().catch(console.error);
+            client5.channels.get('568818476550979595').send(response).then().catch(console.error);
 		  }, 240000);
 		  
 var interval2 = setInterval (function () {
             var response1 = helloResponses [Math.floor(Math.random()*helloResponses1 .length)];
-            client5.channels.get('568594108759801886').send(response1).then().catch(console.error);
+            client5.channels.get('568818476550979595').send(response1).then().catch(console.error);
 		  }, 450000);
 
 
@@ -102,12 +102,12 @@ client6.on("ready", () => {
 
 var interval = setInterval (function () {
             var response = helloResponses [Math.floor(Math.random()*helloResponses .length)];
-            client6.channels.get('568594108759801886').send(response).then().catch(console.error);
+            client6.channels.get('568818476550979595').send(response).then().catch(console.error);
 		  }, 240000);
 		  
 var interval2 = setInterval (function () {
             var response1 = helloResponses [Math.floor(Math.random()*helloResponses1 .length)];
-            client6.channels.get('568594108759801886').send(response1).then().catch(console.error);
+            client6.channels.get('568818476550979595').send(response1).then().catch(console.error);
 		  }, 450000);
 
 
@@ -121,12 +121,12 @@ client7.on("ready", () => {
 
 var interval = setInterval (function () {
             var response = helloResponses [Math.floor(Math.random()*helloResponses .length)];
-            client7.channels.get('568594108759801886').send(response).then().catch(console.error);
+            client7.channels.get('568818476550979595').send(response).then().catch(console.error);
 		  }, 240000);
 		  
 var interval2 = setInterval (function () {
             var response1 = helloResponses [Math.floor(Math.random()*helloResponses1 .length)];
-            client7.channels.get('568594108759801886').send(response1).then().catch(console.error);
+            client7.channels.get('568818476550979595').send(response1).then().catch(console.error);
 		  }, 450000);
 
 
@@ -140,12 +140,12 @@ client8.on("ready", () => {
 
 var interval = setInterval (function () {
             var response = helloResponses [Math.floor(Math.random()*helloResponses .length)];
-            client8.channels.get('568594108759801886').send(response).then().catch(console.error);
+            client8.channels.get('568818476550979595').send(response).then().catch(console.error);
 		  }, 240000);
 		  
 var interval2 = setInterval (function () {
             var response1 = helloResponses [Math.floor(Math.random()*helloResponses1 .length)];
-            client8.channels.get('568594108759801886').send(response1).then().catch(console.error);
+            client8.channels.get('568818476550979595').send(response1).then().catch(console.error);
 		  }, 450000);
 
 
@@ -159,12 +159,12 @@ client9.on("ready", () => {
 
 var interval = setInterval (function () {
             var response = helloResponses [Math.floor(Math.random()*helloResponses .length)];
-            client9.channels.get('568594108759801886').send(response).then().catch(console.error);
+            client9.channels.get('568818476550979595').send(response).then().catch(console.error);
 		  }, 240000);
 		  
 var interval2 = setInterval (function () {
             var response1 = helloResponses [Math.floor(Math.random()*helloResponses1 .length)];
-            client9.channels.get('568594108759801886').send(response1).then().catch(console.error);
+            client9.channels.get('568818476550979595').send(response1).then().catch(console.error);
 		  }, 450000);
 
 
@@ -177,12 +177,12 @@ client10.on("ready", () => {
 
 var interval = setInterval (function () {
             var response = helloResponses [Math.floor(Math.random()*helloResponses .length)];
-            client10.channels.get('568594108759801886').send(response).then().catch(console.error);
+            client10.channels.get('568818476550979595').send(response).then().catch(console.error);
 		  }, 240000);
 		  
 var interval2 = setInterval (function () {
             var response1 = helloResponses [Math.floor(Math.random()*helloResponses1 .length)];
-            client10.channels.get('568594108759801886').send(response1).then().catch(console.error);
+            client10.channels.get('568818476550979595').send(response1).then().catch(console.error);
 		  }, 450000);
 
 
@@ -196,12 +196,12 @@ client11.on("ready", () => {
 
 var interval = setInterval (function () {
             var response = helloResponses [Math.floor(Math.random()*helloResponses .length)];
-            client11.channels.get('568594108759801886').send(response).then().catch(console.error);
+            client11.channels.get('568818706881445888').send(response).then().catch(console.error);
 		  }, 240000);
 		  
 var interval2 = setInterval (function () {
             var response1 = helloResponses [Math.floor(Math.random()*helloResponses1 .length)];
-            client11.channels.get('568594108759801886').send(response1).then().catch(console.error);
+            client11.channels.get('568818706881445888').send(response1).then().catch(console.error);
 		  }, 450000);
 
 
@@ -214,12 +214,12 @@ client12.on("ready", () => {
 
 var interval = setInterval (function () {
             var response = helloResponses [Math.floor(Math.random()*helloResponses .length)];
-            client12.channels.get('568594108759801886').send(response).then().catch(console.error);
+            client12.channels.get('568818706881445888').send(response).then().catch(console.error);
 		  }, 240000);
 		  
 var interval2 = setInterval (function () {
             var response1 = helloResponses [Math.floor(Math.random()*helloResponses1 .length)];
-            client12.channels.get('568594108759801886').send(response1).then().catch(console.error);
+            client12.channels.get('568818706881445888').send(response1).then().catch(console.error);
 		  }, 450000);
 
 
@@ -233,12 +233,12 @@ client13.on("ready", () => {
 
 var interval = setInterval (function () {
             var response = helloResponses [Math.floor(Math.random()*helloResponses .length)];
-            client13.channels.get('568594108759801886').send(response).then().catch(console.error);
+            client13.channels.get('568818706881445888').send(response).then().catch(console.error);
 		  }, 240000);
 		  
 var interval2 = setInterval (function () {
             var response1 = helloResponses [Math.floor(Math.random()*helloResponses1 .length)];
-            client13.channels.get('568594108759801886').send(response1).then().catch(console.error);
+            client13.channels.get('568818706881445888').send(response1).then().catch(console.error);
 		  }, 450000);
 
 
@@ -252,12 +252,12 @@ client14.on("ready", () => {
 
 var interval = setInterval (function () {
             var response = helloResponses [Math.floor(Math.random()*helloResponses .length)];
-            client14.channels.get('568594108759801886').send(response).then().catch(console.error);
+            client14.channels.get('568818706881445888').send(response).then().catch(console.error);
 		  }, 240000);
 		  
 var interval2 = setInterval (function () {
             var response1 = helloResponses [Math.floor(Math.random()*helloResponses1 .length)];
-            client14.channels.get('568594108759801886').send(response1).then().catch(console.error);
+            client14.channels.get('568818706881445888').send(response1).then().catch(console.error);
 		  }, 450000);
 
 
@@ -270,12 +270,12 @@ client15.on("ready", () => {
 
 var interval = setInterval (function () {
             var response = helloResponses [Math.floor(Math.random()*helloResponses .length)];
-            client15.channels.get('568594108759801886').send(response).then().catch(console.error);
+            client15.channels.get('568818706881445888').send(response).then().catch(console.error);
 		  }, 240000);
 		  
 var interval2 = setInterval (function () {
             var response1 = helloResponses [Math.floor(Math.random()*helloResponses1 .length)];
-            client15.channels.get('568594108759801886').send(response1).then().catch(console.error);
+            client15.channels.get('568818706881445888').send(response1).then().catch(console.error);
 		  }, 450000);
 
 
@@ -289,12 +289,12 @@ client16.on("ready", () => {
 
 var interval = setInterval (function () {
             var response = helloResponses [Math.floor(Math.random()*helloResponses .length)];
-            client16.channels.get('568594108759801886').send(response).then().catch(console.error);
+            client16.channels.get('568818706881445888').send(response).then().catch(console.error);
 		  }, 240000);
 		  
 var interval2 = setInterval (function () {
             var response1 = helloResponses [Math.floor(Math.random()*helloResponses1 .length)];
-            client16.channels.get('568594108759801886').send(response1).then().catch(console.error);
+            client16.channels.get('568818706881445888').send(response1).then().catch(console.error);
 		  }, 450000);
 
 
@@ -308,12 +308,12 @@ client17.on("ready", () => {
 
 var interval = setInterval (function () {
             var response = helloResponses [Math.floor(Math.random()*helloResponses .length)];
-            client17.channels.get('568594108759801886').send(response).then().catch(console.error);
+            client17.channels.get('568818706881445888').send(response).then().catch(console.error);
 		  }, 240000);
 		  
 var interval2 = setInterval (function () {
             var response1 = helloResponses [Math.floor(Math.random()*helloResponses1 .length)];
-            client17.channels.get('568594108759801886').send(response1).then().catch(console.error);
+            client17.channels.get('568818706881445888').send(response1).then().catch(console.error);
 		  }, 450000);
 
 
@@ -327,12 +327,12 @@ client18.on("ready", () => {
 
 var interval = setInterval (function () {
             var response = helloResponses [Math.floor(Math.random()*helloResponses .length)];
-            client18.channels.get('568594108759801886').send(response).then().catch(console.error);
+            client18.channels.get('568818706881445888').send(response).then().catch(console.error);
 		  }, 240000);
 		  
 var interval2 = setInterval (function () {
             var response1 = helloResponses [Math.floor(Math.random()*helloResponses1 .length)];
-            client18.channels.get('568594108759801886').send(response1).then().catch(console.error);
+            client18.channels.get('568818706881445888').send(response1).then().catch(console.error);
 		  }, 450000);
 
 
@@ -346,12 +346,12 @@ client19.on("ready", () => {
 
 var interval = setInterval (function () {
             var response = helloResponses [Math.floor(Math.random()*helloResponses .length)];
-            client19.channels.get('568594108759801886').send(response).then().catch(console.error);
+            client19.channels.get('568818706881445888').send(response).then().catch(console.error);
 		  }, 240000);
 		  
 var interval2 = setInterval (function () {
             var response1 = helloResponses [Math.floor(Math.random()*helloResponses1 .length)];
-            client19.channels.get('568594108759801886').send(response1).then().catch(console.error);
+            client19.channels.get('568818706881445888').send(response1).then().catch(console.error);
 		  }, 450000);
 
 
@@ -365,12 +365,12 @@ client20.on("ready", () => {
 
 var interval = setInterval (function () {
             var response = helloResponses [Math.floor(Math.random()*helloResponses .length)];
-            client20.channels.get('568594108759801886').send(response).then().catch(console.error);
+            client20.channels.get('568818706881445888').send(response).then().catch(console.error);
 		  }, 240000);
 		  
 var interval2 = setInterval (function () {
             var response1 = helloResponses [Math.floor(Math.random()*helloResponses1 .length)];
-            client20.channels.get('568594108759801886').send(response1).then().catch(console.error);
+            client20.channels.get('568818706881445888').send(response1).then().catch(console.error);
 		  }, 450000);
 
 
